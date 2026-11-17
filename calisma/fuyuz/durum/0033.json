@@ -3,7 +3,186 @@
   "gorsel": "calisma/fuyuz/sayfalar/0033.png",
   "kaynak_pdf": "Füyûzü'l-Harameyn.pdf",
   "kaynak_sayfa": 33,
-  "durum": "bekliyor",
+  "durum": "ceviri_denetlendi",
   "murekkep": 0.1069,
-  "kontrol_gerekli": []
+  "kontrol_gerekli": [
+    "3 şüpheli/bozuk yer (edisyon)"
+  ],
+  "kitap_sayfa": 29,
+  "okuma": {
+    "bloklar": [
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "بالغيب والانحفاظ بالنواميس والجزم بواسطة الخبر والانقياد التام للمخبر الصادق والمحبة الصادقة له فالايمانان متحققان للفرد ولكن عند شعشعان انوار الايمان الاول قد يخفى الثانى"
+      },
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "وكنت ذات ليلة اصلى التهجد فى الحجرة اذ تشعشع انوار الايمان علىٰ بينة فغلبت وبهرت فتاملت الايمان بالغيب فلم اجده ثم تاملته فلم اجده حتى رايتنى اتحسر عليه واتاسف ثم بعد حين فاظهر هٰذا الايمان واطمئن الخاطر فتدبر."
+      },
+      {
+        "tur": "baslik",
+        "katman": "matn",
+        "metin": "تحقيق شريف"
+      },
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "الاولياء كثيرًا ما يلهمون بان الله تعالىٰ اسقط عنهم التكليف وانه خيرهم فى الطاعات ان شاؤا فعلوها وان لم يشاؤا لم يفعلوه حكىٰ لى سيدى الوالد رضى الله عنه عن نفسه ان الهم بهٰذا وانه دعا الله تعالىٰ ان يقيم عليه التكليف وما اختار الا التمس ولم يكن من مذهبه سقوط التكليف عن احد من خلق الله ما دام عاقلا بالغا فرايته يرى الالهام حقا ويرى مذهبه حقا ويتحيز فى التطبيق"
+      },
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "واخبرت عن سيدى العم قدس سره ان كان يخبر عن نفسه انه الهم بسقوط التكليف و[?قيل] له ان عبدت خوفا من النار"
+      }
+    ],
+    "duzen_farki": null,
+    "belirsiz_sayisi": 1,
+    "rol": "metin",
+    "atla": false,
+    "notlar": "Baskı yazımları korundu: فاظهر، ويتحيز، الا التمس، ان الهم. 'وقيل/وقبل' noktası belirsiz."
+  },
+  "denetim": {
+    "guven": 0.88,
+    "sorunlar": [
+      {
+        "konum": "2. blok, son cümle",
+        "okunan": "واطمئن",
+        "gorunen": "واطمنن (?)",
+        "tur": "yanlis_okuma_supheli",
+        "ciddiyet": "dusuk",
+        "duzeltildi": false,
+        "not": "Bu çözünürlükte baskı hemzesiz 'واطمنن' gibi görünüyor; emin değilim. Hemze eklenmiş olabilir, uzman kontrol etmeli."
+      }
+    ],
+    "duzeltilmis_bloklar": null
+  },
+  "edisyon": {
+    "bloklar": [
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "بالغيب والانحفاظ بالنواميس، والجزم بواسطة الخبر، والانقياد التامّ للمخبر الصادق، والمحبّة الصادقة له. فالإيمانان متحقّقان للفرد، ولكن عند شعشعان أنوار الإيمان الأوّل قد يخفى الثانى."
+      },
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "وكنت ذات ليلة أصلّى التهجّد فى الحجرة إذ تشعشع أنوار الإيمان علىٰ بيّنة فغلبت وبهرت، فتأمّلت الإيمان بالغيب فلم أجده، ثمّ تأمّلته فلم أجده، حتّى رأيتنى أتحسّر عليه وأتأسّف، ثمّ بعد حين فاظهر هٰذا الإيمان واطمأنّ الخاطر. فتدبّر."
+      },
+      {
+        "tur": "baslik",
+        "katman": "matn",
+        "metin": "تحقيق شريف"
+      },
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "الأولياء كثيراً ما يلهمون بأنّ الله تعالىٰ أسقط عنهم التكليف، وأنّه خيّرهم فى الطاعات: إن شاؤا فعلوها، وإن لم يشاؤا لم يفعلوه. حكىٰ لى سيّدى الوالد رضى الله عنه عن نفسه أن ألهم بهٰذا، وأنّه دعا الله تعالىٰ أن يقيم عليه التكليف، وما اختار إلّا التمس. ولم يكن من مذهبه سقوط التكليف عن أحد من خلق الله ما دام عاقلاً بالغاً، فرأيته يرى الإلهام حقّاً ويرى مذهبه حقّاً ويتحيّر فى التطبيق."
+      },
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "وأخبرت عن سيّدى العمّ قدّس سرّه أن كان يخبر عن نفسه أنّه ألهم بسقوط التكليف، و[?قيل] له: إن عبدت خوفاً من النار"
+      }
+    ],
+    "tashihler": [
+      {
+        "blok": 3,
+        "baski": "ويتحيز",
+        "edisyon": "ويتحيّر",
+        "gerekce": "ز/ر dizgi hatası; iki görüşü de hak görüp uzlaştırmada şaşırma bağlamı."
+      }
+    ],
+    "supheli": [
+      {
+        "blok": 0,
+        "edisyon": "شعشعان",
+        "aciklama": "Alışılmadık masdar; muhtemel okuyuş: شعشعة ya da تشعشع (yazarın tercihi de olabilir)."
+      },
+      {
+        "blok": 1,
+        "edisyon": "فاظهر",
+        "aciklama": "ثمّ بعد حين ile فاء ve if'al kalıbı uyuşmuyor; muhtemel okuyuş: ظهر. Ayrıca denetçi baskıda واطمنن görünebileceğini not etti; واطمأنّ olarak yazıldı."
+      },
+      {
+        "blok": 3,
+        "edisyon": "إلّا التمس",
+        "aciklama": "Baskıda bu kısım bozuk görünüyor; muhtemel okuyuş: إلّا التكليف / إلّا التلبّس بالتكليف."
+      }
+    ]
+  },
+  "alintilar": [],
+  "ceviri": {
+    "bloklar": [
+      {
+        "tur": "metin",
+        "metin": "İki îmân da ferdde gerçekleşmiştir; ama birinci îmânın nurları parladığında ikincisi bazen gizlenir."
+      },
+      {
+        "tur": "metin",
+        "metin": "Bir gece hücrede teheccüd kılarken beyyine üzere îmânın nurları parladı; galip gelip göz kamaştırdı. Gayba îmâna baktım, onu bulamadım. Yine baktım, yine bulamadım. Sonunda kendimi onun hasretiyle yanıp hayıflanırken buldum. Bir süre sonra bu îmân ortaya çıktı ve gönlüm huzura kavuştu. Bunu iyi düşün."
+      },
+      {
+        "tur": "baslik",
+        "metin": "Şerefli Bir Tahkîk"
+      },
+      {
+        "tur": "metin",
+        "metin": "Velîlere çoğu zaman, Allah Teâlâ'nın onlardan teklîfi düşürdüğü ve ibadetlerde onları serbest bıraktığı ilham olunur: Dilerlerse yaparlar, dilemezlerse yapmazlar. Muhterem babam radıyallâhu anh bana kendi başından geçeni anlattı: Ona da böyle ilham olunmuş, o da teklîfi üzerinde baki kılması için Allah Teâlâ'ya dua etmiş ve şer'den başkasını seçmemiş. Onun görüşüne göre akıllı ve bâliğ olduğu sürece Allah'ın kullarından hiç kimseden teklîf düşmezdi. Onu, ilhamı da hak, görüşünü de hak bilip ikisini bağdaştırmakta şaşırıp kalmış gördüm."
+      },
+      {
+        "tur": "metin",
+        "metin": "Muhterem amcam kuddise sırruh hakkında da bana şu haber verildi: Kendisine teklîfin düştüğünün ilham olunduğunu ve şöyle denildiğini anlatırmış: \"Cehennem korkusuyla ibadet ediyorsan, seni ateşten kurtardık. Cennete tamah ederek ibadet ediyorsan, seni oraya koyacağımızı vaat ettik. Rızamızı dileyerek ibadet ediyorsan, senden ardından hiçbir öfke gelmeyecek bir rızayla razı olduk.\" O da \"Rabbim, ben sana ancak senin için ibadet ederim, senden başka hiçbir şey için değil\" demiş."
+      }
+    ],
+    "notlar": [],
+    "yeni_terimler": [],
+    "aciklanan_terimler": [],
+    "zor_yerler": [
+      "0. blok: baştaki 'بالغيب والانحفاظ… والمحبّة الصادقة له' 0032'deki cümlenin devamı; orada çevrildi.",
+      "1. blok: 'الحجرة' oda/hücre mi yoksa Hücre-i Saâdet mi belirsiz (Urduca sütun 'harem' diyor); belirsizliği korumak için 'hücrede' denildi.",
+      "3. blok: 'وما اختار إلّا التمس' bozuk görünüyor; Urduca sütundaki 'şer'den başkasını seçmedi' karşılığına göre çevrildi, uzman kontrolü gerekir.",
+      "4. blok: son cümle 0034'e taşıyor (… فإنا قد أجرناك عن النار … إنما أعبدك لا لشيء دونك); 0034'te edisyon olmadığından devamı sayfa görüntüsünden okunup burada çevrildi. 0034'ün çevirisi 'وكان قدس سره يميل…' cümlesinden başlamalı."
+    ],
+    "terimler_islendi": true,
+    "redaksiyon": {
+      "degisiklik": 1,
+      "ozet": [
+        "4. blok: 'hiç kimseden teklîfin düşmesi onun görüşü değildi' kalıbı 'Onun görüşüne göre ... hiç kimseden teklîf düşmezdi' diye düzeltildi"
+      ]
+    }
+  },
+  "ceviri_denetim": {
+    "guven": 0.85,
+    "sorunlar": [
+      {
+        "blok": 3,
+        "tur": "isaret",
+        "arapca": "وما اختار إلّا التمس",
+        "ceviri": "şer'den başkasını seçmemiş",
+        "oneri": "Bozuk yer Urduca sütundan tamamlanmış; Türkçede belirsizlik işareti yok. Uzman teyidi gerekir (muhtemel: إلّا التكليف → 'teklîften başkasını seçmemiş').",
+        "ciddiyet": "dusuk",
+        "duzeltildi": false
+      },
+      {
+        "blok": 4,
+        "tur": "isaret",
+        "arapca": "و[?قيل] له",
+        "ceviri": "ve şöyle denildiğini",
+        "oneri": "Belirsiz okuma (قيل/قبل) işaretsiz çevrilmiş; قيل okuması bağlama uygun.",
+        "ciddiyet": "dusuk",
+        "duzeltildi": false
+      },
+      {
+        "blok": 4,
+        "tur": "ekleme",
+        "arapca": "إن عبدت خوفاً من النار (sayfa sonu)",
+        "ceviri": "\"...seni ateşten kurtardık ... senden başka hiçbir şey için değil\" demiş.",
+        "oneri": "Bu kısım 0034'ün edisyonsuz görüntüsünden çevrilmiş; Arapça edisyon metniyle karşılaştırılamadı. 0034 edisyonu çıkınca bu cümle onunla denetlenmeli ve 0034 çevirisinde tekrarlanmamalı.",
+        "ciddiyet": "orta",
+        "duzeltildi": false
+      }
+    ]
+  }
 }

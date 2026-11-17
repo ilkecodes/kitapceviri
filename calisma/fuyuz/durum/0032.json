@@ -3,7 +3,203 @@
   "gorsel": "calisma/fuyuz/sayfalar/0032.png",
   "kaynak_pdf": "Füyûzü'l-Harameyn.pdf",
   "kaynak_sayfa": 32,
-  "durum": "bekliyor",
+  "durum": "ceviri_denetlendi",
   "murekkep": 0.098,
-  "kontrol_gerekli": []
+  "kontrol_gerekli": [
+    "4 şüpheli/bozuk yer (edisyon)"
+  ],
+  "kitap_sayfa": 28,
+  "okuma": {
+    "bloklar": [
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "وزيده خلعة الوزارة وولاه امور المملكة وبعثه الى الناس يخبرهم بكذا وكذا وازال الخفاء [?بعثه] وكلفهم بذٰلک فكل هٰذا بمرئى منه ومسمع ابصرته عيناه حين خلع وسمعته اذناه حين قال ودعاه قلبه حين كلف فهٰذا الحاضر لم يصر وزير الحضورة ولا مبعوثا الى الناس ولكن صار مكلفا علىٰ بينة ومامورا مشافهه واما المؤمن بالغيب فمثله كمثل رجل اعمىٰ اخبره بصير بطلوع الشمس فاستقين به حتىٰ انه لا يجد فى قلبه نقيضاً ولا احتمالاً ضعيفاً ايضًا ولكن جزم قلبه انما كنهة ان البصير اخبره به لا من دون توسط البصير"
+      },
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "والكامل من الافراد من جميع الايمانين فله ارتباط بالحق الاول لا يقبل التوسط ترشح من هٰذا الارتباط جميع العلوم التى انزلها الله تعالىٰ علىٰ انبيائه فاستيقن بها بلا اطمئن وكان علىٰ بينة من ربه فليس له بحسب هٰذا الارتباط ناموس يحفظه ويمسک بيديه وانما حفظ الحق له وعصمته هو الذى يمسک بيديه فهو يحس بهٰذا الحفظ ويرى انه لو انقطع لما كان مستقره الا الهاوية السفلى وهو بحسبه محقق بالعلم الالٰهى ووراء ذٰلک له تدلى يحذوا حذو العوام كما له الايمان"
+      }
+    ],
+    "duzen_farki": null,
+    "belirsiz_sayisi": 1,
+    "rol": "metin",
+    "atla": false,
+    "notlar": "Baskı yazımları olduğu gibi bırakıldı: فاستقين، كنهة، بلا اطمئن، مشافهه، الحضورة. 'الخفاء بعثه/ببعثه' diş sayısı belirsiz."
+  },
+  "denetim": {
+    "guven": 0.9,
+    "sorunlar": [],
+    "duzeltilmis_bloklar": null
+  },
+  "edisyon": {
+    "bloklar": [
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "وزيره خلعة الوزارة، وولّاه أمور المملكة، وبعثه إلى الناس يخبرهم بكذا وكذا، وأزال الخفاء [?بعثه]، وكلّفهم بذٰلک؛ فكلّ هٰذا بمرأى منه ومسمع: أبصرته عيناه حين خلع، وسمعته أذناه حين قال، ودعاه قلبه حين كلّف. فهٰذا الحاضر لم يصر وزير الحضورة ولا مبعوثاً إلى الناس، ولكن صار مكلّفاً علىٰ بيّنة ومأموراً مشافهةً. وأمّا المؤمن بالغيب فمثله كمثل رجل أعمىٰ أخبره بصير بطلوع الشمس فاستيقن به، حتّىٰ إنّه لا يجد فى قلبه نقيضاً ولا احتمالاً ضعيفاً أيضاً، ولكن جزم قلبه إنّما كنهة أنّ البصير أخبره به، لا من دون توسّط البصير."
+      },
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "والكامل من الأفراد من جمع الإيمانين، فله ارتباط بالحقّ الأوّل لا يقبل التوسّط، ترشّح من هٰذا الارتباط جميع العلوم التى أنزلها الله تعالىٰ علىٰ أنبيائه، فاستيقن بها بلا اطمئن، وكان علىٰ بيّنة من ربّه؛ فليس له بحسب هٰذا الارتباط ناموس يحفظه ويمسک بيديه، وإنّما حفظ الحقّ له وعصمته هو الذى يمسک بيديه، فهو يحسّ بهٰذا الحفظ ويرى أنّه لو انقطع لما كان مستقرّه إلّا الهاوية السفلى، وهو بحسبه محقّق بالعلم الإلٰهى. ووراء ذٰلک له تدلّى يحذوا حذو العوامّ؛ كما له الإيمان"
+      }
+    ],
+    "tashihler": [
+      {
+        "blok": 0,
+        "baski": "وزيده",
+        "edisyon": "وزيره",
+        "gerekce": "ر/د dizgi hatası; devamındaki خلعة الوزارة ile kesin."
+      },
+      {
+        "blok": 0,
+        "baski": "بمرئى",
+        "edisyon": "بمرأى",
+        "gerekce": "بمرأى منه ومسمع kalıbına göre okunmuştur."
+      },
+      {
+        "blok": 0,
+        "baski": "مشافهه",
+        "edisyon": "مشافهةً",
+        "gerekce": "ه/ة dizgi hatası; hâl/mef'ûl olarak مشافهةً."
+      },
+      {
+        "blok": 0,
+        "baski": "فاستقين",
+        "edisyon": "فاستيقن",
+        "gerekce": "harf yer değiştirmesi; sonraki blokta da فاستيقن geçiyor."
+      },
+      {
+        "blok": 1,
+        "baski": "من جميع الايمانين",
+        "edisyon": "من جمع الإيمانين",
+        "gerekce": "bağlama göre (iki imanı birleştiren kişi) okunmuştur."
+      }
+    ],
+    "supheli": [
+      {
+        "blok": 0,
+        "edisyon": "ودعاه قلبه",
+        "aciklama": "أبصرته عيناه / سمعته أذناه ile paralellikte muhtemel okuyuş: ووعاه قلبه."
+      },
+      {
+        "blok": 0,
+        "edisyon": "وزير الحضورة",
+        "aciklama": "الحضورة alışılmadık; muhtemel okuyuş: وزير الحضرة."
+      },
+      {
+        "blok": 0,
+        "edisyon": "إنّما كنهة",
+        "aciklama": "Baskıda bu kısım bozuk görünüyor; muhtemel okuyuş: إنّما كُنهُه (ya da إنّما مستنده)."
+      },
+      {
+        "blok": 1,
+        "edisyon": "بلا اطمئن",
+        "aciklama": "Baskıda bu kısım bozuk görünüyor; muhtemel okuyuş: بل اطمأنّ ya da بلا واسطة واطمأنّ."
+      }
+    ]
+  },
+  "alintilar": [
+    {
+      "id": "A1",
+      "blok": 1,
+      "metin": "كان علىٰ بيّنة من ربّه",
+      "tur_tahmini": "ayet",
+      "bicim": "iktibas",
+      "eslesme": {
+        "durum": "dogrulandi",
+        "tur": "ayet",
+        "kisa": true,
+        "sure": "Hûd",
+        "sure_no": 11,
+        "ayet": "17",
+        "referans": "Hûd 11/17",
+        "kapsama": 1.0,
+        "tam_ayet": false,
+        "meal": "Rabbinin katından bir belgesi ve onun arkasından da bir şahidi olanlar, önlerinde de Musa'nın Kitap'ı önder ve rahmet olarak bulunanlardır ki, işte onlar Kuran'a inanırlar. Hangi topluluk onu inkar ederse yeri ateştir; senin de bundan şüphen olmasın. Doğrusu o, Rabbinden bir gerçektir, fakat insanların çoğu inanmazlar",
+        "meal_kaynak": "Diyanet İşleri meali, Tanzil sürümü (fawazahmed0/quran-api: tur-diyanetisleri)"
+      }
+    }
+  ],
+  "ceviri": {
+    "bloklar": [
+      {
+        "tur": "metin",
+        "metin": "Bütün bunlar onun gözü önünde, kulağının duyacağı yerde olmuştur: Hil'at giydirilirken gözleriyle görmüş, emîr konuşurken kulaklarıyla işitmiş, yükümlülük getirilirken kalbiyle kavramıştır. Orada hazır bulunan bu adam, huzurda bulunmakla ne vezir olmuş ne de halka gönderilmiştir; ama beyyine üzere yükümlü kılınmış, emri de yüz yüze almıştır. Gayba îmân edenin durumu ise şu kör adamın durumuna benzer: Gören biri ona güneşin doğduğunu haber vermiş, o da buna öyle kesin inanmıştır ki kalbinde ne aksine bir düşünce ne de zayıf bir ihtimal bulur. Ama kalbindeki bu kesinliğin özü, gören kişinin ona haber vermiş olmasıdır; gören kişinin aracılığı olmadan değil."
+      },
+      {
+        "tur": "metin",
+        "metin": "Ferdlerin (bütün varlık katmanlarını kendinde toplayan kâmil insanların) kâmili ise bu iki îmânı kendinde birleştirendir. Onun Hakk-ı Evvel ile araya hiçbir vasıta girmeyen bir bağı vardır. Allah Teâlâ'nın nebîlerine indirdiği bütün ilimler bu bağdan ona sızar; o da onlara kesin olarak inanır, hatta gönlü onlarla mutmain olur ve Rabbinden bir beyyine üzere bulunur⟦A1⟧. Bu bağ bakımından onu koruyan ve iki elinden tutan bir nâmûs (ilâhî kanun) yoktur; onu iki elinden tutan, ancak Hakk'ın onu koruması ve ismetidir. Bu korumayı hisseder ve kesilecek olsa varacağı yerin en alttaki Hâviye'den (cehennemin en derin tabakası) başkası olmayacağını görür. Bu bakımdan o, ilâhî ilmi gerçeklemiş biridir. Bunun ötesinde, avamın izinden giden bir tedellîsi de vardır; nitekim onda gayba îmân, nevâmîs ile korunma, haber vasıtasıyla kesin inanç, sâdık habercinin önünde tam bir teslimiyet ve ona karşı sâdık bir sevgi de bulunur."
+      }
+    ],
+    "notlar": [],
+    "yeni_terimler": [
+      {
+        "kaynak": "الهاوية",
+        "turkce": "Hâviye",
+        "tur": "ozel_isim",
+        "aciklama": "cehennemin en derin tabakası"
+      }
+    ],
+    "aciklanan_terimler": [
+      "الفرد",
+      "الناموس"
+    ],
+    "zor_yerler": [
+      "0. blok: ilk kısım (…وكلّفهم بذلك) 0031'de çevrildi. 'ودعاه قلبه' baskı hatası sayılıp 'وعاه قلبه' (kalbiyle kavradı) diye çevrildi; Urduca sütun da 'yâd' diyor. 'إنّما كنهة' 'kunhuhû' (özü) diye anlaşıldı.",
+      "1. blok: 'بلا اطمئن' Urduca sütuna göre 'بل اطمأنّ' (hatta mutmain oldu) diye okundu.",
+      "1. blok: son cümle 0033'ün ilk bloğuna taşıyor; bütünü burada çevrildi. 'تدلّى' sözlükçede ilk geçiş açıklaması isteniyor, ama Tedellî-i A'zam s. 18'de açıklandığı için tekrar açıklanmadı.",
+      "1. blok: 'النواميس' (nevâmîs) aynı cümle içinde açıklanan 'nâmûs'un çoğulu olduğu için ayrıca açıklanmadı; sözlükçede ayrı kayıt olarak hâlâ 'ilk geçişte açıkla' görünebilir."
+    ],
+    "terimler_islendi": true,
+    "redaksiyon": {
+      "degisiklik": 1,
+      "ozet": [
+        "2. blok: aynı cümlede iki kez geçen 'kendinde toplayan' tekrarı giderildi ('bu iki îmânı kendinde birleştirendir')"
+      ]
+    }
+  },
+  "ceviri_denetim": {
+    "guven": 0.88,
+    "sorunlar": [
+      {
+        "blok": 1,
+        "tur": "istilah",
+        "arapca": "الهاوية السفلى",
+        "ceviri": "en alttaki Hâviye",
+        "oneri": "en alttaki Hâviye (cehennemin en derin tabakası) — sözlükçedeki ilk geçiş açıklaması eksikti",
+        "ciddiyet": "orta",
+        "duzeltildi": true
+      },
+      {
+        "blok": 1,
+        "tur": "anlam",
+        "arapca": "والانحفاظ بالنواميس",
+        "ceviri": "nevâmîse sıkı sıkıya bağlılık",
+        "oneri": "nevâmîs ile korunma (aynı bloktaki ناموس يحفظه ile paralel: kâmil, bu yönüyle nevâmîs tarafından korunur)",
+        "ciddiyet": "orta",
+        "duzeltildi": true
+      },
+      {
+        "blok": 0,
+        "tur": "anlam",
+        "arapca": "لم يصر وزير الحضورة",
+        "ceviri": "huzurda bulunmakla ne vezir olmuş",
+        "oneri": "ne saray (huzur) veziri olmuş — الحضورة muhtemelen الحضرة; 'huzurda bulunmakla' sebep anlamı katıyor. Edisyon şüphesine bağlı, uzman karar vermeli.",
+        "ciddiyet": "dusuk",
+        "duzeltildi": false
+      },
+      {
+        "blok": 1,
+        "tur": "isaret",
+        "arapca": "فاستيقن بها بلا اطمئن",
+        "ceviri": "hatta gönlü onlarla mutmain olur",
+        "oneri": "Bozuk yer Urduca sütuna göre بل اطمأنّ diye tamamlanmış; makul, uzman teyidi gerekir.",
+        "ciddiyet": "dusuk",
+        "duzeltildi": false
+      }
+    ]
+  }
 }

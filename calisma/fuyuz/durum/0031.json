@@ -3,7 +3,191 @@
   "gorsel": "calisma/fuyuz/sayfalar/0031.png",
   "kaynak_pdf": "Füyûzü'l-Harameyn.pdf",
   "kaynak_sayfa": 31,
-  "durum": "bekliyor",
+  "durum": "ceviri_denetlendi",
   "murekkep": 0.1163,
-  "kontrol_gerekli": []
+  "kontrol_gerekli": [
+    "2 şüpheli/bozuk yer (edisyon)"
+  ],
+  "kitap_sayfa": 27,
+  "okuma": {
+    "bloklar": [
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "وان لم يقدر علىٰ تجريد الحضور من اللفظ والحرف والخيال فقد اتى بما يهمه فى باب الاحسان."
+      },
+      {
+        "tur": "baslik",
+        "katman": "matn",
+        "metin": "مشهد آخر"
+      },
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "رايت فى المنام الليلة العاشرة من صفر سنة اربع واربعين والف ومائة بمكة المباركة كان الحسن والحسين رضى الله عنهما نزلا فى بيتى وبيد الحسن رضى الله عنه قلم انكسر لسانه فبسط الىّ يده ليعطينى وقال هٰذا قلم جدى رسول الله صلى الله عليه وسلم قال حتى يصلحه الحسين فليس ما اصلحه الحسين كما لم يصلحه فاخذه حسين رضى الله عنه واصلحه ثم ناولنيه فسررت به ثم جىء برداء مخطط فيه خط اخضر وخط ابيض فوضع بين يديهما فرفعه حسين رضى الله عنه وقال هٰذا رداء جدى رسول الله صلى الله عليه وسلم ثم البنى فوضعته على راسى تعظيما وحمدت الله تعالىٰ ثم انتبهت."
+      },
+      {
+        "tur": "baslik",
+        "katman": "matn",
+        "metin": "مشهد عظيم وتحقيق شريف"
+      },
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "اعلم ان الايمان بما انزل الله تعالىٰ علىٰ نبيه صلى الله عليه وسلم علىٰ ضربين ايمان الرجل علىٰ بينة من ربه وايمان بالغيب الذى ايمانه علىٰ بينة من ربه فمثله كمثل رجل شهد الامير حين خلع علىٰ"
+      }
+    ],
+    "duzen_farki": null,
+    "belirsiz_sayisi": 0,
+    "rol": "metin",
+    "atla": false,
+    "notlar": "Baskıda 'ثم البنى' (muhtemelen البسنى) ve 'وايمان بالغيب الذى ايمانه' olduğu gibi bırakıldı; edisyonda kontrol edilmeli."
+  },
+  "denetim": {
+    "guven": 0.94,
+    "sorunlar": [],
+    "duzeltilmis_bloklar": null
+  },
+  "edisyon": {
+    "bloklar": [
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "وإن لم يقدر علىٰ تجريد الحضور من اللفظ والحرف والخيال فقد أتى بما يهمّه فى باب الإحسان."
+      },
+      {
+        "tur": "baslik",
+        "katman": "matn",
+        "metin": "مشهد آخر"
+      },
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "رأيت فى المنام الليلة العاشرة من صفر سنة أربع وأربعين وألف ومائة بمكّة المباركة كأنّ الحسن والحسين رضى الله عنهما نزلا فى بيتى، وبيد الحسن رضى الله عنه قلم انكسر لسانه، فبسط إلىّ يده ليعطينى وقال: هٰذا قلم جدّى رسول الله صلّى الله عليه وسلّم. قال: حتّى يصلحه الحسين، فليس ما أصلحه الحسين كما لم يصلحه. فأخذه حسين رضى الله عنه وأصلحه ثمّ ناولنيه، فسررت به. ثمّ جىء برداء مخطّط فيه خطّ أخضر وخطّ أبيض، فوضع بين يديهما، فرفعه حسين رضى الله عنه وقال: هٰذا رداء جدّى رسول الله صلّى الله عليه وسلّم. ثمّ البنى، فوضعته على رأسى تعظيماً، وحمدت الله تعالىٰ، ثمّ انتبهت."
+      },
+      {
+        "tur": "baslik",
+        "katman": "matn",
+        "metin": "مشهد عظيم وتحقيق شريف"
+      },
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "اعلم أنّ الإيمان بما أنزل الله تعالىٰ علىٰ نبيّه صلّى الله عليه وسلّم علىٰ ضربين: إيمان الرجل علىٰ بيّنة من ربّه، وإيمان بالغيب. الذى إيمانه علىٰ بيّنة من ربّه فمثله كمثل رجل شهد الأمير حين خلع علىٰ"
+      }
+    ],
+    "tashihler": [
+      {
+        "blok": 2,
+        "baski": "كان",
+        "edisyon": "كأنّ",
+        "gerekce": "Hemze anlamı belirliyor; rüya anlatımı kalıbına göre كأنّ okunmuştur."
+      }
+    ],
+    "supheli": [
+      {
+        "blok": 2,
+        "edisyon": "ثمّ البنى",
+        "aciklama": "Baskıda bu kısım bozuk görünüyor (bir harf düşmüş); muhtemel okuyuş: ثمّ ألبسنى / ألبسنيه."
+      },
+      {
+        "blok": 4,
+        "edisyon": "الذى إيمانه",
+        "aciklama": "Taksimden sonra cevap cümlesi bağlaçsız başlıyor; muhtemel okuyuş: فالذى إيمانه ya da فأمّا الذى إيمانه."
+      }
+    ]
+  },
+  "alintilar": [
+    {
+      "id": "A1",
+      "blok": 4,
+      "metin": "علىٰ بيّنة من ربّه",
+      "tur_tahmini": "ayet",
+      "bicim": "iktibas",
+      "eslesme": {
+        "durum": "dogrulandi",
+        "tur": "ayet",
+        "kisa": true,
+        "sure": "Muhammed",
+        "sure_no": 47,
+        "ayet": "14",
+        "referans": "Muhammed 47/14",
+        "kapsama": 1.0,
+        "tam_ayet": false,
+        "meal": "Rabbinin katından bir belgesi olan kimse, kötü işi kendisine güzel gösterilen kimseye benzer mi? Bunlar heveslerine uymuşlardır",
+        "meal_kaynak": "Diyanet İşleri meali, Tanzil sürümü (fawazahmed0/quran-api: tur-diyanetisleri)"
+      }
+    }
+  ],
+  "ceviri": {
+    "bloklar": [
+      {
+        "tur": "metin",
+        "metin": ""
+      },
+      {
+        "tur": "baslik",
+        "metin": "Başka Bir Meşhed"
+      },
+      {
+        "tur": "metin",
+        "metin": "1144 yılı Safer ayının onuncu gecesi, Mekke-i Mübâreke'de rüyamda Hasan ile Hüseyin'in radıyallâhu anhümâ evime misafir olduklarını gördüm. Hasan'ın radıyallâhu anh elinde ucu kırılmış bir kalem vardı. Onu bana vermek için elini uzattı ve \"Bu, dedem Resûlullah'ın sallallâhu aleyhi ve sellem kalemidir\" dedi. Sonra şöyle dedi: \"Dur, önce Hüseyin onu düzeltsin. Hüseyin'in düzelttiği kalem, düzeltilmemiş kalemle bir olmaz.\" Hüseyin radıyallâhu anh kalemi alıp düzeltti, sonra bana uzattı; buna çok sevindim. Ardından yeşil ve beyaz çizgili bir rida getirilip önlerine kondu. Hüseyin radıyallâhu anh onu kaldırıp \"Bu, dedem Resûlullah'ın sallallâhu aleyhi ve sellem ridasıdır\" dedi ve bana giydirdi. Ben de hürmeten onu başıma koydum, Allah Teâlâ'ya hamd ettim. Sonra uyandım."
+      },
+      {
+        "tur": "baslik",
+        "metin": "Büyük Bir Meşhed ve Şerefli Bir Tahkîk"
+      },
+      {
+        "tur": "metin",
+        "metin": "Bil ki Allah Teâlâ'nın Nebî'sine sallallâhu aleyhi ve sellem indirdiğine îmân iki türlüdür: Kişinin Rabbinden bir beyyine üzere îmânı⟦A1⟧ ve gayba îmân. Rabbinden bir beyyine üzere îmân edenin durumu, şu adamın durumuna benzer: Emîr vezirine vezirlik hil'atini (şeref kaftanı) giydirirken, ona ülkenin işlerini teslim ederken, onu halka şunu şunu bildirmek üzere gönderirken, bu göndermekle her türlü gizliliği ortadan kaldırıp halkı bununla yükümlü kılarken o adam orada hazır bulunmuştur."
+      }
+    ],
+    "notlar": [],
+    "yeni_terimler": [
+      {
+        "kaynak": "خلعة",
+        "turkce": "hil'at",
+        "tur": "istilah",
+        "aciklama": "hükümdarın görev verdiği kişiye giydirdiği şeref kaftanı"
+      }
+    ],
+    "aciklanan_terimler": [
+      "خلعة"
+    ],
+    "zor_yerler": [
+      "0. blok: 0030'da başlayan cümlenin devamı; çevirisi 0030'da yapılmalı.",
+      "2. blok: 'فليس ما أصلحه الحسين كما لم يصلحه' Hüseyin'in düzelttiği kalemin düzeltilmemişle bir olmadığı diye anlaşıldı; konuşan Hasan kabul edildi.",
+      "4. blok: 0032'nin ilk bloğundaki cümle devamı (…وكلّفهم بذلك) burada çevrildi. '[?بعثه]' baskıda 'بعثه' okunuyor; 'ببعثه' (göndermekle) diye anlaşıldı."
+    ],
+    "terimler_islendi": true,
+    "redaksiyon": {
+      "degisiklik": 1,
+      "ozet": [
+        "4. blok: 'hil'at' yeni terim olarak kaydedilmiş ama metinde açıklanmamıştı; ilk geçişe '(şeref kaftanı)' eklendi"
+      ]
+    }
+  },
+  "ceviri_denetim": {
+    "guven": 0.92,
+    "sorunlar": [
+      {
+        "blok": 4,
+        "tur": "isaret",
+        "arapca": "وأزال الخفاء [?بعثه]",
+        "ceviri": "bu göndermekle her türlü gizliliği ortadan kaldırıp",
+        "oneri": "Belirsiz okuma (بعثه/ببعثه) Türkçede işaretsiz; okuma makul ve zor_yerler'de not edilmiş, uzman teyidi gerekir. (Çeviri 0032 blok 0'ın başını kapsıyor.)",
+        "ciddiyet": "dusuk",
+        "duzeltildi": false
+      },
+      {
+        "blok": 2,
+        "tur": "isaret",
+        "arapca": "ثمّ البنى",
+        "ceviri": "ve bana giydirdi",
+        "oneri": "Edisyonda şüpheli (muhtemelen ألبسنى); 'giydirdi' okuması bağlamdan tamamlanmış, uzman teyidi gerekir.",
+        "ciddiyet": "dusuk",
+        "duzeltildi": false
+      }
+    ]
+  }
 }

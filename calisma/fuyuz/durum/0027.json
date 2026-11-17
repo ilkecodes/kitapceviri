@@ -3,7 +3,140 @@
   "gorsel": "calisma/fuyuz/sayfalar/0027.png",
   "kaynak_pdf": "Füyûzü'l-Harameyn.pdf",
   "kaynak_sayfa": 27,
-  "durum": "bekliyor",
+  "durum": "ceviri_denetlendi",
   "murekkep": 0.0499,
-  "kontrol_gerekli": []
+  "kontrol_gerekli": [
+    "1 şüpheli/bozuk yer (edisyon)"
+  ],
+  "kitap_sayfa": 23,
+  "okuma": {
+    "bloklar": [
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "المنام الالوان ولا الاشكال وانما منامه اللمس والسماع والذوق والشم والوهم والاصم الذى ولد اصم لا يسمع فى منامه صوتًا وانما روياه البصر واللمس وغيرهما"
+      },
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "وان شئت الحق فلا تنعقد صورة ما باضافة غيبية فى نشاة سواء كانت هٰذه الافاضة عادية او خارقة العادة الا باحكام تلک النشاة انما يكون مشخصاتها التى منعت الشركة الوان او اشكالا خاصة بتلک النشاة كهٰذا الفرس مشخصاته كلها داخل النشأة الفرسية كان الفرس يحتمل ان يكون طول اربع وزرع وازيد من ذٰلک وانقص فكان هٰذا اربع ذرع لا يزيد ولا ينقص فهٰذا ليس الا فى تلک النشأة لا غير وكذٰلک مميزات النوع التى ميزت هٰذا النوع من النوع الاخر كلها امور داخلة فى النشأة الجنسية فاذا كل فائض بهٰذا الوضع بخصوصية له لابد معد من تلک النشأة خصه بذٰلک الوضع"
+      },
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "بقى ههنا شىء وهو ان ايجاد الصور امره على الامكان والتقدى والتدلى والشعائر امرها على المسلمات والمشهورات والامور التى تطمئن اليها النفوس فلذٰلک كان كل تدلى له معد من مسلماتهم اذ المراد بالتدليات ان يطيع العباد ربهم بقلوبهم"
+      }
+    ],
+    "duzen_farki": null,
+    "belirsiz_sayisi": 0,
+    "rol": "metin",
+    "atla": false,
+    "notlar": "Baskıda 'وزرع' (ذرع yerine), 'والتقدى' (التقدير?) ve 'نشاة/النشأة' karışık yazım olduğu gibi bırakıldı; edisyonda bakılmalı."
+  },
+  "denetim": {
+    "guven": 0.94,
+    "sorunlar": [
+      {
+        "konum": "2. blok, 10. satır",
+        "okunan": "بتلک النشاة",
+        "gorunen": "baskıda النشأة (hemzeli) olabilir; görüntüde belirsiz",
+        "tur": "hemze_belirsiz",
+        "ciddiyet": "dusuk",
+        "duzeltildi": false
+      }
+    ],
+    "duzeltilmis_bloklar": null
+  },
+  "edisyon": {
+    "bloklar": [
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "المنام الألوان ولا الأشكال، وإنّما منامه اللمس والسماع والذوق والشمّ والوهم. والأصمّ الذى ولد أصمّ لا يسمع فى منامه صوتاً، وإنّما رؤياه البصر واللمس وغيرهما."
+      },
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "وإن شئت الحقّ فلا تنعقد صورة ما بإفاضة غيبية فى نشأة، سواء كانت هٰذه الإفاضة عادية أو خارقة العادة، إلّا بأحكام تلک النشأة؛ إنّما يكون مشخّصاتها التى منعت الشركة ألواناً أو أشكالاً خاصّة بتلک النشأة. كهٰذا الفرس، مشخّصاته كلّها داخل النشأة الفرسية؛ كان الفرس يحتمل أن يكون طول أربع ذرع وأزيد من ذٰلک وأنقص، فكان هٰذا أربع ذرع لا يزيد ولا ينقص، فهٰذا ليس إلّا فى تلک النشأة لا غير. وكذٰلک مميّزات النوع التى ميّزت هٰذا النوع من النوع الآخر كلّها أمور داخلة فى النشأة الجنسية. فإذا كلّ فائض بهٰذا الوضع بخصوصية له لا بدّ معدّ من تلک النشأة خصّه بذٰلک الوضع."
+      },
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "بقى ههنا شىء، وهو أنّ إيجاد الصور أمره على الإمكان والتقدى، والتدلّى والشعائر أمرها على المسلّمات والمشهورات والأمور التى تطمئنّ إليها النفوس؛ فلذٰلک كان كلّ تدلّى له معدّ من مسلّماتهم، إذ المراد بالتدلّيات أن يطيع العباد ربّهم بقلوبهم."
+      }
+    ],
+    "tashihler": [
+      {
+        "blok": 1,
+        "baski": "باضافة",
+        "edisyon": "بإفاضة",
+        "gerekce": "Hemen ardından gelen هٰذه الافاضة ifadesine göre harf yer değiştirmesi düzeltildi."
+      },
+      {
+        "blok": 1,
+        "baski": "الوان",
+        "edisyon": "ألواناً",
+        "gerekce": "يكون'un haberi ve أشكالاً ile ma'tûf olduğundan mansub okunmuştur."
+      },
+      {
+        "blok": 1,
+        "baski": "طول اربع وزرع",
+        "edisyon": "طول أربع ذرع",
+        "gerekce": "Aynı cümlede geçen أربع ذرع'a göre düzeltildi."
+      }
+    ],
+    "supheli": [
+      {
+        "blok": 2,
+        "edisyon": "والتقدى",
+        "aciklama": "Baskıda bu kelime bozuk görünüyor; الإمكان ile birlikte geçtiğine göre muhtemel okuyuş: والتقدير."
+      }
+    ]
+  },
+  "alintilar": [],
+  "ceviri": {
+    "bloklar": [
+      {
+        "tur": "metin",
+        "metin": "Doğuştan sağır olan da rüyasında ses işitmez; onun rüyası görme, dokunma ve benzerlerinden ibarettir."
+      },
+      {
+        "tur": "metin",
+        "metin": "Gerçeği istersen şöyle: Bir neş'ette (varlık katmanı, oluş evresi) gaybî ifâza ile herhangi bir sûret, bu ifâza ister âdete uygun ister hârika olsun, ancak o neş'etin hükümlerine göre in'ikād eder. Sûreti başkalarıyla ortaklıktan alıkoyan teşahhus ettirenler, o neş'ete özgü renkler ya da şekillerdir. Şu at gibi: Onu teşahhus ettirenlerin hepsi at neş'etinin içindedir. Atın boyu dört zirâ (arşın) da olabilirdi, daha fazla ya da daha az da; bu at ise ne fazla ne eksik, tam dört zirâdır. Bu da yalnızca o neş'et içinde olur, başka yerde değil. Bir türü başka türden ayıran ayırt ediciler de aynı şekilde cins neş'etinin içindeki şeylerdir. O hâlde bu biçimde, kendine has bir özellikle feyezan eden her şeyin, o neş'etten gelen ve onu bu biçime özgü kılan bir mu'iddi mutlaka vardır."
+      },
+      {
+        "tur": "metin",
+        "metin": "Burada geriye bir mesele kalıyor: Sûretlerin yaratılmasında esas, imkân ve takdirdir⟦N1⟧. Tedellî ve şeâirde (Allah'ı hatırlatan dinî nişâneler) ise esas, müsellemât ve meşhûrât (herkesçe kabul edilmiş ve yaygın olarak bilinen önermeler) ile nefislerin gönül rahatlığıyla kabul ettiği şeylerdir. Bu yüzden her tedellînin, insanların müsellemâtından bir mu'iddi vardır. Çünkü tedellîlerden maksat, kulların Rablerine kalpleriyle, ötesine geçemeyecekleri bir teslimiyetle itaat etmeleri, sonra da azalarını buna göre durmadan çalıştırmalarıdır."
+      }
+    ],
+    "notlar": [
+      {
+        "id": "N1",
+        "metin": "Baskıda 'التقدى' yazılı; yardımcı Urduca tercümeye göre 'التقدير' (takdir) okundu."
+      }
+    ],
+    "yeni_terimler": [],
+    "aciklanan_terimler": [
+      "النشأة / النشآت",
+      "شعائر الله",
+      "المسلّمات والمشهورات",
+      "ذراع / ذرع"
+    ],
+    "zor_yerler": [
+      "1. blok: ilk cümlenin başı 0026'da çevrildi; çeviri 'والأصمّ' ile başlıyor.",
+      "3. blok: 'التقدى' baskı hatası sayılıp Urduca sütuna göre 'takdir' okundu (N1).",
+      "3. blok: son cümle 0028'in ilk bloğundaki 'انقياداً لا يقدرون على الزيادة عليه، ثمّ يدئبون جوارحهم علىٰ حسب ذلک.' kısmıyla tamamlandı; 0028 bu kısmı atlamalı."
+    ],
+    "terimler_islendi": true,
+    "redaksiyon": {
+      "degisiklik": 1,
+      "ozet": [
+        "2. blok: 'zirâ' kitapta ilk kez burada geçiyor (0028'de yeni terim olarak kaydedilmiş ama hiçbir yerde açıklanmamıştı); ilk geçişe '(arşın)' eklendi"
+      ]
+    }
+  },
+  "ceviri_denetim": {
+    "guven": 0.92,
+    "sorunlar": []
+  }
 }

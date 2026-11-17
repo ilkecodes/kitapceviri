@@ -3,7 +3,234 @@
   "gorsel": "calisma/fuyuz/sayfalar/0029.png",
   "kaynak_pdf": "Füyûzü'l-Harameyn.pdf",
   "kaynak_sayfa": 29,
-  "durum": "bekliyor",
+  "durum": "ceviri_denetlendi",
   "murekkep": 0.077,
-  "kontrol_gerekli": []
+  "kontrol_gerekli": [
+    "2 şüpheli/bozuk yer (edisyon)",
+    "alıntı A1 kaynakta bulunamadı",
+    "alıntı A2 lafzen tutmuyor (Ebû Dâvûd, nr. 4607)",
+    "alıntı A4 kaynakta bulunamadı"
+  ],
+  "kitap_sayfa": 25,
+  "okuma": {
+    "bloklar": [
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "صرح الحق من سورة الفرقان وغيرها بل كانت صورة غلبة الملوک بالمجاهدات والحروب وهذه قضية قضىٰ بها الوجدان ووجدنا السنة والقرآن مبينين لها ولفروعها لا فى مسئلة واحدة بل فى مسائل كثيرة والحمد لله اولاً وآخرا."
+      },
+      {
+        "tur": "baslik",
+        "katman": "matn",
+        "metin": "مشهد عظيم"
+      },
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "نفث فى روعى من قبل الملاء الاعلىٰ اسرار عظيمة حتى امتلات نفسى ونسمتى بها وها انا اذكرها لک تفصيلا فعض عليها بنواجذک اذا اردت ان يحصل لک كمال الملاء الاعلىٰ المتخاصمين فلا سبيل الى ذلک الدعاء وكثر الاطراح بين يدى ربک والسوال منه بجهد عزيمتک وصدق همتک لا سيما اذا سالت منه ما كنت مشتاقا الى تحصيله عقلا وطبعا وكان فيه تكملک وتكمل الناس ورافة بعامة خلق الله فاذا رسخت ملكة الدعاء فيک وعقلت كيف تسال الله بصدق الهمة انخرطت فى سلک الملاء الاعلىٰ"
+      },
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "وقد اشار سيدنا ونبينا محمد صلى الله عليه وسلم الىٰ ذلک حيث قال من فتح له باب الدعاء فتح له باب الجنة او الرحمة او كما قال ومن اراد ان يحصل له فالملاء السافل من الملائكة فلا سبيل الىٰ ذلک الا الاعتصام"
+      }
+    ],
+    "duzen_farki": null,
+    "belirsiz_sayisi": 0,
+    "rol": "metin",
+    "atla": false,
+    "notlar": "Baskıda 'فلا سبيل الى ذلک الدعاء' (الا yok) ve 'وكثر الاطراح'، 'فالملاء السافل' aynen bırakıldı. مشهد عظيم satır başında kalın başlık; ayrı blok yapıldı."
+  },
+  "denetim": {
+    "guven": 0.94,
+    "sorunlar": [
+      {
+        "konum": "3.-4. blok sınırı (sağ sütun 19. satır ortası)",
+        "okunan": "سلک الملاء الاعلىٰ | وقد اشار (ayrı blok)",
+        "gorunen": "سلک الملاء الاعلىٰ وقد اشار (aynı satırda kesintisiz)",
+        "tur": "blok_bolme",
+        "ciddiyet": "dusuk",
+        "duzeltildi": false
+      }
+    ],
+    "duzeltilmis_bloklar": null
+  },
+  "edisyon": {
+    "bloklar": [
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "صرّح الحقّ من سورة الفرقان وغيرها، بل كانت صورة غلبة الملوک بالمجاهدات والحروب. وهذه قضية قضىٰ بها الوجدان، ووجدنا السنّة والقرآن مبيّنين لها ولفروعها لا فى مسئلة واحدة بل فى مسائل كثيرة، والحمد لله أوّلاً وآخراً."
+      },
+      {
+        "tur": "baslik",
+        "katman": "matn",
+        "metin": "مشهد عظيم"
+      },
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "نفث فى روعى من قبل الملاء الأعلىٰ أسرار عظيمة حتّى امتلأت نفسى ونسمتى بها، وها أنا أذكرها لک تفصيلاً، فعضّ عليها بنواجذک. إذا أردت أن يحصل لک كمال الملاء الأعلىٰ المتخاصمين فلا سبيل إلى ذلک إلّا الدعاء وكثرة الاطّراح بين يدى ربّک والسؤال منه بجهد عزيمتک وصدق همّتک، لا سيّما إذا سألت منه ما كنت مشتاقاً إلى تحصيله عقلاً وطبعاً، وكان فيه تكملک وتكمل الناس ورأفة بعامّة خلق الله. فإذا رسخت ملكة الدعاء فيک، وعقلت كيف تسأل الله بصدق الهمّة، انخرطت فى سلک الملاء الأعلىٰ."
+      },
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "وقد أشار سيّدنا ونبيّنا محمّد صلّى الله عليه وسلّم إلىٰ ذلک حيث قال: من فتح له باب الدعاء فتح له باب الجنّة أو الرحمة، أو كما قال. ومن أراد أن يحصل له فالملاء السافل من الملائكة فلا سبيل إلىٰ ذلک إلّا الاعتصام"
+      }
+    ],
+    "tashihler": [
+      {
+        "blok": 2,
+        "baski": "فلا سبيل الى ذلک الدعاء",
+        "edisyon": "إلّا الدعاء",
+        "gerekce": "إلّا düşmüş; 4. bloktaki فلا سبيل إلىٰ ذلک إلّا الاعتصام kalıbına göre eklendi."
+      },
+      {
+        "blok": 2,
+        "baski": "وكثر الاطراح",
+        "edisyon": "وكثرة الاطّراح",
+        "gerekce": "الدعاء'ya ma'tûf masdar olması gerektiğinden وكثرة okunmuştur."
+      }
+    ],
+    "supheli": [
+      {
+        "blok": 3,
+        "edisyon": "فالملاء السافل",
+        "aciklama": "Baskıda bu kısım bozuk görünüyor; 3. bloktaki يحصل لک كمال الملاء الأعلىٰ ile paralel olarak muhtemel okuyuş: كمال الملاء السافل."
+      },
+      {
+        "blok": 2,
+        "edisyon": "كمال الملاء الأعلىٰ المتخاصمين",
+        "aciklama": "Baskıda böyle; tekil كمال ile çoğul المتخاصمين uyumu belirsiz (muhtemelen كمال الملاء الأعلىٰ / الملإ المتخاصمين kastediliyor). Uzman kararına bırakıldı."
+      }
+    ]
+  },
+  "alintilar": [
+    {
+      "id": "A1",
+      "blok": 2,
+      "metin": "نفث فى روعى",
+      "tur_tahmini": "hadis",
+      "bicim": "isaret",
+      "eslesme": {
+        "durum": "bulunamadi"
+      }
+    },
+    {
+      "id": "A2",
+      "blok": 2,
+      "metin": "فعضّ عليها بنواجذک",
+      "tur_tahmini": "hadis",
+      "bicim": "isaret",
+      "eslesme": {
+        "durum": "yakin",
+        "tur": "hadis",
+        "iktibas": true,
+        "referans": "Ebû Dâvûd, nr. 4607",
+        "kapsama": 1.0,
+        "turkce": "İbn Amr es-Sülemî ile Hucr (un şöyle) dedi (k)ler (i rivayet edilmiştir): Hakkında: \"Sen, sizi bindirecek birşey bulamıyorum deyince, harcayacak birşey bulamadıklarından dolayı üzüntüden gözlerinden yaş akarak dönen kimselerin aleyhine de bir yol yoktur.\"[Tevbe 92] (âyeti) inen el-Irbaz b. Sâriye'nin yanına varmıştık. Selam verdik ve \"Seni ziyarete, hastalığın için geçmiş olsun demeye ve (senden) ilim almaya geldik\" dedik. Bunun üzerine Irbaz (şöyle) dedi: \"Bir gün Rasûlullah (s.a.v.) bize namaz kıldırdı. Sonra bize dönüp çok tesirli bir va'z etti. Bu va'z'dan dolayı gözler yaşarıp kalpler ürperdi. Derken bir konuşmacı: \"Ey Allah'ın rasulü (senin) bu (va'zın yolculuğa çıkacağı için kalanlara) veda eden bir kimse'nin va'zına benziyor. Binaenaleyh bize neyi tavsiye edersiniz?\" (söyleyin de bilelim), dedi. (Fahr-i kainat efendimiz de): \"Size Allah'dan korkmanızı (başınızdaki idareciler) Habeşli bir köle olsa bile (onlan) dinleyip, itaat etmenizi tavsiye ederim. Çünkü benden sonra sizden kim yaşarsa o, pek çok (dini) ihtilaflara şahid olacaktır. Binaenaleyh size gereken, sünnetime ve doğru yolum üzerinde bulunan halifelerimin sünnetine sarılınız. Bu sünnetlere (adeta) dişlerinizi (bir ",
+        "uyari": "Kısa iktibas: kelimeler kaynakta var ama sırası ya da çekimi farklı. Yazar kaynağa işaret ediyor olabilir; tesadüf de olabilir. Kontrol edilmeli."
+      }
+    },
+    {
+      "id": "A3",
+      "blok": 2,
+      "metin": "الملاء الأعلىٰ المتخاصمين",
+      "tur_tahmini": "belirsiz",
+      "bicim": "isaret",
+      "eslesme": {
+        "durum": "bulunamadi"
+      }
+    },
+    {
+      "id": "A4",
+      "blok": 3,
+      "metin": "من فتح له باب الدعاء فتح له باب الجنّة أو الرحمة",
+      "tur_tahmini": "hadis",
+      "bicim": "tam",
+      "eslesme": {
+        "durum": "bulunamadi"
+      }
+    }
+  ],
+  "ceviri": {
+    "bloklar": [
+      {
+        "tur": "metin",
+        "metin": "Bu, insanın iç idrakinin hükme bağladığı bir önermedir. Sünnetin ve Kur'ân'ın da onu ve ondan çıkan sonuçları bir değil pek çok meselede açıkladığını gördük. Evvelinde de âhirinde de hamd Allah'adır."
+      },
+      {
+        "tur": "baslik",
+        "metin": "Büyük Bir Meşhed⟦N1⟧"
+      },
+      {
+        "tur": "metin",
+        "metin": "Melâ-i A'lâ katından kalbime büyük sırlar üflendi⟦A1⟧; öyle ki nefsim ve nesmem (havâî ruhum) onlarla doldu. İşte şimdi onları sana ayrıntısıyla anlatıyorum; bunlara azı dişlerinle sarıl⟦A2⟧. İhtisâm eden, yani kendi aralarında tartışan Melâ-i A'lâ'nın⟦A3⟧ kemâline ermek istersen bunun dua etmekten, Rabbinin huzurunda sık sık yere kapanmaktan, bütün azminle ve himmetinin bütün sıdkıyla O'ndan istemekten başka yolu yoktur. Hele hem aklının hem tabiatının elde etmeyi özlediği, içinde senin ve insanların kemâli, Allah'ın bütün yaratıklarına da şefkat bulunan bir şeyi O'ndan istediğinde. Dua melekesi sende kök salıp Allah'tan sadık bir himmetle nasıl isteneceğini kavradığında Melâ-i A'lâ'nın dizisine katılırsın."
+      },
+      {
+        "tur": "metin",
+        "metin": "Efendimiz ve Nebîmiz Muhammed sallallâhu aleyhi ve sellem de \"Kendisine dua kapısı açılan kimseye cennetin – ya da rahmetin – kapısı açılmıştır\"⟦A4⟧ ya da buna yakın bir söz söyleyerek bu hususa işaret etmiştir. Meleklerden Melâ-i Sâfil'in (aşağı melekler topluluğu) kemâline ermek isteyenin⟦N2⟧ ise tahâretlere sımsıkı sarılmaktan, velîlerden nice topluluğun namaz kıldığı eski mescitlerde kalmaktan, çokça namaz kılmaktan, Allah'ın Kitabını okumaktan ve Allah'ı Esmâ-i Hüsnâ ile ya da bilinen kırk isimle zikretmekten başka yolu yoktur. Bütün bunlar, bu maksadın rükünlerinden biridir."
+      }
+    ],
+    "notlar": [
+      {
+        "id": "N1",
+        "metin": "Meşhed: müşâhede edilen hâl, görüş. Yazar keşif yoluyla gördüklerini bu başlıkla aktarır."
+      },
+      {
+        "id": "N2",
+        "metin": "Baskıda bu ifade bozuktur ('فالملاء السافل'); önceki cümledeki 'Melâ-i A'lâ'nın kemâli' ifadesine paralel olarak 'Melâ-i Sâfil'in kemâli' diye okundu."
+      }
+    ],
+    "yeni_terimler": [
+      {
+        "kaynak": "مشهد عظيم",
+        "turkce": "Büyük Bir Meşhed",
+        "tur": "istilah",
+        "aciklama": "başlık; 'Başka Bir Meşhed' kalıbıyla uyumlu"
+      },
+      {
+        "kaynak": "الوجدان",
+        "turkce": "iç idrak",
+        "tur": "istilah",
+        "aciklama": "içten, doğrudan kavrayış; bugünkü 'vicdan' (ahlâkî bilinç) anlamında değil"
+      }
+    ],
+    "aciklanan_terimler": [
+      "مشهد",
+      "الملأ الأعلى المتخاصمون",
+      "النسمة",
+      "الملأ السافل"
+    ],
+    "zor_yerler": [
+      "1. blok: Baştaki 'صرّح الحقّ من سورة الفرقان وغيرها، بل كانت صورة غلبة الملوک بالمجاهدات والحروب.' 0028'in son cümlesinin devamı; orada çevrildi, burada 'وهذه قضية'dan başlandı.",
+      "1. blok: 'الوجدان' yalancı eş 'vicdan' yerine 'iç idrak' diye verildi.",
+      "3. blok: 'كمال الملاء الأعلىٰ المتخاصمين' tekil-çoğul uyumsuz; 'ihtisâm eden Melâ-i A'lâ'nın kemâli' diye anlaşıldı. 'نفث فى روعى' (A1) Rûhu'l-Kudüs hadisine işaret; bulunamadı.",
+      "4. blok: 'فالملاء السافل' bozuk; 'كمال الملاء السافل' okundu (N2). Cümle 0030'un ilk bloğunda bitiyor; burada bütün olarak çevrildi.",
+      "4. blok (0030'daki devam): 'فما هو مشهور' muhtemelen 'كما/فيما هو مشهور'; 'bilinen kırk isim' diye verildi."
+    ],
+    "terimler_islendi": true,
+    "redaksiyon": {
+      "degisiklik": 3,
+      "ozet": [
+        "3. blok: Melâ-i A'lâ'nın açıklaması kaldırıldı; ilk geçiş 0025'te, açıklama oraya taşındı",
+        "4. blok: 'buna yakın bir söz söyleyerek buna işaret' tekrarı 'bu hususa işaret' yapıldı",
+        "4. blok: hadis içindeki ara söz kısa çizgi yerine uzun çizgiyle ayrıldı"
+      ]
+    }
+  },
+  "ceviri_denetim": {
+    "guven": 0.9,
+    "sorunlar": [
+      {
+        "blok": 1,
+        "tur": "istilah",
+        "arapca": "الوجدان",
+        "ceviri": "insanın iç idrakinin",
+        "oneri": "Sözlükçeye göre ilk geçişte kısa açıklama verilmeli: 'iç idrak (içten, doğrudan kavrayış)'.",
+        "ciddiyet": "dusuk",
+        "duzeltildi": false
+      }
+    ]
+  }
 }

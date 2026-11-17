@@ -925,11 +925,11 @@
       "durum": "aday"
     },
     "الوجدان": {
-      "turkce": "?",
-      "ilk_gecis": "",
+      "turkce": "iç idrak",
+      "ilk_gecis": "içten, doğrudan kavrayış",
       "tur": "istilah",
       "aciklama": "Türkçede 'vicdan' ahlâkî vicdan anlamına geldiği için yalancı eş. Tasavvufî 'vecd/vicdân: içte bulunan hâl' anlamı; parantezde 'vicdan' yanıltıcı.",
-      "durum": "aday"
+      "durum": "onayli"
     },
     "التطفّل": {
       "turkce": "tetaffül",
@@ -1661,6 +1661,377 @@
     },
     "التدبير المنزلى / السياسة المدنية": {
       "turkce": "ev idaresi / şehir siyaseti",
+      "ilk_gecis": "",
+      "tur": "istilah",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "الإخبات / أخبت": {
+      "turkce": "ihbât",
+      "ilk_gecis": "Rabbe huşûyla boyun eğip yönelme",
+      "tur": "istilah",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "الاستمداد / استمدّ": {
+      "turkce": "istimdâd",
+      "ilk_gecis": "yardım ve feyiz dileme, kaynağından beslenme",
+      "tur": "istilah",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "التدلّى الوحدانى / الحقيقة الوحدانية": {
+      "turkce": "vahdânî tedellî / vahdânî hakikat",
+      "ilk_gecis": "zâtında tek olan tedellî",
+      "tur": "istilah",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "التدلّى الجليل": {
+      "turkce": "yüce tedellî",
+      "ilk_gecis": "",
+      "tur": "istilah",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "المتبرّز / تبرّز": {
+      "turkce": "berzelerde beliren",
+      "ilk_gecis": "",
+      "tur": "istilah",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "الأوضاع العلوية والسفلية": {
+      "turkce": "ulvî ve süflî durumlar (evzâ')",
+      "ilk_gecis": "",
+      "tur": "istilah",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "مركوزات الأذهان / مركوز أذهانهم": {
+      "turkce": "zihinlere yerleşmiş olanlar",
+      "ilk_gecis": "",
+      "tur": "istilah",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "الصورة العلمية": {
+      "turkce": "ilmî sûret",
+      "ilk_gecis": "",
+      "tur": "istilah",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "الصورة المثالية": {
+      "turkce": "misâlî sûret",
+      "ilk_gecis": "",
+      "tur": "istilah",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "العالم الجسمانى / عالم الجسم": {
+      "turkce": "cismânî âlem / cisim âlemi",
+      "ilk_gecis": "",
+      "tur": "istilah",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "الجسم والجسمانيات والروح والروحانيات": {
+      "turkce": "cisim ve cismânîler, rûh ve rûhânîler",
+      "ilk_gecis": "",
+      "tur": "istilah",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "الذات": {
+      "turkce": "Zât",
+      "ilk_gecis": "",
+      "tur": "istilah",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "الأمانة": {
+      "turkce": "emânet",
+      "ilk_gecis": "",
+      "tur": "istilah",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "المثال الإنسانى": {
+      "turkce": "insânî misâl",
+      "ilk_gecis": "insan türünün misâl âlemindeki aslî sûreti",
+      "tur": "istilah",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "الأبعاد / النغمات / الألحان": {
+      "turkce": "aralıklar / nağmeler / ezgiler",
+      "ilk_gecis": "",
+      "tur": "istilah",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "الرسالة": {
+      "turkce": "risâlet",
+      "ilk_gecis": "",
+      "tur": "istilah",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "البوارق / بارق / البوارق المختطفة": {
+      "turkce": "bârika / bevârik",
+      "ilk_gecis": "şimşek gibi parlayıp sönen nurlar",
+      "tur": "istilah",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "الوحى المتلوّ": {
+      "turkce": "vahy-i metlüv",
+      "ilk_gecis": "okunan vahiy (Kur'ân gibi lafzıyla inen)",
+      "tur": "istilah",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "الصحف": {
+      "turkce": "suhuf",
+      "ilk_gecis": "",
+      "tur": "istilah",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "الكتب الإلٰهية / الكتب المنزلة": {
+      "turkce": "ilâhî kitaplar / indirilmiş kitaplar",
+      "ilk_gecis": "",
+      "tur": "istilah",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "الشرع / الشرائع": {
+      "turkce": "şer' / şerîatler",
+      "ilk_gecis": "",
+      "tur": "istilah",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "الصلوٰة": {
+      "turkce": "namaz",
+      "ilk_gecis": "",
+      "tur": "istilah",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "بيت الله / البيت": {
+      "turkce": "Beytullah",
+      "ilk_gecis": "",
+      "tur": "ozel_isim",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "الكعبة": {
+      "turkce": "Kâbe",
+      "ilk_gecis": "",
+      "tur": "ozel_isim",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "القرآن العظيم": {
+      "turkce": "Kur'ân-ı Azîm",
+      "ilk_gecis": "",
+      "tur": "ozel_isim",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "السريانى / اللغة السريانية": {
+      "turkce": "Süryânî / Süryânîce",
+      "ilk_gecis": "",
+      "tur": "ozel_isim",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "صفر": {
+      "turkce": "Safer",
+      "ilk_gecis": "",
+      "tur": "ozel_isim",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "الأسماء الحسنى": {
+      "turkce": "Esmâ-i Hüsnâ",
+      "ilk_gecis": "",
+      "tur": "ozel_isim",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "الأفلاک / العناصر": {
+      "turkce": "felekler / unsurlar",
+      "ilk_gecis": "",
+      "tur": "istilah",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "المسلّمات والمشهورات": {
+      "turkce": "müsellemât ve meşhûrât",
+      "ilk_gecis": "herkesçe kabul edilmiş ve yaygın olarak bilinen önermeler",
+      "tur": "istilah",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "المشخّصات / مميّزات النوع": {
+      "turkce": "teşahhus ettirenler (müşahhısât) / türün ayırt edicileri",
+      "ilk_gecis": "",
+      "tur": "istilah",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "الإفاضة الغيبية / إفاضة عادية أو خارقة العادة": {
+      "turkce": "gaybî ifâza / âdete uygun ya da hârika ifâza",
+      "ilk_gecis": "",
+      "tur": "istilah",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "الرؤيا الصادقة": {
+      "turkce": "sâdık rüya",
+      "ilk_gecis": "",
+      "tur": "istilah",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "الملأ الأعلى المتخاصمون": {
+      "turkce": "ihtisâm eden Melâ-i A'lâ",
+      "ilk_gecis": "Melâ-i A'lâ'nın kendi aralarında tartıştığı (ihtisâm hadisine işaret)",
+      "tur": "istilah",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "الملكة": {
+      "turkce": "meleke",
+      "ilk_gecis": "",
+      "tur": "istilah",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "الطهارة / الطهارات": {
+      "turkce": "tahâret",
+      "ilk_gecis": "",
+      "tur": "istilah",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "الأحداث والجنابات": {
+      "turkce": "hadesler ve cenâbetler",
+      "ilk_gecis": "",
+      "tur": "istilah",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "الاستخارة": {
+      "turkce": "istihâre",
+      "ilk_gecis": "",
+      "tur": "istilah",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "الحضور": {
+      "turkce": "huzûr",
+      "ilk_gecis": "",
+      "tur": "istilah",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "التهجّد": {
+      "turkce": "teheccüd",
+      "ilk_gecis": "",
+      "tur": "istilah",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "الحقّ الأوّل": {
+      "turkce": "Hakk-ı Evvel",
+      "ilk_gecis": "",
+      "tur": "istilah",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "الحفظ / العصمة": {
+      "turkce": "hıfz / ismet",
+      "ilk_gecis": "",
+      "tur": "istilah",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "العلم الإلٰهى": {
+      "turkce": "ilâhî ilim",
+      "ilk_gecis": "",
+      "tur": "istilah",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "الإلهام": {
+      "turkce": "ilham",
+      "ilk_gecis": "",
+      "tur": "istilah",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "سقوط التكليف": {
+      "turkce": "teklîfin düşmesi",
+      "ilk_gecis": "",
+      "tur": "istilah",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "قدّس سرّه": {
+      "turkce": "kuddise sırruh",
+      "ilk_gecis": "",
+      "tur": "istilah",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "جلّ وعزّ / تبارک وتعالى": {
+      "turkce": "celle ve azze / tebâreke ve teâlâ",
+      "ilk_gecis": "",
+      "tur": "istilah",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "عضّ عليها بنواجذک": {
+      "turkce": "buna azı dişlerinle sarıl",
+      "ilk_gecis": "",
+      "tur": "deyim",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "الرسوم": {
+      "turkce": "töreler",
+      "ilk_gecis": "insanların aralarında kurduğu yerleşik usuller",
+      "tur": "istilah",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "الهاوية": {
+      "turkce": "Hâviye",
+      "ilk_gecis": "cehennemin en derin tabakası",
+      "tur": "ozel_isim",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "خلعة": {
+      "turkce": "hil'at",
+      "ilk_gecis": "hükümdarın görev verdiği kişiye giydirdiği şeref kaftanı",
+      "tur": "istilah",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "ذراع / ذرع": {
+      "turkce": "zirâ",
+      "ilk_gecis": "",
+      "tur": "istilah",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "مشهد عظيم": {
+      "turkce": "Büyük Bir Meşhed",
       "ilk_gecis": "",
       "tur": "istilah",
       "aciklama": "",

@@ -3,7 +3,190 @@
   "gorsel": "calisma/fuyuz/sayfalar/0028.png",
   "kaynak_pdf": "Füyûzü'l-Harameyn.pdf",
   "kaynak_sayfa": 28,
-  "durum": "bekliyor",
+  "durum": "ceviri_denetlendi",
   "murekkep": 0.0875,
-  "kontrol_gerekli": []
+  "kontrol_gerekli": [
+    "alıntı A2 lafzen tutmuyor (Muvatta, nr. 600)"
+  ],
+  "kitap_sayfa": 24,
+  "okuma": {
+    "bloklar": [
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "انقيادًا لا يقدرون على الزيادة عليه ثم يدئبون جوارحهم علىٰ حسب ذلک فاذا اقتضت المقتضيات ان يكون انسان عشرة اذرع جعل كذلک لانه ممكن وان لم يكن مشهورًا يطمئن اليه القلوب واما الشرايع والتدليات فكلها علىٰ موافقة المشهور والمسلم. نعم هنالک بركات تميز الصدق من الكذب والحق من الباطل"
+      },
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "وربما يختجل فى قلبک ان كل تدلى لابد ان يكون فيه خرق العادات فكيف يوافق المشهور فنقول لا يقف على الامر المجمل المطوى علىٰ غيره بل محض الامر فاصل الشيء على العادة لا يجاوزها ما كان الرسول ملكا ولا كان الكتاب عجميا ولا كان البيت من نور ولكن يظهر عليه بركات لا توجد فى غيره فبالبركات تخرق العادة لا بالاصل"
+      },
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "وكان كفار قريش لم يفهموا حكمة الحق فى الفرق بين هذان الامرين فكانوا يقترحون ان يكون الرسول ملكًا وقالوا ما لهذا الرسول ياكل الطعام ويمشى فى الاسواق فرد الله عليهم مقالتهم وفضح اعتقادهم الفاسد وكذلک ما كانت صورة غلبة الرسول ان يكون معه ملک يشهد له اور ينزل اليه من السماء كتاب وهم يرونه بابصارهم كما"
+      }
+    ],
+    "duzen_farki": null,
+    "belirsiz_sayisi": 0,
+    "rol": "metin",
+    "atla": false,
+    "notlar": "Baskıdaki muhtemel hatalar aynen bırakıldı: يدئبون، يختجل، هذان الامرين، 'اور ينزل' (Urduca 'اور' Arapça metne karışmış). Kelime sonu ک baskıdaki gibi korundu."
+  },
+  "denetim": {
+    "guven": 0.93,
+    "sorunlar": [
+      {
+        "konum": "2.-3. blok sınırı (17. satır ortası)",
+        "okunan": "لا بالاصل | وكان كفار قريش (ayrı blok)",
+        "gorunen": "لا بالاصل وكان كفار قريش (aynı satırda kesintisiz)",
+        "tur": "blok_bolme",
+        "ciddiyet": "dusuk",
+        "duzeltildi": false
+      }
+    ],
+    "duzeltilmis_bloklar": null
+  },
+  "edisyon": {
+    "bloklar": [
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "انقياداً لا يقدرون على الزيادة عليه، ثمّ يدئبون جوارحهم علىٰ حسب ذلک. فإذا اقتضت المقتضيات أن يكون إنسان عشرة أذرع جعل كذلک لأنّه ممكن، وإن لم يكن مشهوراً يطمئنّ إليه القلوب. وأمّا الشرائع والتدلّيات فكلّها علىٰ موافقة المشهور والمسلّم. نعم، هنالک بركات تميّز الصدق من الكذب والحقّ من الباطل."
+      },
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "وربّما يختلج فى قلبک أنّ كلّ تدلّى لا بدّ أن يكون فيه خرق العادات، فكيف يوافق المشهور؟ فنقول: لا يقف على الأمر المجمل المطوىّ علىٰ غيره، بل محض الأمر؛ فأصل الشيء على العادة لا يجاوزها: ما كان الرسول ملكاً، ولا كان الكتاب عجمياً، ولا كان البيت من نور، ولكن يظهر عليه بركات لا توجد فى غيره، فبالبركات تخرق العادة لا بالأصل."
+      },
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "وكان كفّار قريش لم يفهموا حكمة الحقّ فى الفرق بين هذين الأمرين، فكانوا يقترحون أن يكون الرسول ملكاً، وقالوا: ما لهذا الرسول يأكل الطعام ويمشى فى الأسواق، فردّ الله عليهم مقالتهم وفضح اعتقادهم الفاسد. وكذلک ما كانت صورة غلبة الرسول أن يكون معه ملک يشهد له أو ينزل إليه من السماء كتاب وهم يرونه بأبصارهم، كما"
+      }
+    ],
+    "tashihler": [
+      {
+        "blok": 1,
+        "baski": "يختجل",
+        "edisyon": "يختلج",
+        "gerekce": "ج ile ل yer değiştirmiş; 'kalbe gelmek' anlamındaki يختلج okunmuştur."
+      },
+      {
+        "blok": 2,
+        "baski": "هذان الامرين",
+        "edisyon": "هذين",
+        "gerekce": "بين'den sonra mecrur olması gerektiğinden هذين okunmuştur."
+      },
+      {
+        "blok": 2,
+        "baski": "اور",
+        "edisyon": "أو ينزل",
+        "gerekce": "Urduca اور Arapça metne karışmış; أو okunmuştur."
+      }
+    ],
+    "supheli": []
+  },
+  "alintilar": [
+    {
+      "id": "A1",
+      "blok": 2,
+      "metin": "ما لهذا الرسول يأكل الطعام ويمشى فى الأسواق",
+      "tur_tahmini": "ayet",
+      "bicim": "tam",
+      "eslesme": {
+        "durum": "dogrulandi",
+        "tur": "ayet",
+        "kisa": false,
+        "sure": "Furkân",
+        "sure_no": 25,
+        "ayet": "7",
+        "referans": "Furkân 25/7",
+        "kapsama": 0.75,
+        "tam_ayet": false,
+        "meal": "Şöyle dediler: \"Bu ne biçim peygamber ki yemek yer, sokaklarda gezer? Ona, beraberinde bulunup uyaran bir melek indirilseydi ya! Yahut, kendisine bir hazine verilseydi, veya besleneceği bir bahçe olsaydı ya!\" Bu zalimler, inananlara: \"Siz sadece büyülenmiş bir adama uyuyorsunuz\" dediler",
+        "meal_kaynak": "Diyanet İşleri meali, Tanzil sürümü (fawazahmed0/quran-api: tur-diyanetisleri)"
+      }
+    },
+    {
+      "id": "A2",
+      "blok": 2,
+      "metin": "أن يكون معه ملک",
+      "tur_tahmini": "belirsiz",
+      "bicim": "isaret",
+      "eslesme": {
+        "durum": "yakin",
+        "tur": "hadis",
+        "referans": "Muvatta, nr. 600",
+        "kapsama": 0.75,
+        "turkce": "",
+        "uyari": "Lafız birebir tutmuyor; yazar hadisi farklı bir rivayetten ya da mana ile aktarmış olabilir. Kontrol edilmeli."
+      }
+    },
+    {
+      "id": "A3",
+      "blok": 2,
+      "metin": "ينزل إليه من السماء كتاب",
+      "tur_tahmini": "belirsiz",
+      "bicim": "isaret",
+      "eslesme": {
+        "durum": "bulunamadi"
+      }
+    }
+  ],
+  "ceviri": {
+    "bloklar": [
+      {
+        "tur": "metin",
+        "metin": "Gerektirici sebepler bir insanın on zirâ boyunda olmasını gerektirdiğinde o insan öyle yaratılır; çünkü bu mümkündür, kalplerin yatıştığı bilinen bir şey olmasa da. Şeriatler ve tedellîler ise tamamen meşhûr ve müsellem olana uygundur. Şu kadar var ki bunlarda doğruyu yalandan, hakkı bâtıldan ayıran bereketler bulunur."
+      },
+      {
+        "tur": "metin",
+        "metin": "Belki kalbinden şöyle bir düşünce geçer: Her tedellîde mutlaka âdetin dışına çıkan hârikulâde şeyler bulunmalıdır; öyleyse tedellî meşhûr olana nasıl uyar? Buna şöyle cevap veririz: Mesele, başka bir şeyle iç içe dürülmüş mücmel hâline bakılarak değil, yalın hâline bakılarak anlaşılır. Bir şeyin aslı âdete uygundur, onu aşmaz: Resul melek değildi, Kitap Arapçadan başka bir dilde değildi, Beytullah da nurdan yapılmış değildi. Ama bunların üzerinde başka hiçbir şeyde bulunmayan bereketler görünür. Âdetin dışına çıkılması da asılla değil, bu bereketlerle olur."
+      },
+      {
+        "tur": "metin",
+        "metin": "Kureyş kâfirleri, Hakk'ın bu iki şey arasındaki ayrımda gözettiği hikmeti anlamamışlardı. Bu yüzden Resul'ün melek olmasını istiyor ve \"Bu ne biçim peygamber ki yemek yer, sokaklarda gezer?\"⟦A1⟧ diyorlardı. Allah da bu sözlerini reddetti ve bozuk inançlarını açığa vurup rezil etti. Aynı şekilde Resul'ün galip gelişi de yanında ona şahitlik eden bir melek bulunması⟦A2⟧ ya da kâfirlerin kendi gözleriyle görecekleri şekilde gökten ona bir kitap inmesi⟦A3⟧ sûretinde olmadı; Hak bunu Furkān sûresinde ve başka yerlerde açıkça bildirmiştir. Onun galip gelişi, hükümdarların galip gelişi gibi çetin mücadelelerle ve savaşlarla oldu."
+      }
+    ],
+    "notlar": [],
+    "yeni_terimler": [
+      {
+        "kaynak": "ذراع / ذرع",
+        "turkce": "zirâ",
+        "tur": "istilah",
+        "aciklama": "uzunluk ölçüsü (arşın)"
+      }
+    ],
+    "aciklanan_terimler": [],
+    "zor_yerler": [
+      "1. blok: Baştaki 'انقياداً ... علىٰ حسب ذلک.' 0027'deki cümlenin (إذ المراد بالتدلّيات أن يطيع العباد ربّهم بقلوبهم) devamı; 0027'de bütün olarak çevrilmeli, burada 'فإذا اقتضت'tan başlandı.",
+      "2. blok: 'لا يقف على الأمر المجمل المطوىّ علىٰ غيره، بل محض الأمر' kapalı; 'mesele mücmel/iç içe hâliyle değil yalın hâliyle anlaşılır' diye verildi (لا تقف 'durma' okunuşu da mümkün).",
+      "2. blok: 'عجمياً' yalancı eş 'acemi' yerine 'Arapçadan başka bir dilde' diye verildi.",
+      "3. blok: Son kelime 'كما' 0029'un ilk cümlesine (صرّح الحقّ من سورة الفرقان ... والحروب) bağlanıyor; cümle burada bütün olarak çevrildi.",
+      "3. blok: A1 tam ayet değil (Furkān 25/7'nin bir parçası), meal ifadesine göre çevrildi. A2 (Muvatta eşleşmesi) büyük ihtimalle tesadüfî; ifade Furkān 25/7'deki 'beraberinde bulunup uyaran bir melek' talebine işaret ediyor. A3 için de krş. İsrâ 17/93 olabilir; uzman kontrol etmeli."
+    ],
+    "terimler_islendi": true,
+    "redaksiyon": {
+      "degisiklik": 2,
+      "ozet": [
+        "1. blok: 'Şerîatler' yazımı 0026'daki 'şeriatler' ile birleştirildi",
+        "3. blok: 'suretinde' kitap genelindeki 'sûret' yazımına uyduruldu"
+      ]
+    }
+  },
+  "ceviri_denetim": {
+    "guven": 0.9,
+    "sorunlar": [
+      {
+        "blok": 3,
+        "tur": "alinti",
+        "arapca": "أن يكون معه ملک",
+        "ceviri": "yanında ona şahitlik eden bir melek bulunması⟦A2⟧",
+        "oneri": "A2'nin Muvatta nr. 600 eşleşmesi büyük ihtimalle tesadüfî; ifade Furkān 25/7'deki 'beraberinde bulunup uyaran bir melek' talebine işaret ediyor. Muvatta dipnotu konmamalı; uzman 'Krş. Furkān 25/7' olarak değerlendirmeli.",
+        "ciddiyet": "orta",
+        "duzeltildi": false
+      }
+    ]
+  }
 }

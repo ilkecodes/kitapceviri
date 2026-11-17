@@ -1,0 +1,19 @@
+asama	ajan	sayfalar	token	arac	sure_sn
+okuma	sayfa-okuyucu	0028-0030	36994	9	56
+okuma	sayfa-okuyucu	0031-0033	36928	9	55
+okuma	sayfa-okuyucu	0025-0027	37082	9	63
+denetim	sayfa-denetci	0031-0033	38868	9	55
+denetim	sayfa-denetci	0028-0030	40375	9	64
+denetim	sayfa-denetci	0025-0027	41612	9	74
+edisyon	edisyoncu	0030-0033	38509	9	128
+edisyon	edisyoncu	0025-0029	51331	12	165
+alinti	alinti-tespit	0030-0033	39378	8	85
+alinti	alinti-tespit	0025-0029	46329	10	109
+terim	terim-tarayici	0020-0033 (14 sf)	76263	4	133
+ceviri	sayfa-cevirmen	0031-0033	67884	7	128
+ceviri	sayfa-cevirmen	0025-0027	63659	7	129
+ceviri	sayfa-cevirmen	0028-0030	76098	12	184
+ceviri_denetim	ceviri-denetci	0028-0030	54563	8	62
+ceviri_denetim	ceviri-denetci	0031-0033	52971	7	74
+ceviri_denetim	ceviri-denetci	0025-0027	57658	17	113
+redaksiyon	redaktor	0025-0033	127637	20	404

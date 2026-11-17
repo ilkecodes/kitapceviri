@@ -3,7 +3,177 @@
   "gorsel": "calisma/fuyuz/sayfalar/0026.png",
   "kaynak_pdf": "Füyûzü'l-Harameyn.pdf",
   "kaynak_sayfa": 26,
-  "durum": "bekliyor",
+  "durum": "ceviri_denetlendi",
   "murekkep": 0.0564,
-  "kontrol_gerekli": []
+  "kontrol_gerekli": [
+    "alıntı A1 lafzen tutmuyor (İbrâhîm 14/37)"
+  ],
+  "kitap_sayfa": 22,
+  "okuma": {
+    "bloklar": [
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "ان الناس قبل سيدنا ابراهيم توغلوا فى بناء المعابد والكنايس فبنوا بناء علىٰ اسم الشمس فى وقت يغلب فيه روحانية الشمس وكذٰلک القمر وسائر الكواكب وزعموا ان من دخل بهٰذه البيوت اقترب بصاحبها والحق ذٰلک بالضروريات وصار التوجه الى الامر البسيط مالم يتعين له جهة وموضع كالامر البعيد فنزل علىٰ قلب سيدنا ابراهيم حذو ما كان فى زمنه واصطفىٰ موضعًا علمه مناسبًا لهٰذا الامر بان يكون هنالک قوى الافلاک والعناصر مقتضية للبقاء وجاذبة [?لافئدة] الناس اليه وعين لتعظيم الناس اياه طرقًا واوضاعًا وتدلى اليهم بايجابه عليهم"
+      },
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "واعلم ان الشرايع لا تنعقد الا فى العادات وهٰذه حكمة الله فينظر الىٰ ما عندهم من العادات فما كان منها فاسدًا سجل علىٰ تركه وما كان صحيحًا ابقىٰ"
+      },
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "وكذٰلک الوحى المتلو لا ينعقد الا فى الالفاظ والكلمات والاساليب المخزونة فى ذهن الموحى اليه ولذٰلک اوحى الله الى [?العربى] باللغة العربية والى السريانى باللغة السريانية وكذٰلک الرويا الصادقة لا يكون لا منعقدة فى الصور والخيالات المخزونة وكذٰلک لا يرى الاكمه فى"
+      }
+    ],
+    "duzen_farki": null,
+    "belirsiz_sayisi": 2,
+    "rol": "metin",
+    "atla": false,
+    "notlar": "Satır 22'nin başı silik (العربى). 'يكون لا منعقدة' baskıda böyle (muhtemelen الا); edisyonda bakılmalı."
+  },
+  "denetim": {
+    "guven": 0.94,
+    "sorunlar": [
+      {
+        "konum": "1. blok, 14. satır",
+        "okunan": "[?لافئدة]",
+        "gorunen": "لافئدة (baskıda açıkça okunuyor)",
+        "tur": "gereksiz_belirsizlik",
+        "ciddiyet": "dusuk",
+        "duzeltildi": true
+      }
+    ],
+    "duzeltilmis_bloklar": [
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "ان الناس قبل سيدنا ابراهيم توغلوا فى بناء المعابد والكنايس فبنوا بناء علىٰ اسم الشمس فى وقت يغلب فيه روحانية الشمس وكذٰلک القمر وسائر الكواكب وزعموا ان من دخل بهٰذه البيوت اقترب بصاحبها والحق ذٰلک بالضروريات وصار التوجه الى الامر البسيط مالم يتعين له جهة وموضع كالامر البعيد فنزل علىٰ قلب سيدنا ابراهيم حذو ما كان فى زمنه واصطفىٰ موضعًا علمه مناسبًا لهٰذا الامر بان يكون هنالک قوى الافلاک والعناصر مقتضية للبقاء وجاذبة لافئدة الناس اليه وعين لتعظيم الناس اياه طرقًا واوضاعًا وتدلى اليهم بايجابه عليهم"
+      },
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "واعلم ان الشرايع لا تنعقد الا فى العادات وهٰذه حكمة الله فينظر الىٰ ما عندهم من العادات فما كان منها فاسدًا سجل علىٰ تركه وما كان صحيحًا ابقىٰ"
+      },
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "وكذٰلک الوحى المتلو لا ينعقد الا فى الالفاظ والكلمات والاساليب المخزونة فى ذهن الموحى اليه ولذٰلک اوحى الله الى [?العربى] باللغة العربية والى السريانى باللغة السريانية وكذٰلک الرويا الصادقة لا يكون لا منعقدة فى الصور والخيالات المخزونة وكذٰلک لا يرى الاكمه فى"
+      }
+    ]
+  },
+  "edisyon": {
+    "bloklar": [
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "أنّ الناس قبل سيّدنا إبراهيم توغّلوا فى بناء المعابد والكنائس، فبنوا بناءً علىٰ اسم الشمس فى وقت يغلب فيه روحانية الشمس، وكذٰلک القمر وسائر الكواكب، وزعموا أنّ من دخل بهٰذه البيوت اقترب بصاحبها، وأُلحق ذٰلک بالضروريات، وصار التوجّه إلى الأمر البسيط ما لم يتعيّن له جهة وموضع كالأمر البعيد. فنزل علىٰ قلب سيّدنا إبراهيم حذو ما كان فى زمنه، واصطفىٰ موضعاً علمه مناسباً لهٰذا الأمر بأن يكون هنالک قوى الأفلاک والعناصر مقتضية للبقاء وجاذبة لأفئدة الناس إليه، وعيّن لتعظيم الناس إيّاه طرقاً وأوضاعاً، وتدلّى إليهم بإيجابه عليهم."
+      },
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "واعلم أنّ الشرائع لا تنعقد إلّا فى العادات، وهٰذه حكمة الله؛ فينظر إلىٰ ما عندهم من العادات، فما كان منها فاسداً سجّل علىٰ تركه، وما كان صحيحاً أبقىٰ."
+      },
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "وكذٰلک الوحى المتلوّ لا ينعقد إلّا فى الألفاظ والكلمات والأساليب المخزونة فى ذهن الموحى إليه، ولذٰلک أوحى الله إلى [?العربى] باللغة العربية، وإلى السريانى باللغة السريانية. وكذٰلک الرؤيا الصادقة لا يكون إلّا منعقدة فى الصور والخيالات المخزونة، وكذٰلک لا يرى الأكمه فى"
+      }
+    ],
+    "tashihler": [
+      {
+        "blok": 0,
+        "baski": "والحق",
+        "edisyon": "وأُلحق",
+        "gerekce": "Hemzenin yeri anlamı belirliyor; والحقّ değil, meçhul fiil وأُلحق okunmuştur."
+      },
+      {
+        "blok": 2,
+        "baski": "لا يكون لا منعقدة",
+        "edisyon": "لا يكون إلّا منعقدة",
+        "gerekce": "Önceki cümledeki لا ينعقد إلّا فى ile paralel; hemze-elif düşmüş."
+      }
+    ],
+    "supheli": []
+  },
+  "alintilar": [
+    {
+      "id": "A1",
+      "blok": 0,
+      "metin": "لأفئدة الناس إليه",
+      "tur_tahmini": "belirsiz",
+      "bicim": "isaret",
+      "eslesme": {
+        "durum": "yakin",
+        "tur": "ayet",
+        "iktibas": true,
+        "referans": "İbrâhîm 14/37",
+        "kapsama": 1.0,
+        "meal": "Rabbimiz! Ben çocuklarımdan kimini, namaz kılabilmeleri için Senin kutsal evinin yanında, ziraata elverişsiz bir vadiye yerleştirdim. Rabbimiz! İnsanların gönüllerini onlara meylettir, şükretmeleri için onları ürünlerle rızıklandır",
+        "meal_kaynak": "Diyanet İşleri meali, Tanzil sürümü (fawazahmed0/quran-api: tur-diyanetisleri)",
+        "uyari": "Kısa iktibas: kelimeler kaynakta var ama sırası ya da çekimi farklı. Yazar kaynağa işaret ediyor olabilir; tesadüf de olabilir. Kontrol edilmeli."
+      }
+    }
+  ],
+  "ceviri": {
+    "bloklar": [
+      {
+        "tur": "metin",
+        "metin": "Güneşin rûhâniyetinin galip olduğu bir vakitte güneş adına bir yapı inşa ettiler; ay ve diğer yıldızlar için de böyle yaptılar. Bu evlere girenin, evin sahibine yaklaşacağını sanıyorlardı. Bu da vazgeçilmez şeyler arasına katıldı. Kendisine bir yön ve yer belirlenmemiş basit bir şeye yönelmek, uzak bir şeye yönelmek gibi görülür oldu. Bunun üzerine tedellî, efendimiz İbrâhim'in kalbine onun zamanındaki duruma uygun olarak indi. Hak, bu iş için uygun olduğunu bildiği bir yeri seçti; orada feleklerin ve unsurların kuvvetleri yerin kalıcılığını gerektiriyor ve insanların gönüllerini oraya çekiyordu⟦A1⟧. İnsanların oraya saygı göstermesi için birtakım yollar ve biçimler belirledi ve bunu farz kılarak onlara tedellî etti."
+      },
+      {
+        "tur": "metin",
+        "metin": "Bil ki şeriatler ancak âdetler içinde in'ikād eder; bu, Allah'ın hikmetidir. Allah insanların elindeki âdetlere bakar; bozuk olanların terk edilmesine kesin hüküm verir, doğru olanları yerinde bırakır."
+      },
+      {
+        "tur": "metin",
+        "metin": "Vahy-i metlüv de aynı şekilde ancak vahyedilen kişinin zihninde saklı lafızlar, kelimeler ve üsluplar içinde in'ikād eder. Bu yüzden Allah Arap'a⟦N1⟧ Arapça, Süryânî'ye Süryânîce vahyetti. Sâdık rüya da ancak zihinde saklı sûretler ve hayaller içinde in'ikād eder. Anadan doğma kör de rüyasında renkleri ve şekilleri görmez; onun rüyası dokunma, işitme, tatma, koklama ve vehimden ibarettir."
+      }
+    ],
+    "notlar": [
+      {
+        "id": "N1",
+        "metin": "Baskıda bu kelime tam okunamadı; bağlama göre العربى (Arap) okundu."
+      }
+    ],
+    "yeni_terimler": [],
+    "aciklanan_terimler": [],
+    "zor_yerler": [
+      "1. blok: ilk cümlenin başı (وذلک أنّ الناس... والكنائس) 0025'te çevrildi; çeviri 'فبنوا' ile başlıyor.",
+      "1. blok: 'فنزل' fiilinin öznesi açık değil; bağlama göre 'tedellî' diye açıldı, sonraki fiiller (اصطفى، عيّن، تدلّى) için 'Hak' öznesi yazıldı.",
+      "3. blok: [?العربى] okuması 'Arap' diye alındı; cümlenin sonu 0027'den (المنام... والوهم) tamamlandı."
+    ],
+    "terimler_islendi": true,
+    "redaksiyon": {
+      "degisiklik": 2,
+      "ozet": [
+        "1. blok: kaynakta olmayan sebep ilişkisi kuran 'öyle ki' kaldırıldı, cümle ikiye bölündü (وصار = ve ... oldu)",
+        "1. blok: 'bunu onlara farz kılarak onlara tedellî etti' tekrarı giderildi"
+      ]
+    }
+  },
+  "ceviri_denetim": {
+    "guven": 0.88,
+    "sorunlar": [
+      {
+        "blok": 2,
+        "tur": "isaret",
+        "arapca": "[?العربى]",
+        "ceviri": "Allah Araba Arapça",
+        "oneri": "Belirsiz okuma işareti kaybolmuştu; ayrıca 'Araba' Türkçede 'araba' diye okunuyor. 'Arap'a⟦N1⟧ Arapça, Süryânî'ye' yazıldı, okuma belirsizliği N1 notuyla belirtildi.",
+        "ciddiyet": "orta",
+        "duzeltildi": true
+      },
+      {
+        "blok": 0,
+        "tur": "ekleme",
+        "arapca": "واصطفىٰ موضعاً ... وعيّن ... وتدلّىٰ إليهم",
+        "ceviri": "Hak, bu iş için uygun olduğunu bildiği bir yeri seçti",
+        "oneri": "Fiillerin öznesi kaynakta açık değil (tedellî, Hak ya da İbrâhim olabilir); çevirmen 'Hak' öznesini ekleyerek yorumu kesinleştirmiş. Uzman bakmalı.",
+        "ciddiyet": "dusuk",
+        "duzeltildi": false
+      }
+    ]
+  }
 }

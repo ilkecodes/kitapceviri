@@ -3,7 +3,174 @@
   "gorsel": "calisma/fuyuz/sayfalar/0025.png",
   "kaynak_pdf": "Füyûzü'l-Harameyn.pdf",
   "kaynak_sayfa": 25,
-  "durum": "bekliyor",
+  "durum": "ceviri_denetlendi",
   "murekkep": 0.1133,
-  "kontrol_gerekli": []
+  "kontrol_gerekli": [
+    "2 şüpheli/bozuk yer (edisyon)"
+  ],
+  "kitap_sayfa": 21,
+  "okuma": {
+    "bloklar": [
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "اشخاص الانسان الهموا بكتابة الكتب وجميع الرسائل لينفعهم فى الازمنة المتطاولة والاقطار المتباعدة ويبقى نص صاحب الكتاب غضا طريا ولا يخله غلط فى الرواية بالمعنىٰ ولا نسيان فكثر ذٰلک فيهم فتحرک هذا التدلى بصورة اخرىٰ حذو ما عندهم فصار الرسول المحتظى بالبوارق المختطفة له من البشرية الىٰ حظيرة القدس خادمًا لارادة الحق فانعقدت علوم الملاء الاعلىٰ او مجادلاتهم للبشر فى شبهاتهم الفاسقة ارادة رحمة ربهم والهام الخير فى صدورهم وحيًا متلوا فى مدارک الرسول فانتظم الكتاب واول كتاب كذٰلک التوراة وانما قبله صحف يشتمل علىٰ علوم فاضت علىٰ قلب النبى فجمعها من شاء من الامة"
+      },
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "وكان من تلک الانفسارات الملة وذٰلک لان اشخاص البشر الهموا عقد الرسوم فيما بينهم فعقدوا رسومًا مدنية ورسومًا منزلية ورسومًا معاشية ومعاملية وصار ذٰلک من صميم امرهم دخل فى ضروريات علومهم فجعل الله قلب النبى قابلاً لانعقاد رسم يعلم من ربه فيه روح الهى وبركة ونور وهو الشرع والملة"
+      },
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "ومن تلک الانفسارات بيت الله وذٰلک"
+      }
+    ],
+    "duzen_farki": null,
+    "belirsiz_sayisi": 0,
+    "rol": "metin",
+    "atla": false,
+    "notlar": "Baskıda 'الانفسارات' (iki kez) ve 'الفاسقة' olduğu gibi yazıldı; edisyonda kontrol edilmeli."
+  },
+  "denetim": {
+    "guven": 0.93,
+    "sorunlar": [
+      {
+        "konum": "2. blok (sayfa 20-21. satırlar)",
+        "okunan": "مدنية / منزلية / معاشية / ومعاملية",
+        "gorunen": "مدنيةً / منزليةً / معاشيةً / ومعامليةً",
+        "tur": "hareke_atlanmis",
+        "ciddiyet": "dusuk",
+        "duzeltildi": true
+      },
+      {
+        "konum": "1-2. ve 2-3. bloklar arası",
+        "okunan": "ayrı bloklar",
+        "gorunen": "baskıda paragraf geçişi yok; 'من الامة وكان' ve 'والملة ومن تلک' aynı satırda devam ediyor",
+        "tur": "blok_bolme",
+        "ciddiyet": "dusuk",
+        "duzeltildi": false
+      }
+    ],
+    "duzeltilmis_bloklar": [
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "اشخاص الانسان الهموا بكتابة الكتب وجميع الرسائل لينفعهم فى الازمنة المتطاولة والاقطار المتباعدة ويبقى نص صاحب الكتاب غضا طريا ولا يخله غلط فى الرواية بالمعنىٰ ولا نسيان فكثر ذٰلک فيهم فتحرک هذا التدلى بصورة اخرىٰ حذو ما عندهم فصار الرسول المحتظى بالبوارق المختطفة له من البشرية الىٰ حظيرة القدس خادمًا لارادة الحق فانعقدت علوم الملاء الاعلىٰ او مجادلاتهم للبشر فى شبهاتهم الفاسقة ارادة رحمة ربهم والهام الخير فى صدورهم وحيًا متلوا فى مدارک الرسول فانتظم الكتاب واول كتاب كذٰلک التوراة وانما قبله صحف يشتمل علىٰ علوم فاضت علىٰ قلب النبى فجمعها من شاء من الامة"
+      },
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "وكان من تلک الانفسارات الملة وذٰلک لان اشخاص البشر الهموا عقد الرسوم فيما بينهم فعقدوا رسومًا مدنيةً ورسومًا منزليةً ورسومًا معاشيةً ومعامليةً وصار ذٰلک من صميم امرهم دخل فى ضروريات علومهم فجعل الله قلب النبى قابلاً لانعقاد رسم يعلم من ربه فيه روح الهى وبركة ونور وهو الشرع والملة"
+      },
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "ومن تلک الانفسارات بيت الله وذٰلک"
+      }
+    ]
+  },
+  "edisyon": {
+    "bloklar": [
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "أشخاص الإنسان ألهموا بكتابة الكتب وجميع الرسائل لينفعهم فى الأزمنة المتطاولة والأقطار المتباعدة، ويبقى نصّ صاحب الكتاب غضّاً طريّاً، ولا يخلّه غلط فى الرواية بالمعنىٰ ولا نسيان. فكثر ذٰلک فيهم، فتحرّک هذا التدلّى بصورة أخرىٰ حذو ما عندهم، فصار الرسول المحتظى بالبوارق المختطفة له من البشرية إلىٰ حظيرة القدس خادماً لإرادة الحقّ، فانعقدت علوم الملاء الأعلىٰ أو مجادلاتهم للبشر فى شبهاتهم الفاسقة، إرادة رحمة ربّهم وإلهام الخير فى صدورهم، وحياً متلوّاً فى مدارک الرسول، فانتظم الكتاب. وأوّل كتاب كذٰلک التوراة، وإنّما قبله صحف يشتمل علىٰ علوم فاضت علىٰ قلب النبىّ فجمعها من شاء من الأمّة."
+      },
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "وكان من تلک الانفسارات الملّة، وذٰلک لأنّ أشخاص البشر ألهموا عقد الرسوم فيما بينهم، فعقدوا رسوماً مدنيةً ورسوماً منزليةً ورسوماً معاشيةً ومعامليةً، وصار ذٰلک من صميم أمرهم، دخل فى ضروريات علومهم. فجعل الله قلب النبىّ قابلاً لانعقاد رسم يعلم من ربّه، فيه روح إلهى وبركة ونور، وهو الشرع والملّة."
+      },
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "ومن تلک الانفسارات بيت الله، وذٰلک"
+      }
+    ],
+    "tashihler": [],
+    "supheli": [
+      {
+        "blok": 0,
+        "edisyon": "وجميع الرسائل",
+        "aciklama": "Baskıda böyle; بكتابة الكتب ile paralellik açısından muhtemel okuyuş: وجمع الرسائل."
+      },
+      {
+        "blok": 0,
+        "edisyon": "شبهاتهم الفاسقة",
+        "aciklama": "Baskıda böyle; şüpheler için 'fâsık' sıfatı alışılmadık, muhtemel okuyuş: شبهاتهم الفاسدة (krş. 0028'de اعتقادهم الفاسد)."
+      }
+    ]
+  },
+  "alintilar": [],
+  "ceviri": {
+    "bloklar": [
+      {
+        "tur": "metin",
+        "metin": "insan fertlerine kitap ve her türlü mektup yazmak ilham edilmişti. Böylece yazılanlar uzun zamanlar boyunca ve birbirinden uzak diyarlarda onlara fayda verecek, kitap sahibinin sözü taptaze kalacak, ne mana ile rivayette yapılan bir yanlış ne de unutma onu bozabilecekti. Bu, insanlar arasında yaygınlaştı. Bunun üzerine bu tedellî, onların elindekine uygun olarak başka bir sûrette harekete geçti: Kendisini beşeriyetten koparıp Hazîretü'l-Kuds'e götüren bevârikten (şimşek gibi parlayıp sönen nurlar) nasibi olan resul, Hakk'ın iradesine hizmet eder oldu. Melâ-i A'lâ'nın (yüce melekler topluluğu) ilimleri ya da insanların bozuk şüphelerine karşı yaptıkları tartışmalar, Rablerinin rahmetini ve gönüllerine hayrın ilham edilmesini dileyerek resulün idrak güçlerinde vahy-i metlüv (Kur'ân gibi lafzıyla inen, okunan vahiy) olarak in'ikād etti ve kitap böylece düzen buldu. Bu türden ilk kitap Tevrat'tır. Ondan önce yalnızca suhuf vardı; bunlar nebînin kalbine feyezan eden ilimleri içeriyordu ve ümmetten dileyen onları bir araya getirdi."
+      },
+      {
+        "tur": "metin",
+        "metin": "Bu infisârlardan biri de millettir (bir nebînin getirdiği din ve şeriat; bugünkü 'ulus' anlamında değil). Çünkü insan fertlerine kendi aralarında töreler (yerleşik usuller) kurmak ilham edilmişti. Şehir yönetimine, ev idaresine, geçime ve alışverişe dair töreler kurdular; bu, işlerinin özüne yerleşip vazgeçilmez bilgileri arasına girdi. Bunun üzerine Allah, nebînin kalbini Rabbinden öğrenilen bir törenin in'ikādına elverişli kıldı. Bu törede ilâhî bir ruh, bereket ve nur vardır. İşte şer' ve millet budur."
+      },
+      {
+        "tur": "metin",
+        "metin": "Bu infisârlardan biri de Beytullah'tır. Çünkü efendimiz İbrâhim'den önce insanlar mabet ve tapınak yapmaya iyice dalmışlardı."
+      }
+    ],
+    "notlar": [],
+    "yeni_terimler": [
+      {
+        "kaynak": "الرسوم",
+        "turkce": "töreler",
+        "tur": "istilah",
+        "aciklama": "insanların aralarında kurduğu yerleşik usuller (medenî, menzilî, maişî, muamelî)"
+      }
+    ],
+    "aciklanan_terimler": [
+      "البوارق / بارق / البوارق المختطفة",
+      "الوحى المتلوّ",
+      "الملّة / الملل",
+      "الملأ الأعلى",
+      "الرسوم"
+    ],
+    "zor_yerler": [
+      "1. blok: önceki sayfa 'Şöyle ki:' ile bitmiş; cümlenin devamı buradan çevrildi.",
+      "1. blok: 'إرادة رحمة ربّهم' öznesi belirsiz; Melâ-i A'lâ'nın insanlar için Rablerinin rahmetini dilemesi diye anlaşıldı.",
+      "1. blok: Melâ-i A'lâ önceki sayfalarda açıklanmış olmalı varsayımıyla burada açıklanmadı; parantez sınırı da dolu.",
+      "3. blok: cümle 0026'da süren 'وذلک أنّ الناس... والكنائس' kısmıyla birlikte burada çevrildi."
+    ],
+    "terimler_islendi": true,
+    "redaksiyon": {
+      "degisiklik": 2,
+      "ozet": [
+        "1. blok: Melâ-i A'lâ'nın kitaptaki ilk geçişi burası; '(yüce melekler topluluğu)' açıklaması 0029'dan buraya alındı",
+        "2. blok: 'töreler' ilk geçişte kısaca açıklandı: '(yerleşik usuller)'"
+      ]
+    }
+  },
+  "ceviri_denetim": {
+    "guven": 0.88,
+    "sorunlar": [
+      {
+        "blok": 0,
+        "tur": "istilah",
+        "arapca": "الملاء الأعلىٰ",
+        "ceviri": "Melâ-i A'lâ'nın ilimleri",
+        "oneri": "Kitapta ilk geçiş burası (s. 21); açıklama ise s. 25'te (0029) yapılmış. Açıklama buraya alınıp ('Melâ-i A'lâ (yüce melekler topluluğu)') s. 25'teki kaldırılmalı. Bu sayfada zaten üç parantezli açıklama olduğu ve 0029'u da etkilediği için düzeltilmedi.",
+        "ciddiyet": "orta",
+        "duzeltildi": false
+      },
+      {
+        "blok": 1,
+        "tur": "istilah",
+        "arapca": "الرسوم",
+        "ceviri": "töreler",
+        "oneri": "Sözlükçe ilk geçişte açıklama istiyor ve kitapta ilk geçiş burası: 'töreler (insanların aralarında kurduğu yerleşik usuller)'. Sayfadaki parantez sayısı zaten üç olduğu için dokunulmadı; redaktör karar vermeli.",
+        "ciddiyet": "dusuk",
+        "duzeltildi": false
+      }
+    ]
+  }
 }

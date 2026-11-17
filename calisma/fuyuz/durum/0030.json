@@ -3,7 +3,157 @@
   "gorsel": "calisma/fuyuz/sayfalar/0030.png",
   "kaynak_pdf": "Füyûzü'l-Harameyn.pdf",
   "kaynak_sayfa": 30,
-  "durum": "bekliyor",
+  "durum": "ceviri_denetlendi",
   "murekkep": 0.0886,
-  "kontrol_gerekli": []
+  "kontrol_gerekli": [
+    "3 şüpheli/bozuk yer (edisyon)"
+  ],
+  "kitap_sayfa": 26,
+  "okuma": {
+    "bloklar": [
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "بالطهارات والحلول بالمساجد القديمة التى صلى فيها جماعات من الاولياء واكثار الصلوٰة وتلاوة كتاب الله وذكر الله باسمائه الحسنىٰ او باربعين اسما فما هو مشهور فهذا كله ركن واحد فيما يقصد"
+      },
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "والركن الثانى كثرة الاستخارات فى الامور المهمة بان يجعل نفسه سواء بالنسبة الى الفعل والترک ثم يسال الحق بارک وتعالىٰ ان يبين له ما فيه المصلحة ويجلس متطهرا جامعا الخاطرة ينتظر الشراح خاطرة الى احد الجانبين"
+      },
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "ومن اعطاه الله تعالىٰ فهم نور الصلوٰة ونور الطهارة بحيث اذا بعد عهده عن الصلوٰة او تراكمت عليه الاحداث والجنابات او امتلات حواسه من الالوان المرئية والاصوات المسموعة حصلت له هيئة يعقلها ويميزها ويتازى منها ويتنفر بجبلة عنها ثم اذا توغل فى الطهارات والصلوٰة وجمع الحواس فى الذكر حصلت له هيئة اخرى يعقلها ويميزها ويحسن اليها وينشرح بها وكانت الحالتان معلومتين متميزتين بمنزلة المحسوسات فهو المؤمن بالايمان الحقيقى الذى يعبر عنه بالاحسان لاشک فى ذلک"
+      },
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "ومن عرف فى ضمن الدعاء والذكر كيفية الحضور"
+      }
+    ],
+    "duzen_farki": null,
+    "belirsiz_sayisi": 0,
+    "rol": "metin",
+    "atla": false,
+    "notlar": "Baskıdaki muhtemel hatalar aynen bırakıldı: 'الحق بارک وتعالىٰ' (تبارک değil; satır başında ت yok)، 'الشراح خاطرة' (انشراح beklenir)، 'ويتازى'، 'فما هو مشهور'."
+  },
+  "denetim": {
+    "guven": 0.93,
+    "sorunlar": [
+      {
+        "konum": "2.-3. ve 3.-4. blok sınırları (11. ve 24. satır ortası)",
+        "okunan": "الجانبين | ومن اعطاه ... ; فى ذلک | ومن عرف (ayrı bloklar)",
+        "gorunen": "Baskıda satır ortasında paragraf kesintisi yok; metin aynı satırda devam ediyor",
+        "tur": "blok_bolme",
+        "ciddiyet": "dusuk",
+        "duzeltildi": false
+      }
+    ],
+    "duzeltilmis_bloklar": null
+  },
+  "edisyon": {
+    "bloklar": [
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "بالطهارات والحلول بالمساجد القديمة التى صلّى فيها جماعات من الأولياء، وإكثار الصلوٰة وتلاوة كتاب الله، وذكر الله بأسمائه الحسنىٰ أو بأربعين اسماً فما هو مشهور؛ فهذا كلّه ركن واحد فيما يقصد."
+      },
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "والركن الثانى كثرة الاستخارات فى الأمور المهمّة؛ بأن يجعل نفسه سواء بالنسبة إلى الفعل والترک، ثمّ يسأل الحقّ تبارک وتعالىٰ أن يبيّن له ما فيه المصلحة، ويجلس متطهّراً جامعاً الخاطرة، ينتظر انشراح خاطرة إلى أحد الجانبين."
+      },
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "ومن أعطاه الله تعالىٰ فهم نور الصلوٰة ونور الطهارة، بحيث إذا بعد عهده عن الصلوٰة، أو تراكمت عليه الأحداث والجنابات، أو امتلأت حواسّه من الألوان المرئيّة والأصوات المسموعة، حصلت له هيئة يعقلها ويميّزها ويتأذّى منها ويتنفّر بجبلّة عنها، ثمّ إذا توغّل فى الطهارات والصلوٰة وجمع الحواسّ فى الذكر حصلت له هيئة أخرى يعقلها ويميّزها ويحسن إليها وينشرح بها، وكانت الحالتان معلومتين متميّزتين بمنزلة المحسوسات؛ فهو المؤمن بالإيمان الحقيقى الذى يعبّر عنه بالإحسان، لا شکّ فى ذلک."
+      },
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "ومن عرف فى ضمن الدعاء والذكر كيفيّة الحضور"
+      }
+    ],
+    "tashihler": [
+      {
+        "blok": 1,
+        "baski": "بارک",
+        "edisyon": "تبارک",
+        "gerekce": "Baskıda ت harfi düşmüş; kalıp ifade (الحقّ تبارک وتعالىٰ)."
+      },
+      {
+        "blok": 1,
+        "baski": "الشراح",
+        "edisyon": "انشراح",
+        "gerekce": "bağlama göre (ينتظر انشراح ...) okunmuştur."
+      },
+      {
+        "blok": 2,
+        "baski": "ويتازى",
+        "edisyon": "ويتأذّى",
+        "gerekce": "ز/ذ dizgi hatası; ويتنفّر ile paralel."
+      }
+    ],
+    "supheli": [
+      {
+        "blok": 0,
+        "edisyon": "فما هو مشهور",
+        "aciklama": "Baskıda böyle; muhtemel okuyuş: فيما هو مشهور ya da كما هو مشهور."
+      },
+      {
+        "blok": 1,
+        "edisyon": "جامعاً الخاطرة",
+        "aciklama": "Baskıda الخاطرة ve devamında خاطرة; muhtemel okuyuş: جامعاً الخاطر ... انشراح خاطره."
+      },
+      {
+        "blok": 2,
+        "edisyon": "ويحسن إليها",
+        "aciklama": "Bağlamda 'ondan hoşlanır/ona meyleder' anlamı beklenir; muhtemel okuyuş: ويحنّ إليها ya da ويستحسنها."
+      }
+    ]
+  },
+  "alintilar": [],
+  "ceviri": {
+    "bloklar": [
+      {
+        "tur": "metin",
+        "metin": ""
+      },
+      {
+        "tur": "metin",
+        "metin": "İkinci rükün, önemli işlerde çokça istihâreye başvurmaktır. Bu şöyle olur: Kişi kendini yapmakla yapmamak arasında eşit tutar. Sonra Hak Tebâreke ve Teâlâ'dan, maslahatın hangisinde olduğunu kendisine göstermesini ister. Abdestli olarak, zihnini toplamış bir hâlde oturur ve gönlünün iki taraftan birine açılmasını bekler."
+      },
+      {
+        "tur": "metin",
+        "metin": "Allah Teâlâ bir kimseye namazın nurunu ve tahâretin nurunu anlamayı nasip etmiş olabilir. Öyle ki namazdan uzun süre uzak kaldığında, üzerinde hadesler ve cenâbetler biriktiğinde ya da duyuları görülen renklerle, işitilen seslerle dolduğunda içinde bir hey'et belirir. Bu hey'eti fark eder, ayırt eder, ondan rahatsız olur ve yaratılışı gereği ondan kaçar. Sonra tahâretlere ve namaza dalıp duyularını zikirde topladığında başka bir hey'et belirir; onu da fark eder, ayırt eder, ona meyleder ve onunla gönlü açılır. Bu iki hâl ona duyulur şeyler gibi bilinir ve birbirinden açıkça ayrılır. İşte böyle biri, ihsan diye anılan hakiki îmânla îmân etmiş mümindir; bunda hiç şüphe yoktur."
+      },
+      {
+        "tur": "metin",
+        "metin": "Dua ve zikir içinde huzûrun keyfiyetini tanıyan kimse, huzûru lafızdan, harften ve hayalden soyutlamaya gücü yetmese bile, ihsan konusunda kendisine düşeni yerine getirmiş olur."
+      }
+    ],
+    "notlar": [],
+    "yeni_terimler": [],
+    "aciklanan_terimler": [],
+    "zor_yerler": [
+      "1. blok: 0029'un son cümlesinin devamı; orada bütün olarak çevrildi, burada boş.",
+      "2. blok: 'جامعاً الخاطرة ... انشراح خاطرة' bozuk görünüyor; 'zihnini toplamış ... gönlünün açılması' diye anlaşıldı.",
+      "3. blok: 'ويحسن إليها' şüpheli (ويحنّ إليها / يستحسنها); 'ona meyleder' diye verildi.",
+      "4. blok: Cümle 0031'in ilk bloğunda (وإن لم يقدر ... فى باب الإحسان.) bitiyor; burada bütün olarak çevrildi, 0031'in ilk bloğu boş bırakılmalı."
+    ],
+    "terimler_islendi": true,
+    "redaksiyon": {
+      "degisiklik": 3,
+      "ozet": [
+        "2. blok: 'Hak tebâreke ve teâlâdan' yazımı 'Hak Tebâreke ve Teâlâ'dan' yapıldı",
+        "3. blok: 'Allah teâlâ' diğer sayfalardaki 'Allah Teâlâ' yazımına uyduruldu",
+        "3. blok: 'îmanla îman' yazımı 0031-0033'teki 'îmân' ile birleştirildi"
+      ]
+    }
+  },
+  "ceviri_denetim": {
+    "guven": 0.92,
+    "sorunlar": []
+  }
 }
