@@ -182,5 +182,9 @@
       "3. blok: A1 ve A2 dipnotları kontrol listesinde"
     ],
     "terimler_islendi": true
+  },
+  "ceviri_denetim": {
+    "guven": 0.95,
+    "sorunlar": []
   }
 }

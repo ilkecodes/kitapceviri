@@ -127,7 +127,7 @@
       },
       {
         "tur": "metin",
-        "metin": "Elbette uzlet her zaman değil, ancak zaruret hâlinde, yani büyük fitneler zamanında yapılır. Aksi hâlde uzlet, kalbi arındırmak, fikri duru kılmak, ibadete ve mücahedeye yardımcı olmak için belirli bir süre yapılır."
+        "metin": "Elbette uzlet her zaman değil, ancak zaruret hâlinde, yani büyük fitneler zamanında yapılır. Aksi hâlde uzlet, kalbi arındırmak, fikri duru kılmak, ibadete ve mücâhedeye yardımcı olmak için belirli bir süre yapılır."
       }
     ],
     "notlar": [
@@ -179,5 +179,19 @@
       "4. blok: 'خداع الموارية' muhtemel 'المواربة' (hile, kaçamak) olarak anlaşıldı"
     ],
     "terimler_islendi": true
+  },
+  "ceviri_denetim": {
+    "guven": 0.93,
+    "sorunlar": [
+      {
+        "blok": 7,
+        "tur": "istilah",
+        "arapca": "والمجاهدة",
+        "ceviri": "mücahedeye",
+        "oneri": "mücâhedeye",
+        "ciddiyet": "dusuk",
+        "duzeltildi": true
+      }
+    ]
   }
 }

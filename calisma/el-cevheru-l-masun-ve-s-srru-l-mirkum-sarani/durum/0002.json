@@ -155,5 +155,9 @@
       "4. blok: son cümle, 0003 sayfasının ilk bloğu yeni cümle olduğundan sınır sorunu yok"
     ]
   },
-  "kontrol_gerekli": []
+  "kontrol_gerekli": [],
+  "ceviri_denetim": {
+    "guven": 0.95,
+    "sorunlar": []
+  }
 }

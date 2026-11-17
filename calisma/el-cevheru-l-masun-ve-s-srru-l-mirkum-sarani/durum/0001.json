@@ -102,5 +102,9 @@
     "aciklanan_terimler": [],
     "zor_yerler": [],
     "terimler_islendi": true
+  },
+  "ceviri_denetim": {
+    "guven": 0.9,
+    "sorunlar": []
   }
 }

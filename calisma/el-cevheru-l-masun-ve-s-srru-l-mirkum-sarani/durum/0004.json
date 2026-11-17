@@ -142,5 +142,19 @@
       "1. blok: 'ويرى أن صورة اللفظ...' haber eksik"
     ],
     "terimler_islendi": true
+  },
+  "ceviri_denetim": {
+    "guven": 0.88,
+    "sorunlar": [
+      {
+        "blok": 0,
+        "tur": "isaret",
+        "arapca": "ولا غير الطريق فيحظر",
+        "ceviri": "yoldan gayrisini de meşgul etmez",
+        "oneri": "Bozuk yer \"...\" ile işaretlenmeli; çeviri bağlamdan tamamlanmış gibi",
+        "ciddiyet": "dusuk",
+        "duzeltildi": false
+      }
+    ]
   }
 }
