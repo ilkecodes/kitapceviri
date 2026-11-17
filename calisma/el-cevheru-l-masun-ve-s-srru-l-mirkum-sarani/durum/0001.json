@@ -3,7 +3,7 @@
   "gorsel": "calisma/el-cevheru-l-masun-ve-s-srru-l-mirkum-sarani/sayfalar/0001.png",
   "kaynak_pdf": "el-Cevherü'l-Masûn ve's-Sırrü'l-Mirkum_Sarani.pdf",
   "kaynak_sayfa": 1,
-  "durum": "okundu",
+  "durum": "denetlendi",
   "murekkep": 0.0465,
   "kitap_sayfa": null,
   "okuma": {
@@ -39,7 +39,14 @@
   "denetim": {
     "guven": 0.95,
     "sorunlar": [
-      {"konum": "4. blok", "okunan": "17 ... 5898029", "gorunen": "١٧ ... ٥٨٩٨٠٢٩", "tur": "sessiz_duzeltme", "ciddiyet": "dusuk", "duzeltildi": false}
+      {
+        "konum": "4. blok",
+        "okunan": "17 ... 5898029",
+        "gorunen": "١٧ ... ٥٨٩٨٠٢٩",
+        "tur": "sessiz_duzeltme",
+        "ciddiyet": "dusuk",
+        "duzeltildi": false
+      }
     ],
     "duzenleme_notu": "Basılı Arap-Hint rakamları Batı rakamına çevrilmiş; anlam aynı, proje kuralına göre kabul edilebilir.",
     "duzeltilmis_bloklar": null
