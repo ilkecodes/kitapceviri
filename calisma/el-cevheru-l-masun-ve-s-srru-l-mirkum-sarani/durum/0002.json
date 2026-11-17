@@ -3,7 +3,7 @@
   "gorsel": "calisma/el-cevheru-l-masun-ve-s-srru-l-mirkum-sarani/sayfalar/0002.png",
   "kaynak_pdf": "el-Cevherü'l-Masûn ve's-Sırrü'l-Mirkum_Sarani.pdf",
   "kaynak_sayfa": 2,
-  "durum": "cevrildi",
+  "durum": "ceviri_denetlendi",
   "murekkep": 0.0546,
   "kitap_sayfa": 3,
   "okuma": {
@@ -153,7 +153,11 @@
     "zor_yerler": [
       "4. blok: 'العزلة' Kur'ân/hadis bağlamında uzlet; 'شعب' dağ yarığı/vadi olarak çevrildi",
       "4. blok: son cümle, 0003 sayfasının ilk bloğu yeni cümle olduğundan sınır sorunu yok"
-    ]
+    ],
+    "redaksiyon": {
+      "degisiklik": 0,
+      "ozet": []
+    }
   },
   "kontrol_gerekli": [],
   "ceviri_denetim": {

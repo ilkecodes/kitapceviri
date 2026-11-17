@@ -3,7 +3,7 @@
   "gorsel": "calisma/el-cevheru-l-masun-ve-s-srru-l-mirkum-sarani/sayfalar/0003.png",
   "kaynak_pdf": "el-Cevherü'l-Masûn ve's-Sırrü'l-Mirkum_Sarani.pdf",
   "kaynak_sayfa": 3,
-  "durum": "cevrildi",
+  "durum": "ceviri_denetlendi",
   "murekkep": 0.052,
   "kitap_sayfa": 4,
   "okuma": {
@@ -115,7 +115,7 @@
       },
       {
         "tur": "metin",
-        "metin": "Kuşeyrî, er-Risâletü'l-Kuşeyriyye'de şöyle der: \"Halvet, seçkinlerin sıfatıdır; uzlet ise vuslatın alâmetlerindendir. Mürid için hâlinin başında hemcinslerinden uzlet, sonunda ise halvet şarttır.\""
+        "metin": "Kuşeyrî, er-Risâletü'l-Kuşeyriyye'de şöyle der: \"Halvet, seçkinlerin sıfatıdır; uzlet ise vuslatın alâmetlerindendir. Mürîd için hâlinin başında hemcinslerinden uzlet, sonunda ise halvet şarttır.\""
       },
       {
         "tur": "metin",
@@ -178,7 +178,13 @@
       "4. blok: 'مطير' belirsiz, nota alındı",
       "4. blok: 'خداع الموارية' muhtemel 'المواربة' (hile, kaçamak) olarak anlaşıldı"
     ],
-    "terimler_islendi": true
+    "terimler_islendi": true,
+    "redaksiyon": {
+      "degisiklik": 1,
+      "ozet": [
+        "3. blok: 'Mürid' sözlükçedeki yazıma uygun olarak 'Mürîd' yapıldı"
+      ]
+    }
   },
   "ceviri_denetim": {
     "guven": 0.93,
