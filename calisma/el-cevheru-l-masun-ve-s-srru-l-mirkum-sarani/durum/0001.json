@@ -3,7 +3,7 @@
   "gorsel": "calisma/el-cevheru-l-masun-ve-s-srru-l-mirkum-sarani/sayfalar/0001.png",
   "kaynak_pdf": "el-Cevherü'l-Masûn ve's-Sırrü'l-Mirkum_Sarani.pdf",
   "kaynak_sayfa": 1,
-  "durum": "denetlendi",
+  "durum": "edisyonlandi",
   "murekkep": 0.0465,
   "kitap_sayfa": null,
   "okuma": {
@@ -50,5 +50,31 @@
     ],
     "duzenleme_notu": "Basılı Arap-Hint rakamları Batı rakamına çevrilmiş; anlam aynı, proje kuralına göre kabul edilebilir.",
     "duzeltilmis_bloklar": null
+  },
+  "edisyon": {
+    "bloklar": [
+      {
+        "tur": "baslik",
+        "katman": "matn",
+        "metin": "الجوهر المصون والسر المرقوم فيما تنتجه الخلوة من الأسرار والعلوم"
+      },
+      {
+        "tur": "metin",
+        "katman": "kayit",
+        "metin": "لقطب الشريعة والحقيقة سيدى عبد الوهاب الشعرانى رضى الله تعالى عنه"
+      },
+      {
+        "tur": "metin",
+        "katman": "kayit",
+        "metin": "تحقيق وتعليق السيد / شريف مصطفى حنفى باحث فى التراث الصوفى"
+      },
+      {
+        "tur": "metin",
+        "katman": "kayit",
+        "metin": "الناشر دار جوامع الكلم ـ 17 شارع الشيخ صالح الجعفرى الدراسة ـ القاهرة ـ ت : 5898029"
+      }
+    ],
+    "tashihler": [],
+    "supheli": []
   }
 }
