@@ -1,17 +1,20 @@
 {
   "kitap": "el-cevheru-l-masun-ve-s-srru-l-mirkum-sarani",
-  "baslik": "el-Cevherü'l-Masûn ve's-Sırrü'l-Mirkum_Sarani",
+  "baslik": "الجوهر المصون والسر المرقوم فيما تنتجه الخلوة من الأسرار والعلوم",
   "kaynak_pdfler": [
     "el-Cevherü'l-Masûn ve's-Sırrü'l-Mirkum_Sarani.pdf"
   ],
-  "baslik_tr": null,
-  "yazar": null,
-  "dil": null,
+  "baslik_tr": "el-Cevherü'l-Masûn ve's-Sırrü'l-Mirkum",
+  "yazar": "sarani",
+  "dil": "arapca",
   "yon": "rtl",
-  "uretim": null,
-  "kaynak_duzen": null,
-  "katmanlar": null,
+  "uretim": "matbu",
+  "kaynak_duzen": "Tek sütunlu, modern dizgili basılı kitap (Kahire, Dâru Cevâmi'il-Kelim). 1. sayfa kapak. Sonrasında muhakkik Şerif Mustafa Hanefî'nin 'Mukaddime' (giriş) metni; üstte ortada sayfa numarası, alıntılar ve ayetler parantez içinde.",
+  "katmanlar": [
+    "matn"
+  ],
   "yardimci_sutun": null,
-  "tur": null,
-  "notlar": ""
+  "tur": "dini_tasavvufi",
+  "notlar": "Bu dosya kitabın yalnızca girişidir (muhakkikin Mukaddime'si); Şa'rânî'nin kendi metni değil. Yazar adı kapakta Şa'rânî; giriş yazarı muhakkik Şerif Mustafa Hanefî. Basılı sayfa numaraları kullanılır (PDF 2. sayfa = kitap s. 3).",
+  "baslik_ar": "الجوهر المصون والسر المرقوم فيما تنتجه الخلوة من الأسرار والعلوم"
 }
