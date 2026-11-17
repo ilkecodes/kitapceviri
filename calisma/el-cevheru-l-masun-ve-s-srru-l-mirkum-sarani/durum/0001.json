@@ -4,5 +4,19 @@
   "kaynak_pdf": "el-Cevherü'l-Masûn ve's-Sırrü'l-Mirkum_Sarani.pdf",
   "kaynak_sayfa": 1,
   "durum": "bekliyor",
-  "murekkep": 0.0465
+  "murekkep": 0.0465,
+  "kitap_sayfa": null,
+  "okuma": {
+    "bloklar": [
+      {"tur": "baslik", "katman": "matn", "metin": "الجوهر المصون والسر المرقوم فيما تنتجه الخلوة من الأسرار والعلوم"},
+      {"tur": "metin", "katman": "kayit", "metin": "لقطب الشريعة والحقيقة سيدى عبد الوهاب الشعرانى رضى الله تعالى عنه"},
+      {"tur": "metin", "katman": "kayit", "metin": "تحقيق وتعليق السيد / شريف مصطفى حنفى باحث فى التراث الصوفى"},
+      {"tur": "metin", "katman": "kayit", "metin": "الناشر دار جوامع الكلم ـ 17 شارع الشيخ صالح الجعفرى الدراسة ـ القاهرة ـ ت : 5898029"}
+    ],
+    "duzen_farki": "Kapak sayfası.",
+    "belirsiz_sayisi": 0,
+    "rol": "kapak",
+    "atla": false,
+    "notlar": null
+  }
 }
