@@ -3,7 +3,7 @@
   "gorsel": "calisma/fuyuz/sayfalar/0021.png",
   "kaynak_pdf": "Füyûzü'l-Harameyn.pdf",
   "kaynak_sayfa": 21,
-  "durum": "alintilandi",
+  "durum": "ceviri_denetlendi",
   "murekkep": 0.0704,
   "kitap_sayfa": 17,
   "okuma": {
@@ -146,5 +146,57 @@
         "durum": "bulunamadi"
       }
     }
-  ]
+  ],
+  "ceviri": {
+    "bloklar": [
+      {
+        "tur": "metin",
+        "metin": "Bu, Şahs-ı Ekber'in Rabbini tanımaktaki payıdır. Onun da bilinen bir makamı vardır⟦A1⟧, onu aşamaz. Onun içinde ve sınırları dâhilinde bulunan herkesin Rabbini tanımaktaki payı ise yalnızca bu tedellînin kayıtlı bir menzildeki inişlerinden biridir. Tedellî orada kime ve neyde tecellî ediyorsa onun ölçüsünce iner ve bu inişte iki tarafın hükümlerini gözetir. Bu büyük bir mârifettir; ona azı dişlerinle sımsıkı sarıl⟦A2⟧."
+      },
+      {
+        "tur": "metin",
+        "metin": "Kısacası her felek ve her unsur, açık ya da gizli bir ruhla ayrışıp kendi sınırını bulunca, hükümlerinden ilk ortaya çıkan şey Rabbini tanıması ve O'na huşû ile boyun eğmesi oldu. Bunda Şahs-ı Ekber'den yaratılışından gelen bir yardım aldı, çünkü Şahs-ı Ekber onun aslı ve varlığının başlangıcıdır. Şahs-ı Ekber yalnız Zât'a yönelmiş olduğu gibi o da yalnız Zât'a yöneldi. Ne var ki Şahs-ı Ekber ve onda in'ikād eden tedellî, onun idrak güçlerinde özel bir sûretin feyezan etmesine zemin hazırladı. Bu da başka bir mârifettir."
+      },
+      {
+        "tur": "metin",
+        "metin": "Sonra erbâbü'l-envâ (türlerin rabları) da denen misâller ayrışınca her türün hükümleri, başka türlerin hükümlerinden ayrı olarak belirlendi. Bu, misâl âleminde oldu. İnsan da bu misâllerden biriydi; Rabbini tanımaktan aldığı bir payla öbür türlerden ayrıldı. Başıboş bırakılmadı⟦A3⟧, ona emanet verildi⟦A4⟧. Sonra insan şahısları bu insanî misâlden, hasr yoluyla taksim (bütün ihtimalleri kapsayan bölme) yöntemiyle ortaya çıktı."
+      }
+    ],
+    "notlar": [],
+    "yeni_terimler": [],
+    "aciklanan_terimler": [
+      "أرباب الأنواع",
+      "القسمة الحاصرة / القسمة الانحصارية"
+    ],
+    "zor_yerler": [
+      "1. blok: İlk cümle ('الوجه الأخير تدلّى من تدلّيات الحقّ') 0020'de başlayan cümlenin devamı; orada bütünüyle çevrildi, bu sayfanın çevirisi sonraki cümleden başlıyor.",
+      "1. blok: Baskıdaki 'ولم مقام معلوم' edisyondaki tashihe uyularak 'وله' okundu (Sâffât 37/164 iktibası).",
+      "1. blok: 'فإنّما نصيب عن معرفة ربّه' bozuk görünüyor; 'نصيبه من معرفة ربّه' okunarak çevrildi.",
+      "1. blok: 'بقدر المتجلّى له وفيه' 'kime ve neyde tecellî ediyorsa onun ölçüsünce' diye anlaşıldı.",
+      "2. blok: 'انحاز' ayrışıp kendi sınırını bulmak, 'استمدّ ... بالشخص الأكبر' Şahs-ı Ekber'den yardım almak diye anlaşıldı.",
+      "3. blok: Son cümle ('...على طريقة القسمة الانحصارية') 0022'deki musiki benzetmesiyle (كما أنّ صاحب الموسيقى...) devam ediyor. Benzetme Türkçede ayrı cümle olarak kurulabildiği ve 0022'nin alıntı işareti o blokta bulunduğu için cümle burada noktalandı, benzetme 0022'de 'Musikişinas da böyle yapar' diye başlatıldı.",
+      "3. blok: A3 'ولم يترک سدى' Kıyâme 75/36'ya, A4 'وأودع فيه الأمانة' Ahzâb 33/72'ye işaret gibi; betik bulamadı, uzman bakmalı."
+    ],
+    "terimler_islendi": true,
+    "redaksiyon": {
+      "degisiklik": 1,
+      "ozet": [
+        "1. blok: إنّما karşılığı olan konuşma dilindeki cümle sonu 'o kadar' yerine 'yalnızca' kullanıldı"
+      ]
+    }
+  },
+  "ceviri_denetim": {
+    "guven": 0.88,
+    "sorunlar": [
+      {
+        "blok": 2,
+        "tur": "istilah",
+        "arapca": "أرباب الأنواع / القسمة الانحصارية",
+        "ceviri": "erbâbü'l-envâ (türlerin rabları) / hasr yoluyla taksim (bütün ihtimalleri kapsayan bölme)",
+        "oneri": "Sözlükçe bu terimin s. 16-18'de açıklandığını söylüyor, ama 0005-0019 henüz çevrilmedi. O sayfalar çevrilince açıklama oraya taşınmalı, burada tekrar edilmemeli.",
+        "ciddiyet": "dusuk",
+        "duzeltildi": false
+      }
+    ]
+  }
 }

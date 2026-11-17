@@ -3,7 +3,7 @@
   "gorsel": "calisma/fuyuz/sayfalar/0022.png",
   "kaynak_pdf": "Füyûzü'l-Harameyn.pdf",
   "kaynak_sayfa": 22,
-  "durum": "alintilandi",
+  "durum": "ceviri_denetlendi",
   "murekkep": 0.0376,
   "kitap_sayfa": 18,
   "okuma": {
@@ -86,5 +86,68 @@
         "durum": "bulunamadi"
       }
     }
-  ]
+  ],
+  "ceviri": {
+    "bloklar": [
+      {
+        "tur": "metin",
+        "metin": "Musikişinas da böyle yapar: Telin nağmelerini inceler ve şu kadar nağme bulur; ne artar ne eksilir. Sonra şöyle der: \"Nağmeleri birbiriyle birleştirirsek şu kadar aralık elde ederiz; ne artar ne eksilir.\" Aklî hasr yoluyla taksim de bunu verir. Sonra aralıkları birbiriyle birleştirir ve bu böyle sürüp gider. Sonunda ezgiler belli bir sayı içinde düzene girer. Musikişinas bunları aklında tutar, her birine bir hüküm, bir özellik ve bir vakit tayin eder. Bugün şu saatte şu mecliste bir ezgi çalar, başka bir gün başka bir saatte başka bir ezgi; bu böyle sonsuza dek gider. Ömrü ebede kadar uzasa yine de şaşılacak yönleri tükenmezdi⟦A1⟧. Bunların hepsi, onun başta hasr yoluyla taksimle bildiği şeyin infisârıdır."
+      },
+      {
+        "tur": "metin",
+        "metin": "İnsan şahısları cisim âleminde ortaya çıkınca istidatları ve kuvvetleri farklılaştı: Kimi zeki, kimi anlayışı kıttı, kimi de kudsî nefis sahibiydi. Himmetleri, nefisleri ve beşerîliklerinin özü Hazîretü'l-Kuds'te Allah'a dönünce orada tek bir şey gibi oldular. Hepsine tek bir isim verildi, hepsi tek bir misâle, el-İnsânü'l-İlâhî (İlâhî İnsan) misâline nispet edildi; işleri de idrakleri de birbirine yaklaştı. İşte o zaman bu Tedellî-i A'zam (en büyük tedellî) oraya indi. Böylece bu, misâl âleminde onlar için bir kadem-i sıdk (sağlam bir makam)⟦A2⟧, onlara nispetle bilinen bir makam ve Rablerinden bir nasip oldu."
+      }
+    ],
+    "notlar": [],
+    "yeni_terimler": [
+      {
+        "kaynak": "قدم صدق",
+        "turkce": "kadem-i sıdk",
+        "tur": "istilah",
+        "aciklama": "Yûnus 10/2 iktibası; Rabbin katında sağlam, yüksek makam"
+      }
+    ],
+    "aciklanan_terimler": [
+      "الإنسان الإلهى",
+      "التدلّى الأعظم / التدلّى العظيم"
+    ],
+    "zor_yerler": [
+      "1. blok: Blok, 0021'in son cümlesine bağlı benzetmenin (كما أنّ صاحب الموسيقى) devamı; Türkçede ayrı cümle olarak kuruldu ('Musikişinas da böyle yapar'). 'الأبعاد' musiki terimi olarak 'aralıklar' diye çevrildi.",
+      "1. blok: A1 'ما انقضى عجائبه' Kur'an hakkındaki 'لا تنقضي عجائبه' hadisine (Tirmizî) işaret olabilir; betik bulamadı.",
+      "2. blok: '[?امورهم]' 'أمورهم' (işleri) okundu.",
+      "2. blok: Son cümle 0023'ün başındaki 'ونصيباً لهم من ربّهم.' ile tamamlanıyor; cümle bütünüyle burada çevrildi ('ve Rablerinden bir nasip oldu'). 0023'ü çevirirken bu parça atlanmalı.",
+      "2. blok: A2 'قدم صدق' Yûnus 10/2 iktibası; betik bulamadı."
+    ],
+    "terimler_islendi": true,
+    "redaksiyon": {
+      "degisiklik": 2,
+      "ozet": [
+        "1. blok: 'Sonra der ki:' yerine 'Sonra şöyle der:'",
+        "2. blok: geçmiş zaman anlatısının ortasındaki geniş zamanlı 'verilir / edilir / yaklaşır' geçmiş zamana çekildi (lammā cümlesinin içindeki durum anlatımı; anlam aynı)"
+      ]
+    }
+  },
+  "ceviri_denetim": {
+    "guven": 0.9,
+    "sorunlar": [
+      {
+        "blok": 1,
+        "tur": "isaret",
+        "arapca": "[?امورهم]",
+        "ceviri": "işleri",
+        "oneri": "Belirsiz okuma 'أمورهم' diye tamamlanmış (zor_yerler'de belirtilmiş); anlam bağlama uygun, okuma teyit edilmeli.",
+        "ciddiyet": "dusuk",
+        "duzeltildi": false
+      },
+      {
+        "blok": 1,
+        "tur": "istilah",
+        "arapca": "الإنسان الإلٰهى / التدلّى الأعظم",
+        "ceviri": "el-İnsânü'l-İlâhî (İlâhî İnsan) / Tedellî-i A'zam (en büyük tedellî)",
+        "oneri": "Sözlükçe bu terimin s. 16-18'de açıklandığını söylüyor, ama 0005-0019 henüz çevrilmedi. O sayfalar çevrilince açıklama oraya taşınmalı, burada tekrar edilmemeli.",
+        "ciddiyet": "dusuk",
+        "duzeltildi": false
+      }
+    ]
+  }
 }

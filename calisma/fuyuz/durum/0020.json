@@ -3,7 +3,7 @@
   "gorsel": "calisma/fuyuz/sayfalar/0020.png",
   "kaynak_pdf": "Füyûzü'l-Harameyn.pdf",
   "kaynak_sayfa": 20,
-  "durum": "alintilandi",
+  "durum": "ceviri_denetlendi",
   "murekkep": 0.0544,
   "kitap_sayfa": 16,
   "okuma": {
@@ -87,5 +87,64 @@
       }
     ]
   },
-  "alintilar": []
+  "alintilar": [],
+  "ceviri": {
+    "bloklar": [
+      {
+        "tur": "metin",
+        "metin": "…özellikle de Nebîmiz Muhammed'de (sallallâhu teâlâ aleyhi ve aleyhim ecmaîn); bazen genel olarak ilâhî kitaplarda, özellikle de Kur'ân-ı Azîm'de; bazen namazda, bazen de Kâbe'de. Böylece bu tedellînin zâtında tek olduğunu, dıştaki mu'iddâta (hazırlayıcı sebepler) göre de birçok berzede (tedellînin belirli bir sûrette açığa çıkışı) belirdiğini anladım. Dıştaki mu'iddâttan kastım insanların durumları, âdetleri ve zihinlerine yerleşmiş şeylerdir. İnsanlar berzaha göçtüklerinde bu durumlar, âdetler ve bilgiler de onlarla birlikte gider, onlardan ayrılmaz. Böylece Hazîretü'l-Kuds'te bu yüce tedellîyle misâlî bir sûretin in'ikād etmesine zemin hazırlarlar. Sonra bu tedellî, Allah dilediğinde ve âlem, ulvî ve süflî durumlar bakımından ona hazır hâle geldiğinde cismânî âleme iner."
+      },
+      {
+        "tur": "metin",
+        "metin": "Bana infisârın hikmetini de gösterdi; her infisârın, onun için hazırlanmış mu'iddât sayesinde yalnız kendisinde bulunan bir özellikle öbür infisârdan nasıl ayrıldığını da. İnşallah bu tek hakikati ve onun nasıl infisâr ettiğini sana açıklayacağız."
+      },
+      {
+        "tur": "metin",
+        "metin": "Bil ki Şahs-ı Ekber dış âlemde varlık bulup yerleşince ondan çıkan ilk şey, Rabbini tanıması ve O'na huşû ile boyun eğmesi oldu. Böylece idrak güçlerinde iki yönü olan ilmî bir sûret meydana geldi. Bu sûret bir yönüyle Şahs-ı Ekber'deki cisim ve cismânî şeylerle ruh ve rûhânî şeylerin yolunu tutar; öbür yönüyle zihnî vücûdun yolunu tutar ve bilinen şeyin ta kendisi olur. İşte bu son yönüyle o, Hak celle ve azze'nin tedellîlerinden bir tedellîdir."
+      }
+    ],
+    "notlar": [],
+    "yeni_terimler": [],
+    "aciklanan_terimler": [
+      "المعدّات",
+      "البرزة / البرزات"
+    ],
+    "zor_yerler": [
+      "1. blok: Sayfa, 0019'un son satırında başlayan cümlenin ortasından açılıyor ('...تارة بالأنبياء عامة' > 'ونبيّنا محمّد ... خاصّة'). 0019 henüz çevrilmediği için bu sayfadaki parça '…' ile başlatılıp eksiltili cümle olarak çevrildi; 0019 çevrilirken ya cümlenin tamamı orada verilip buradaki parça çıkarılmalı ya da 0019'daki çeviri buna bağlanmalı.",
+      "1. blok: 'فيعدّون' (yu'iddûn) 'zemin hazırlarlar' diye anlaşıldı; özne insanlar ve beraberlerinde götürdükleri durum/âdet/bilgiler.",
+      "3. blok: '[?وجهه]' bağlama göre 'وجه' (bir yönü) okundu; 'يحذو بحذو' de 'يحذو حذو' gibi anlaşıldı.",
+      "3. blok: Son kelime 'وبهٰذا' 0021'in başındaki 'الوجه الأخير تدلّى...' ile birleşen cümleyi başlatıyor; cümle bütünüyle burada çevrildi.",
+      "Açıklama kararları: Önceki sayfalar (0005-0019) henüz çevrilmediği için tedellî, infisâr, berzah, Şahs-ı Ekber, Hazîretü'l-Kuds ve in'ikād'ın ilk geçişinin daha önce olduğu varsayılıp burada açıklanmadı. Hazîretü'l-Kuds daha önce geçmiyorsa ilk geçiş açıklaması buraya eklenmeli."
+    ],
+    "terimler_islendi": true,
+    "redaksiyon": {
+      "degisiklik": 1,
+      "ozet": [
+        "1. blok: 'İlâhî kitaplarda' küçük harfle 'ilâhî kitaplarda' yapıldı (0023'teki 'ilâhî bir ruh' ile tutarlı, TDK)"
+      ]
+    }
+  },
+  "ceviri_denetim": {
+    "guven": 0.9,
+    "sorunlar": [
+      {
+        "blok": 2,
+        "tur": "isaret",
+        "arapca": "[?وجهه] يحذو حذوها",
+        "ceviri": "Bu sûret bir yönüyle ... yolunu tutar",
+        "oneri": "Belirsiz okuma 'وجه' diye tamamlanmış (zor_yerler'de belirtilmiş); anlam bağlama uygun, okuma uzmanca teyit edilmeli.",
+        "ciddiyet": "dusuk",
+        "duzeltildi": false
+      },
+      {
+        "blok": 0,
+        "tur": "istilah",
+        "arapca": "المعدّات / برزات",
+        "ceviri": "mu'iddâta (hazırlayıcı sebepler) / berzede (tedellînin belirli bir sûrette açığa çıkışı)",
+        "oneri": "Sözlükçe bu terimin s. 16-18'de açıklandığını söylüyor, ama 0005-0019 henüz çevrilmedi. O sayfalar çevrilince açıklama oraya taşınmalı, burada tekrar edilmemeli.",
+        "ciddiyet": "dusuk",
+        "duzeltildi": false
+      }
+    ]
+  }
 }

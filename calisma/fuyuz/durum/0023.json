@@ -3,7 +3,7 @@
   "gorsel": "calisma/fuyuz/sayfalar/0023.png",
   "kaynak_pdf": "Füyûzü'l-Harameyn.pdf",
   "kaynak_sayfa": 23,
-  "durum": "alintilandi",
+  "durum": "ceviri_denetlendi",
   "murekkep": 0.0486,
   "kitap_sayfa": 19,
   "okuma": {
@@ -97,5 +97,69 @@
       }
     ]
   },
-  "alintilar": []
+  "alintilar": [],
+  "ceviri": {
+    "bloklar": [
+      {
+        "tur": "metin",
+        "metin": "İnsan nefisleri hayvanî âdetlerin kirinden ve bedene ait günahkâr hey'etlerden (nefse yerleşen nitelik hâllerinden) sıyrılınca bu Hazîre'ye doğru uzanırdı. Orada bir celâl şimşeği çakar, ardından sönerdi.⟦N1⟧ Nefis de nereden gelip nereye gittiğini bilmeyen biri gibi şaşkın kalakalırdı: Geri dönmenin bir çaresi var mı?"
+      },
+      {
+        "tur": "metin",
+        "metin": "Bunun üzerine Hakk'ın tedbiri, bu tedellînin onlara doğru hareket etmesini, inip teşahhus etmesini (belirli bir sûrete bürünmesini) ve infisâr etmesini gerektirdi. Böylece insanlar ona kolayca yaklaşabilecek ve onun boyasıyla boyanabileceklerdi. Tedellî de mu'iddâta göre çeşitli infisârlarla açıldı; bu infisârlardan biri nübüvvettir."
+      },
+      {
+        "tur": "metin",
+        "metin": "Şöyle ki: İnsanlar bir arada yaşamaya başlayınca aralarında en kâmil, en akıllı ve en güvenilir olan, ev idaresinde ve şehir siyasetinde kendinden aşağıda olanları buyruğu altına aldı. Bu, insanların âdeti ve huyu, zihinlerine yerleşmiş bir şey oldu. Yaşadıkça bunu, hiç düşünmeye gerek kalmadan, ilk ve zorunlu irtifâkāt (insanların bir arada yaşamak için geliştirdiği geçim ve düzen yolları) gibi içlerinde bulurlar; öldüklerinde de berzahlarına ve âhiretlerine beraberlerinde götürürler. Böylece bu durum, söz konusu tedellînin bedenî bir sûrette infisâr etmesini hazırlayan bir sebep oldu. Bu sûret, bir insanın öbür insanların önüne geçmesi ve onların da onun görüşüne göre davranmasıdır. Bu bedenî sûretlere ilâhî bir ruh üflendi, bereketleri açığa çıktı ve böylece nübüvvet ve risâlet oldu. Burada nübüvvetten kastım yalnızca riyaset, öncülük, mücadele ve teshîr yoluyla olanıdır. Yalnızca ilimlerin feyezanı değildir; gerçi bu da peşinden insanların ona boyun eğmesini getirir. Efendimiz ve Nebîmiz Muhammed'de (sallallâhu aleyhi ve sellem) olduğu gibi câmi' ve şehîdî nübüvvet⟦N2⟧ de değildir."
+      }
+    ],
+    "notlar": [
+      {
+        "id": "N1",
+        "metin": "Bu cümlede baskı bozuk görünüyor: 'uzanırdı' diye çevrilen fiil baskıda قطفت, 'sönerdi' diye çevrilen fiil يتحذر şeklindedir. Anlam bağlamdan tahmin edildi."
+      },
+      {
+        "id": "N2",
+        "metin": "Câmi' ve şehîdî nübüvvet: Nübüvvetin bütün yönlerini kendinde toplayan ve ümmetlere şâhit olma vasfını taşıyan nübüvvet."
+      }
+    ],
+    "yeni_terimler": [
+      {
+        "kaynak": "النبوّة الجامعة الشهيدية",
+        "turkce": "câmi' ve şehîdî nübüvvet",
+        "tur": "istilah",
+        "aciklama": "bütün nübüvvet yönlerini toplayan, ümmetlere şâhit olan nübüvvet"
+      },
+      {
+        "kaynak": "التدبير المنزلى / السياسة المدنية",
+        "turkce": "ev idaresi / şehir siyaseti",
+        "tur": "istilah",
+        "aciklama": "klasik ahlâk felsefesinin iki bölümü"
+      }
+    ],
+    "aciklanan_terimler": [
+      "الهيئة",
+      "التشخّص",
+      "الارتفاقات"
+    ],
+    "zor_yerler": [
+      "1. blok: Baştaki 'ونصيباً لهم من ربّهم.' 0022'deki cümlenin devamı; orada çevrilmeli, burada atlandı.",
+      "1. blok: قطفت 'uzanırdı', يتحذر 'sönerdi', كهينة = كهيئة diye anlaşıldı (N1).",
+      "1. blok: 'هل للعود حيلة؟' nefsin kendi iç sorusu olarak 'Geri dönmenin bir çaresi var mı?' diye verildi.",
+      "3. blok: 'ضامن النبوّة' = ضمن النبوّة / بالنبوّة okundu ('nübüvvetten kastım'); 'الرياسة المقدّم' bozuk görünüyor, 'riyaset, öncülük' diye verildi.",
+      "3. blok: Cümle 0024'ün ilk bloğunda bitiyor; tamamı burada çevrildi, 0024 1. blok boş bırakıldı.",
+      "3. blok: معدّاً 'hazırlayan bir sebep' (mu'idd) diye verildi."
+    ],
+    "terimler_islendi": true,
+    "redaksiyon": {
+      "degisiklik": 1,
+      "ozet": [
+        "3. blok: salavat paranteze alındı ve ek isme bağlandı ('Muhammed sallallâhu aleyhi ve sellemde' > 'Muhammed'de (sallallâhu aleyhi ve sellem)'); 0020'deki biçimle tutarlı"
+      ]
+    }
+  },
+  "ceviri_denetim": {
+    "guven": 0.85,
+    "sorunlar": []
+  }
 }

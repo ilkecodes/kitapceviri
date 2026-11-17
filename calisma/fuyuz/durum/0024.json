@@ -3,7 +3,7 @@
   "gorsel": "calisma/fuyuz/sayfalar/0024.png",
   "kaynak_pdf": "Füyûzü'l-Harameyn.pdf",
   "kaynak_sayfa": 24,
-  "durum": "alintilandi",
+  "durum": "ceviri_denetlendi",
   "murekkep": 0.1044,
   "kitap_sayfa": 20,
   "okuma": {
@@ -83,5 +83,73 @@
       }
     ]
   },
-  "alintilar": []
+  "alintilar": [],
+  "ceviri": {
+    "bloklar": [
+      {
+        "tur": "metin",
+        "metin": ""
+      },
+      {
+        "tur": "metin",
+        "metin": "Bu infisârlardan biri de namazdır. Çünkü insanlar katında her huyun, duyulur âlemde onun şebahı ve heykeli olan birtakım fiilleri vardır.⟦N1⟧ Mânevî sır bu heykelle belirlenip zapt olunur; övgü ve yergi gibi hükümler ona yönelir. Anılan, hakkında haber verilen ve o huyu göstermek için işaret edilen odur. İnsanın tabiatı, âdeti ve zihnine yerleşmiş olan budur. Bu yüzden Hak, insanların huylarından bir huyu, nefislerinin hey'etlerinden bir hey'eti, ruhlarının boyalarından bir boyayı seçti; bunların boyası Hazîretü'l-Kuds'taki o bilinen makama bağlıydı. Bu huy ve hey'etle kastım ihsan, kişinin Rabbine huşû duyması ve karanlık, bozuk hey'etlerden arınmasıdır. Bu huy, nefsin hayvanîlikle karıştığı alanda bulunur; ama Hazîretü'l-Kuds âlemindeki o bilinen makama en çok benzeyen odur. Hak, nasıl bedeni sanki nefsin kendisiymiş gibi kıldıysa, bu huyu da sanki o makamın ta kendisiymiş gibi kıldı. Sonra o huyu açıklayan ve ona uyan birtakım fiiller ve sözler seçti, onları da sanki o huyun kendisiymiş gibi kıldı."
+      },
+      {
+        "tur": "metin",
+        "metin": "Bu infisârlardan biri de indirilmiş kitaplardır. Şöyle ki:"
+      }
+    ],
+    "notlar": [
+      {
+        "id": "N1",
+        "metin": "Baskıda 'şebah' yerinde شجه, 'bağlıydı' yerinde موصورة yazılı; bağlama göre شبح ve موصولة okundu."
+      }
+    ],
+    "yeni_terimler": [
+      {
+        "kaynak": "المقام المعلوم",
+        "turkce": "o bilinen makam",
+        "tur": "istilah",
+        "aciklama": "Hazîretü'l-Kuds'ta insanlara ait belirli makam (0022'deki مقاماً معلوماً ile aynı)"
+      }
+    ],
+    "aciklanan_terimler": [],
+    "zor_yerler": [
+      "1. blok: 0023'teki cümlenin devamı; orada bütün olarak çevrildi, burada boş.",
+      "2. blok: شجه = شبح okundu; 'şebah' ilk geçişte açıklanmadı, çünkü sözlükçedeki açıklama (misâl âlemindeki görüntü) burada 'duyulur âlem' bağlamına uymuyor; 'heykel' yanında anlam açık.",
+      "2. blok: موصورة = موصولة okundu ('boyası ... makama bağlıydı').",
+      "3. blok: 'وذلک لأنّ' cümlesi 0025'te devam ediyor ama 0025 henüz okunmadı; burada 'Şöyle ki:' diye açık bırakıldı, 0025'in çevirmeni cümleyi buradan sürdürmeli."
+    ],
+    "terimler_islendi": true,
+    "redaksiyon": {
+      "degisiklik": 2,
+      "ozet": [
+        "2. blok: 'kastettiğim, ihsan, ...' virgüllü yapısı 'kastım ihsan, ...' yapıldı (0023'teki 'kastım' ile tutarlı)",
+        "2. blok: 'kıldığı gibi ... gibi kıldı' çift 'gibi' yapısı 'nasıl ... kıldıysa, bu huyu da ... kıldı' diye düzeltildi"
+      ]
+    }
+  },
+  "ceviri_denetim": {
+    "guven": 0.85,
+    "sorunlar": [
+      {
+        "blok": 2,
+        "tur": "turkce",
+        "arapca": "ينضبط السرّ المعنوى بذلک الهيكل",
+        "ceviri": "Mânevî sır bu heykelle zapta geçer",
+        "oneri": "Mânevî sır bu heykelle belirlenip zapt olunur",
+        "ciddiyet": "orta",
+        "duzeltildi": true
+      },
+      {
+        "blok": 2,
+        "tur": "istilah",
+        "arapca": "شبح (baskıda شجه)",
+        "ceviri": "şebahı",
+        "oneri": "Sözlükçeye göre 'şebah' ilk geçişte açıklanmalı; kitaptaki ilk geçiş burası. Sözlükçedeki açıklama ('misâl âlemindeki görüntü') burada duyulur âlem bağlamına uymuyor; ikinci varyanttaki 'bir hakikatin dıştaki temsilî sûreti' uygun olabilir. Hangi açıklamanın konacağı uzman kararı.",
+        "ciddiyet": "orta",
+        "duzeltildi": false
+      }
+    ]
+  }
 }
