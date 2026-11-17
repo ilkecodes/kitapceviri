@@ -3,7 +3,7 @@
   "gorsel": "calisma/el-cevheru-l-masun-ve-s-srru-l-mirkum-sarani/sayfalar/0002.png",
   "kaynak_pdf": "el-Cevherü'l-Masûn ve's-Sırrü'l-Mirkum_Sarani.pdf",
   "kaynak_sayfa": 2,
-  "durum": "edisyonlandi",
+  "durum": "alintilandi",
   "murekkep": 0.0546,
   "kitap_sayfa": 3,
   "okuma": {
@@ -76,5 +76,46 @@
     ],
     "tashihler": [],
     "supheli": []
-  }
+  },
+  "alintilar": [
+    {
+      "id": "A1",
+      "blok": 3,
+      "metin": "فَلَمَّا اعْتَزَلَهُمْ وَمَا يَعْبُدُونَ مِن دُونِ اللَّهِ وَهَبْنَا لَهُ إِسْحَاقَ وَيَعْقُوبَ وَكُلاًّ جَعَلْنَا نَبِيًّا",
+      "tur_tahmini": "ayet",
+      "bicim": "tam",
+      "eslesme": {
+        "durum": "dogrulandi",
+        "tur": "ayet",
+        "kisa": false,
+        "sure": "Meryem",
+        "sure_no": 19,
+        "ayet": "49",
+        "referans": "Meryem 19/49",
+        "kapsama": 1.0,
+        "tam_ayet": true,
+        "meal": "İbrahim onları Allah'tan başka taptıklarıyla başbaşa bırakıp çekilince ona İshak ve Yakub'u bahşettik ve her birini peygamber yaptık",
+        "meal_kaynak": "Diyanet İşleri meali, Tanzil sürümü (fawazahmed0/quran-api: tur-diyanetisleri)"
+      }
+    },
+    {
+      "id": "A2",
+      "blok": 3,
+      "metin": "مؤمن مجاهد بنفسه وماله فى سبيل الله .. قال: ثم من؟ .. قال: ثم رجل معتزل فى شعب من الشعاب يعبد ربه ويدع الناس من شره",
+      "tur_tahmini": "hadis",
+      "bicim": "tam",
+      "eslesme": {
+        "durum": "dogrulandi",
+        "tur": "hadis",
+        "kisa": false,
+        "referans": "Müslim, nr. 1888",
+        "kitap": "Müslim",
+        "no": 4887,
+        "abdulbaki_no": "1888.02",
+        "kapsama": 0.92,
+        "turkce": "Bize Abd b. Humeyd rivayet etti. (Dediki): Bize Abdürrazzâk haber verdi. (Dediki): Bize Ma'mer, Zührî'den, o da Atâ' b. Yezîd EI-Leysî'den, o da Ebû Saîd'den naklen haber verdi. Şöyle demiş : Bir adam: İnsanların en faziletlisi kimdir yâ Resûlâllah? Dedi. «Allah yolunda malı ile canı ile mücâhade eden mü'mindir.» buyurdu. — Ondan sonra kim? Diye sordu. «Sonra kuytulardan bîr kuytuya çekilmiş; Rabbine ibâdet eden ve insanları kendi şerrinden âzâde bırakan adamdır.» buyurdular",
+        "ayrica": []
+      }
+    }
+  ]
 }

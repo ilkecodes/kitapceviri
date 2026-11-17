@@ -3,7 +3,7 @@
   "gorsel": "calisma/el-cevheru-l-masun-ve-s-srru-l-mirkum-sarani/sayfalar/0005.png",
   "kaynak_pdf": "el-Cevherü'l-Masûn ve's-Sırrü'l-Mirkum_Sarani.pdf",
   "kaynak_sayfa": 5,
-  "durum": "edisyonlandi",
+  "durum": "alintilandi",
   "murekkep": 0.0527,
   "kitap_sayfa": 6,
   "okuma": {
@@ -36,7 +36,9 @@
     "notlar": "Baskıda 'بين الأسرار ... لكى يستطيع التفريق' cümle parçası iki kez basılmış (satır tekrarı); olduğu gibi korundu. Sayfa sonunda cümle yarım kalıyor, sonraki sayfaya devam ediyor."
   },
   "kontrol_gerekli": [
-    "1 şüpheli/bozuk yer (edisyon)"
+    "1 şüpheli/bozuk yer (edisyon)",
+    "alıntı A1 kaynakta bulunamadı",
+    "alıntı A2 lafzen tutmuyor (Buhârî, nr. 6982)"
   ],
   "denetim": {
     "guven": 0.95,
@@ -81,5 +83,52 @@
         "aciklama": "Baskıda لكى يستطيع التفريق بين الأسرار ... ifadesi iki kez basılmış (satır tekrarı); olduğu gibi bırakıldı, ikinci tekrarın silinmesi uzmana bırakıldı. İkinci geçişteki ياتيه / الاسرار imla uyarlamasıyla يأتيه / الأسرار yapıldı."
       }
     ]
-  }
+  },
+  "alintilar": [
+    {
+      "id": "A1",
+      "blok": 2,
+      "metin": "واعد موسى ثلاثين ليلة وأتمها بعشر",
+      "tur_tahmini": "ayet",
+      "bicim": "iktibas",
+      "eslesme": {
+        "durum": "bulunamadi"
+      }
+    },
+    {
+      "id": "A2",
+      "blok": 2,
+      "metin": "يتعبد الليالى ذوات العدد",
+      "tur_tahmini": "hadis",
+      "bicim": "isaret",
+      "eslesme": {
+        "durum": "yakin",
+        "tur": "hadis",
+        "referans": "Buhârî, nr. 6982",
+        "kapsama": 0.75,
+        "turkce": "Aişe r.anha şöyle demiştir: Resulullah Sallallahu Aleyhi ve Sellem'e ilk vahiy başlangıcı uykuda saliha rüya görmekle olmuştur. Resulullh'ın gördüğü her biri rüya mutlaka sabah aydınlığı gibi apaçık olurdu. Kendisi Hira dağına gider ve orada birçok geceler ibadete çekilirdi. Bunun için önceden azık hazırlardı. Sonra Hatice'ye döner ve bir o kadar zaman için yine azık hazırlardı. Nihayet bir gün kendisi Hira mağarasında iken hiç ummadığı bir anda hakla karşılaştı. Şöyle ki: Mağarada iken melek ona geldi ve \"İkra (oku)!\" dedi. Nebi de ona \"Ben okuma bilmem!\" diye cevap verdi. Resulullah olayın devamını şöyle anlattı: \"O zaman melek beni tuttu ve takatim kesilinceye kadar sıkıştırd!. Sonra bıraktı ve yine 'İkra (oku)!' dedi. Ben de ona 'Ben okuma bilmem' dedim. Yine beni aldı ve ikinci defa takatim kesilinceye kadar sıkıştırd!. Sonra yine salıverdi ve 'İkra!' dedi. Ben 'Ben okuma bilmem!' dedim. Yine beni üçüncü defa takatim kesilinçeye kadar sıkıştırd!. Sonra bıraktı ve 'Yaratan Rabbinin adıyla oku! 0, insanı bir aşılanmış yumurtadan yaratt!. Oku! İnsana bilmediklerini belleten, kalemle (yazmayı) öğreten Rabbin, en büyük kerem sahibidir\"(Alak 1-5) ayetine kadar okudu. Bu olay üzerine",
+        "uyari": "Lafız birebir tutmuyor; yazar hadisi farklı bir rivayetten ya da mana ile aktarmış olabilir. Kontrol edilmeli."
+      }
+    },
+    {
+      "id": "A3",
+      "blok": 0,
+      "metin": "الحى الذى لا يموت",
+      "tur_tahmini": "belirsiz",
+      "bicim": "iktibas",
+      "eslesme": {
+        "durum": "dogrulandi",
+        "tur": "ayet",
+        "kisa": true,
+        "sure": "Furkân",
+        "sure_no": 25,
+        "ayet": "58",
+        "referans": "Furkân 25/58",
+        "kapsama": 1.0,
+        "tam_ayet": false,
+        "meal": "Ölümsüz, diri olan Allah'a güven, O'nu överek tesbih et. Kullarının günahlarından haberdar olarak kendisi yeter",
+        "meal_kaynak": "Diyanet İşleri meali, Tanzil sürümü (fawazahmed0/quran-api: tur-diyanetisleri)"
+      }
+    }
+  ]
 }
