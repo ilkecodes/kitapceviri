@@ -9,6 +9,8 @@ Kullanım:
 Eşleşme ölçütü (pilotta belirlendi):
   - Alıntı 6 kelime ya da daha uzunsa: en az 6 kelime art arda birebir aynı olmalı ve alıntının en az %75'ini kapsamalı.
   - Alıntı 3-5 kelimeyse: kelimelerin tamamı art arda birebir bulunmalı. Bu tür eşleşmeler "kisa" diye işaretlenir.
+  - Hiçbiri tutmazsa ve alıntı en çok 8 kelimeyse: kelimeler kaba köklerine indirilip sırasız aranır; hepsi kaynakta
+    yan yana durmalı. Bu "kısa iktibas" sonucu 'yakin' + iktibas: true döner (Krş. dipnotu, kontrol listesine düşer).
   - Karşılaştırma harekesiz ve imlası normalleştirilmiş metin üzerinde yapılır.
 """
 from __future__ import annotations
@@ -42,6 +44,30 @@ def normal(s: str) -> str:
 
 
 KALIP_N = [normal(k) for k in KALIPLAR]
+
+# Kısa iktibas eşleşmesinde sayılmayan kelimeler (kök hâlleriyle)
+DOLGU = {"من", "في", "علي", "الي", "عن", "ما", "لا", "لم", "لن", "ان", "او", "ثم", "قد", "هو", "هي", "هم", "هذا",
+         "هذه", "ذلك", "تلك", "الذي", "التي", "الذين", "كان", "كل", "بل", "اذا", "اذ", "يا", "عند", "مع", "لهم", "له",
+         "لها", "به", "بها", "منه", "منها", "فيه", "فيها", "عليه", "عليها", "عليهم", "انه", "انها", "لكم", "لنا", "الله"}
+
+
+def kok(w: str) -> str:
+    """Çok kaba bir kök: önekleri ve zamir/çoğul eklerini atar. Sadece iki tarafı aynı kuralla karşılaştırmak içindir."""
+    if w in DOLGU:
+        return w
+    if w[:1] in ("و", "ف") and len(w) >= 3:
+        w = w[1:]
+        if w in DOLGU:
+            return w
+    for p in ("بال", "كال", "فال", "لل", "ال", "ب", "ل", "ك"):
+        if w.startswith(p) and len(w) - len(p) >= 3:
+            w = w[len(p):]
+            break
+    for s in ("هما", "كم", "هم", "ها", "نا", "وا", "ون", "ين", "ات", "ه", "ك", "ي"):
+        if w.endswith(s) and len(w) - len(s) >= 2:
+            w = w[:-len(s)]
+            break
+    return w
 
 
 def en_uzun_ortak(a: list[str], b: list[str]) -> int:
@@ -115,7 +141,10 @@ class Dizin:
                 continue
             bulunan.append((uz / len(k), uz, i))
         if not bulunan:
-            return self._yakin(k, tur)
+            e = self._yakin(k, tur)
+            if e["durum"] == "bulunamadi" and len(k) <= 8:
+                e = self._iktibas(k, tur)
+            return e
         bulunan.sort(key=lambda x: (-x[0], self._oncelik(self.kayit[x[2]])))
         ayetler = [b for b in bulunan if self.kayit[b[2]]["tur"] == "ayet"]
         hadisler = [b for b in bulunan if self.kayit[b[2]]["tur"] == "hadis"]
@@ -154,6 +183,72 @@ class Dizin:
         return {"durum": "yakin", "tur": "hadis", "referans": self._hadis_ref(r), "kapsama": round(en_iyi[0], 2),
                 "turkce": r.get("tr", "")[:1200],
                 "uyari": "Lafız birebir tutmuyor; yazar hadisi farklı bir rivayetten ya da mana ile aktarmış olabilir. Kontrol edilmeli."}
+
+    def _iktibas(self, k, tur):
+        """Kısa iktibas: yazar ayetten/hadisten birkaç kelimeyi sırasını ya da çekimini değiştirerek almış olabilir
+        ("قدم صدق لهم" ← "لهم قدم صدق"; "عض عليها بنواجذك" ← "عضوا عليها بالنواجذ"). Kelimeler kaba köklerine
+        indirilir, sıra aranmaz; ama hepsi kaynakta birbirine yakın durmalı. Sonuç kesin sayılmaz: 'yakin' döner."""
+        if not hasattr(self, "_kok_dizin"):
+            self._kok_dizin = defaultdict(set)
+            self._kok_liste = []
+            for i, r in enumerate(self.kayit):
+                kl = [kok(w) for w in r["k"]]
+                self._kok_liste.append(kl)
+                for w in set(kl):
+                    self._kok_dizin[w].add(i)
+        icerik = list(dict.fromkeys(w for w in (kok(x) for x in k) if len(w) >= 2 and w not in DOLGU))
+        if len(icerik) < 2:
+            return {"durum": "bulunamadi"}
+        gerekli = len(icerik) if len(icerik) <= 3 else len(icerik) - 1
+        # En nadir kelimeden aday topla
+        sirali = sorted(icerik, key=lambda w: len(self._kok_dizin.get(w, ())))
+        if not self._kok_dizin.get(sirali[0]) and gerekli == len(icerik):
+            return {"durum": "bulunamadi"}
+        adaylar = set()
+        for w in sirali[:len(icerik) - gerekli + 1]:
+            adaylar |= self._kok_dizin.get(w, set())
+        pencere = len(k) + 1
+        en_iyi = None
+        for i in adaylar:
+            r = self.kayit[i]
+            if tur and r["tur"] != tur:
+                continue
+            kl = self._kok_liste[i]
+            konum = {}
+            for j, w in enumerate(kl):
+                if w in icerik:
+                    konum.setdefault(w, []).append(j)
+            if len(konum) < gerekli:
+                continue
+            # bulunan kelimelerin hepsini içeren en dar pencere
+            olay = sorted((j, w) for w, js in konum.items() for j in js)
+            dar = None
+            sol = 0
+            say = Counter()
+            for sag in range(len(olay)):
+                say[olay[sag][1]] += 1
+                while sum(1 for v in say.values() if v) >= gerekli:
+                    gen = olay[sag][0] - olay[sol][0] + 1
+                    dar = gen if dar is None else min(dar, gen)
+                    say[olay[sol][1]] -= 1
+                    sol += 1
+            if dar is None or dar > pencere:
+                continue
+            anahtar = (-len(konum), dar, self._oncelik(r))
+            if en_iyi is None or anahtar < en_iyi[0]:
+                en_iyi = (anahtar, i, len(konum))
+        if not en_iyi:
+            return {"durum": "bulunamadi"}
+        r = self.kayit[en_iyi[1]]
+        kap = round(en_iyi[2] / len(icerik), 2)
+        uyari = ("Kısa iktibas: kelimeler kaynakta var ama sırası ya da çekimi farklı. "
+                 "Yazar kaynağa işaret ediyor olabilir; tesadüf de olabilir. Kontrol edilmeli.")
+        if r["tur"] == "ayet":
+            ref = f"{self.sureler.get(r['s'], r['s'])} {r['s']}/{r['a']}"
+            return {"durum": "yakin", "tur": "ayet", "iktibas": True, "referans": ref, "kapsama": kap,
+                    "meal": r["meal"], "meal_kaynak": self.meal_kaynak, "uyari": uyari}
+        return {"durum": "yakin", "tur": "hadis", "iktibas": True, "referans": self._hadis_ref(r), "kapsama": kap,
+                "turkce": r.get("tr", "")[:1200], "uyari": uyari}
 
     def _ikili_ara(self, ik, tur):
         # 3'lü dizinden türetilmiş basit ikili arama: ilk iki kelimesi eşleşen üçlüleri dolaş

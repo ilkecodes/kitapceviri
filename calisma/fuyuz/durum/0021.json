@@ -123,7 +123,13 @@
       "tur_tahmini": "hadis",
       "bicim": "isaret",
       "eslesme": {
-        "durum": "bulunamadi"
+        "durum": "yakin",
+        "tur": "hadis",
+        "iktibas": true,
+        "referans": "Ebû Dâvûd, nr. 4607",
+        "kapsama": 1.0,
+        "turkce": "İbn Amr es-Sülemî ile Hucr (un şöyle) dedi (k)ler (i rivayet edilmiştir): Hakkında: \"Sen, sizi bindirecek birşey bulamıyorum deyince, harcayacak birşey bulamadıklarından dolayı üzüntüden gözlerinden yaş akarak dönen kimselerin aleyhine de bir yol yoktur.\"[Tevbe 92] (âyeti) inen el-Irbaz b. Sâriye'nin yanına varmıştık. Selam verdik ve \"Seni ziyarete, hastalığın için geçmiş olsun demeye ve (senden) ilim almaya geldik\" dedik. Bunun üzerine Irbaz (şöyle) dedi: \"Bir gün Rasûlullah (s.a.v.) bize namaz kıldırdı. Sonra bize dönüp çok tesirli bir va'z etti. Bu va'z'dan dolayı gözler yaşarıp kalpler ürperdi. Derken bir konuşmacı: \"Ey Allah'ın rasulü (senin) bu (va'zın yolculuğa çıkacağı için kalanlara) veda eden bir kimse'nin va'zına benziyor. Binaenaleyh bize neyi tavsiye edersiniz?\" (söyleyin de bilelim), dedi. (Fahr-i kainat efendimiz de): \"Size Allah'dan korkmanızı (başınızdaki idareciler) Habeşli bir köle olsa bile (onlan) dinleyip, itaat etmenizi tavsiye ederim. Çünkü benden sonra sizden kim yaşarsa o, pek çok (dini) ihtilaflara şahid olacaktır. Binaenaleyh size gereken, sünnetime ve doğru yolum üzerinde bulunan halifelerimin sünnetine sarılınız. Bu sünnetlere (adeta) dişlerinizi (bir ",
+        "uyari": "Kısa iktibas: kelimeler kaynakta var ama sırası ya da çekimi farklı. Yazar kaynağa işaret ediyor olabilir; tesadüf de olabilir. Kontrol edilmeli."
       }
     },
     {
@@ -133,7 +139,14 @@
       "tur_tahmini": "ayet",
       "bicim": "iktibas",
       "eslesme": {
-        "durum": "bulunamadi"
+        "durum": "yakin",
+        "tur": "ayet",
+        "iktibas": true,
+        "referans": "Kıyâmet 75/36",
+        "kapsama": 1.0,
+        "meal": "İnsanoğlu kendisinin başıboş bırakılacağını mı sanır",
+        "meal_kaynak": "Diyanet İşleri meali, Tanzil sürümü (fawazahmed0/quran-api: tur-diyanetisleri)",
+        "uyari": "Kısa iktibas: kelimeler kaynakta var ama sırası ya da çekimi farklı. Yazar kaynağa işaret ediyor olabilir; tesadüf de olabilir. Kontrol edilmeli."
       }
     },
     {

@@ -16,7 +16,9 @@ Pusulan şu soru: **"Yazar bu kitabı Türkçe yazmış olsaydı bu cümleyi nas
 1. Yazar sözlükçesi: `python3 .claude/skills/kitap-cevirisi/scripts/sozlukce.py liste <kitap>` (çalışmazsa `python`). Her terimin yanında "ilk geçişte açıkla: ..." ya da "bu kitapta açıklandı, tekrar açıklama" yazar.
 2. Yazarın üslup kararları: `yazarlar/<yazar>/uslup.md` dosyasını Read ile oku.
 3. Önceki çevirilerden örnek: `python3 .claude/skills/kitap-cevirisi/scripts/yazar.py ornek <yazar> --sayfa-json <ilk sayfanın yolu> --adet 2`. Bu, yazarın daha önce çevrilmiş en benzer sayfalarını getirir. **Ses, ıstılah ve terim kararları için örnek al; ama oradaki hataları (aşırı parantez, kalıp çeviri) tekrarlama.**
-4. Önceki sayfa verildiyse ve çevrilmişse onun `ceviri.bloklar` alanının son bloğunu oku.
+   Betik aynı kitabın eski çevirisini örnek olarak getirmez; "(bu kitap dışında hafıza yok)" derse bu adımı geç.
+4. Önceki sayfa verildiyse onun `edisyon.bloklar` alanının son bloğunu oku (Arapça): son cümle yarım kalmış mı, bunu buradan anlarsın. Önceki sayfa çevrilmişse `ceviri.bloklar` alanının son bloğuna da bak; çevrilmemişse (başka bir çevirmen aynı anda çalışıyor olabilir) yine de aşağıdaki sınır kuralına uy.
+5. Penceren son sayfasının son cümlesi yarım kalıyorsa, sonraki sayfanın durum dosyasını (aynı klasörde, numarası bir fazla) Read ile aç ve `edisyon.bloklar` alanının ilk bloğundan cümlenin devamını al. O sayfaya hiçbir şey yazma.
 
 ## Kaynak metin
 Her sayfada `edisyon.bloklar` (Arapça) ve `alintilar` (her birinin `eslesme` sonucu). Katmanı `takip`, `kayit` olan bloklarla `sayfa_no` ve `ust_bilgi` bloklarını çevirme (çeviride `""` ver). `hasiye` bloklarını çevir; okur onları metinden ayrı, küçük puntoyla görecek. Şerh düzeninde `matn` bloklarını, okurun metni şerhten ayırt edebileceği şekilde çevir (Word'de kalın basılacaklar).
@@ -49,7 +51,9 @@ Her alıntının çevirisinin hemen arkasına işaret koy. Dipnotları betik ür
 Çevirmen notu gerekiyorsa metne `⟦N1⟧` koy ve `notlar` listesine `{"id": "N1", "metin": "..."}` ekle. Notları az tut.
 
 ## Sayfa sınırında bölünen cümle
-Cümleyi **başladığı sayfada** bütün olarak çevir. Sonraki sayfanın ilk bloğu sadece bu cümlenin devamından ibaretse o bloğun çevirisini `""` ver. Devamın ardından yeni cümleler geliyorsa çeviriye onlardan başla.
+Cümleyi **başladığı sayfada** bütün olarak çevir; devamı pencerenin dışındaki sayfadaysa Hazırlık 5'teki gibi oradan al. Sonraki sayfanın ilk bloğu sadece bu cümlenin devamından ibaretse o bloğun çevirisini `""` ver. Devamın ardından yeni cümleler geliyorsa çeviriye onlardan başla.
+
+Bu kural iki yönlüdür ve pencereler aynı anda çevrildiği için önemlidir: Pencerenin **ilk** sayfası önceki sayfada başlamış bir cümlenin devamıyla açılıyorsa (Hazırlık 4), o devamı çevirme; önceki pencerenin çevirmeni onu bütün olarak çevirecek. Böyle bir durumda dönüş mesajına `SINIR: <sayfa> ilk blok önceki sayfanın devamı, çevrilmedi` satırını ekle.
 
 ## Kaydetme
 Her sayfanın durum dosyasını Read ile oku, bütün alanları koruyarak `ceviri` alanını ekle ve Write ile dosyanın tamamını geri yaz. `durum` alanına dokunma.
@@ -276,6 +280,7 @@ Arapça ve Türkçe arasındaki bazı yalancı eşler Urduca metinlerde de karş
 | `dogrulandi` | Lafız veri setinde birebir bulundu | Referans dipnotu |
 | `dogrulandi` + `kisa: true` | 3-5 kelimelik kısa alıntı birebir bulundu | Referans dipnotu; birden çok eşleşme olabilir, `ayrica` listesine bak |
 | `yakin` | Lafız birebir tutmuyor ama çok yakın (yazar başka bir rivayetten ya da mana ile aktarmış olabilir) | Dipnot `Krş. ...`; sayfa kontrol listesine düşer |
+| `yakin` + `iktibas: true` | Kısa iktibas: birkaç kelime kaynakta var ama sırası ya da çekimi farklı (ör. "قدم صدق لهم" ← Yûnus 10/2). Tesadüf de olabilir | Dipnot `Krş. ...`; sayfa kontrol listesine düşer. Metinde tırnak açılmaz, kelimeler cümlenin içinde çevrilir |
 | `bulunamadi` | Veri setinde yok (başka bir kaynaktan olabilir, uydurma olabilir, yanlış tespit olabilir) | Dipnot yok; sayfa kontrol listesine düşer |
 
 Veri setleri: Kur'an (Arapça + Diyanet İşleri meali), Buhârî, Müslim, Ebû Dâvûd, Tirmizî, Nesâî, İbn Mâce, Muvatta (Arapça + Türkçe), Şah Veliyyullah'ın Kırk Hadis'i (Arapça). Bunların dışındaki kaynaklardan (Müsned, Hâkim, Taberânî...) gelen hadisler "bulunamadı" çıkar. Bu, hadisin uydurma olduğu anlamına gelmez.

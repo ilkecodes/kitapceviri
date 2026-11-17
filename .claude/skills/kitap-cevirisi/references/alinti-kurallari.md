@@ -20,6 +20,7 @@
 | `dogrulandi` | Lafız veri setinde birebir bulundu | Referans dipnotu |
 | `dogrulandi` + `kisa: true` | 3-5 kelimelik kısa alıntı birebir bulundu | Referans dipnotu; birden çok eşleşme olabilir, `ayrica` listesine bak |
 | `yakin` | Lafız birebir tutmuyor ama çok yakın (yazar başka bir rivayetten ya da mana ile aktarmış olabilir) | Dipnot `Krş. ...`; sayfa kontrol listesine düşer |
+| `yakin` + `iktibas: true` | Kısa iktibas: birkaç kelime kaynakta var ama sırası ya da çekimi farklı (ör. "قدم صدق لهم" ← Yûnus 10/2). Tesadüf de olabilir | Dipnot `Krş. ...`; sayfa kontrol listesine düşer. Metinde tırnak açılmaz, kelimeler cümlenin içinde çevrilir |
 | `bulunamadi` | Veri setinde yok (başka bir kaynaktan olabilir, uydurma olabilir, yanlış tespit olabilir) | Dipnot yok; sayfa kontrol listesine düşer |
 
 Veri setleri: Kur'an (Arapça + Diyanet İşleri meali), Buhârî, Müslim, Ebû Dâvûd, Tirmizî, Nesâî, İbn Mâce, Muvatta (Arapça + Türkçe), Şah Veliyyullah'ın Kırk Hadis'i (Arapça). Bunların dışındaki kaynaklardan (Müsned, Hâkim, Taberânî...) gelen hadisler "bulunamadı" çıkar. Bu, hadisin uydurma olduğu anlamına gelmez.

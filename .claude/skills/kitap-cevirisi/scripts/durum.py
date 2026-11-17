@@ -111,7 +111,13 @@ def kontrol_nedenleri(s: dict, esik: float) -> list[str]:
 def guncelle(d, esik: float) -> dict:
     sayim, bozuk = Counter(), []
     for p in sayfalar(d):
-        s = oku(p)
+        # Bir ajan bu sayfaya hâlâ yazıyor olabilir: okunamayan ya da okuduktan sonra değişen dosyayı ezme
+        once = p.stat().st_mtime_ns
+        try:
+            s = oku(p)
+        except ValueError:
+            bozuk.append((p.stem, "MESGUL: dosya okunamadı (yazılıyor olabilir); sonra tekrar güncelleyin"))
+            continue
         try:
             ilerledi = True
             while ilerledi and s.get("durum") != ATLANDI:
@@ -132,6 +138,10 @@ def guncelle(d, esik: float) -> dict:
             s["kontrol_gerekli"] = kontrol_nedenleri(s, esik)
         except (KeyError, TypeError, AttributeError) as e:
             bozuk.append((s.get("sayfa", p.stem), f"beklenmeyen yapı: {e}"))
+            continue
+        if p.stat().st_mtime_ns != once:
+            # Okuduktan sonra bir ajan yazdı: onun işini ezmemek için bu sayfayı bu turda bırak
+            bozuk.append((s.get("sayfa", p.stem), "MESGUL: güncellerken değişti; sonra tekrar güncelleyin"))
             continue
         yaz(p, s)
         sayim[s["durum"]] += 1

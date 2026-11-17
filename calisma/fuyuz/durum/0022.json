@@ -83,7 +83,14 @@
       "tur_tahmini": "ayet",
       "bicim": "iktibas",
       "eslesme": {
-        "durum": "bulunamadi"
+        "durum": "yakin",
+        "tur": "ayet",
+        "iktibas": true,
+        "referans": "Yûnus 10/2",
+        "kapsama": 1.0,
+        "meal": "İçlerinden birine, \"İnsanları uyar ve inananlara, Rableri katında yüksek makamlar olduğunu müjdele\" diye vahyetmemiz, insanların tuhafına mı gitti ki, kafirler: \"Bu apaçık bir büyücüdür\" dediler",
+        "meal_kaynak": "Diyanet İşleri meali, Tanzil sürümü (fawazahmed0/quran-api: tur-diyanetisleri)",
+        "uyari": "Kısa iktibas: kelimeler kaynakta var ama sırası ya da çekimi farklı. Yazar kaynağa işaret ediyor olabilir; tesadüf de olabilir. Kontrol edilmeli."
       }
     }
   ],

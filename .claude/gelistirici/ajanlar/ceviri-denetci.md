@@ -27,6 +27,8 @@ Durum dosyasını oku: `edisyon.bloklar` (Arapça), `ceviri.bloklar` (Türkçe),
 
 Ciddiyet: `yuksek` (anlam bozuk, eksik cümle, uydurma), `orta`, `dusuk`.
 
+**Sayfa sınırı:** Sayfada başlayıp sonraki sayfada biten cümle, başladığı sayfada bütün olarak çevrilir; sonraki sayfanın ilk bloğundaki devamın çevirisi bu yüzden `""` olabilir ya da ilk cümle eksik görünebilir. Bunu `eksik` sayma, ama önceki sayfanın son bloğunun çevirisinde o cümlenin gerçekten bütün olarak bulunduğunu kontrol et. Yoksa `eksik` (yuksek) yaz.
+
 **Düzeltme:** `yuksek` ve `orta` sorunlarda düzeltmenden eminsen `ceviri.bloklar` içinde ilgili metni düzelt ve sorunu `"duzeltildi": true` işaretle. Emin değilsen dokunma; sorun kontrol listesine düşer.
 
 ## Kaydetme

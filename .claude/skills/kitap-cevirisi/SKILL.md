@@ -50,7 +50,7 @@ Proje kökünden: `python3 .claude/skills/kitap-cevirisi/scripts/<betik>.py ...`
 
 Aynı anda en fazla 3 ajan çalıştır (tek mesajda 3 Task çağrısı). Ajanlara sadece şu bilgileri ver: kitap kısa adı, yazar kısa adı, dil, `kaynak_duzen`, `katmanlar`, metin türü, kitaba özel notlar ve sayfa listesi (her sayfa için durum dosyası yolu; okuyucu/denetçi için görüntü yolu ve varsa parçalar). `durum.py siradaki` satırları: `sayfa  görüntü  durum_dosyası  parçalar`. Denetçilere, önceki ajanın dönüş mesajını **iletme**: Bağımsız olmaları gerekiyor.
 
-Her ajan grubu bittikten sonra `durum.py guncelle <kitap>` çalıştır. `BOZUK` satırı gelirse o sayfanın o aşamasını `durum.py sifirla` ile sıfırla ve bir kez daha dene. İkinci kez de bozuksa sayfayı bırak, `calisma/hata-notlari.md`'ye yaz, raporda söyle.
+Her ajan grubu bittikten sonra, **grubun bütün ajanları dönüş yaptıktan sonra**, `durum.py guncelle <kitap>` çalıştır; bir ajan hâlâ çalışırken çalıştırma. `BOZUK ... MESGUL` satırı o sayfanın o an yazıldığını gösterir: sıfırlama, ajanlar bitince `guncelle`'yi tekrar çalıştır. Diğer `BOZUK` satırları gelirse o sayfanın o aşamasını `durum.py sifirla` ile sıfırla ve bir kez daha dene. İkinci kez de bozuksa sayfayı bırak, `calisma/hata-notlari.md`'ye yaz, raporda söyle.
 
 ---
 

@@ -22,6 +22,7 @@ import argparse
 import json
 import math
 import re
+import unicodedata
 from collections import Counter
 from pathlib import Path
 
@@ -207,8 +208,19 @@ def main() -> None:
         if not hz:
             print("(hafıza boş)")
             return
-        s = oku(Path(a.sayfa_json))
+        sp = Path(a.sayfa_json)
+        s = oku(sp)
         metin = sayfa_metni(s)
+        # Aynı kitabın eski çevirisi örnek olarak verilmez: çevirmen onu kopyalamasın.
+        kj = sp.resolve().parent.parent / "kitap.json"
+        if kj.exists():
+            m = oku(kj)
+            ad = lambda x: re.sub(r"\s+", " ", unicodedata.normalize("NFKC", str(x))).strip().casefold()
+            ayni = {ad(m.get(x) or "") for x in ("baslik_tr", "baslik", "baslik_ar")} - {""}
+            hz = [k for k in hz if ad(k["eser"]) not in ayni]
+            if not hz:
+                print("(bu kitap dışında hafıza yok)")
+                return
         ix = TfIdf([k["ar"] for k in hz])
         for skor, i in ix.benzer(metin, a.adet):
             k = hz[i]
