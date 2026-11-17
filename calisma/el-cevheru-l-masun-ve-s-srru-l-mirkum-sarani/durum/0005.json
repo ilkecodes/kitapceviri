@@ -3,7 +3,7 @@
   "gorsel": "calisma/el-cevheru-l-masun-ve-s-srru-l-mirkum-sarani/sayfalar/0005.png",
   "kaynak_pdf": "el-Cevherü'l-Masûn ve's-Sırrü'l-Mirkum_Sarani.pdf",
   "kaynak_sayfa": 5,
-  "durum": "alintilandi",
+  "durum": "cevrildi",
   "murekkep": 0.0527,
   "kitap_sayfa": 6,
   "okuma": {
@@ -180,6 +180,7 @@
     "zor_yerler": [
       "2. blok: tekrar basılmış cümle parçası bir kez çevrildi (N1)",
       "3. blok: A1 ve A2 dipnotları kontrol listesinde"
-    ]
+    ],
+    "terimler_islendi": true
   }
 }

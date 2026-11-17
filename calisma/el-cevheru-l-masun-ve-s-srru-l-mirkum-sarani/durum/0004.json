@@ -3,7 +3,7 @@
   "gorsel": "calisma/el-cevheru-l-masun-ve-s-srru-l-mirkum-sarani/sayfalar/0004.png",
   "kaynak_pdf": "el-Cevherü'l-Masûn ve's-Sırrü'l-Mirkum_Sarani.pdf",
   "kaynak_sayfa": 4,
-  "durum": "alintilandi",
+  "durum": "cevrildi",
   "murekkep": 0.0528,
   "kitap_sayfa": 5,
   "okuma": {
@@ -140,6 +140,7 @@
     "zor_yerler": [
       "1. blok: 'ولا غير الطريق فيحظر' bozuk, anlam kurulamadı",
       "1. blok: 'ويرى أن صورة اللفظ...' haber eksik"
-    ]
+    ],
+    "terimler_islendi": true
   }
 }

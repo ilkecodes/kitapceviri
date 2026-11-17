@@ -1,3 +1,123 @@
 {
-  "terimler": {}
+  "terimler": {
+    "أبو سليمان الخطابى": {
+      "turkce": "Ebû Süleyman el-Hattâbî",
+      "ilk_gecis": "",
+      "tur": "ozel_isim",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "أبو عثمان المغربى": {
+      "turkce": "Ebû Osmân el-Mağribî",
+      "ilk_gecis": "",
+      "tur": "ozel_isim",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "أبو يزيد": {
+      "turkce": "Ebû Yezîd",
+      "ilk_gecis": "",
+      "tur": "ozel_isim",
+      "aciklama": "Bayezid-i Bistâmî",
+      "durum": "onayli"
+    },
+    "إبراهيم بن أدهم": {
+      "turkce": "İbrâhim b. Edhem",
+      "ilk_gecis": "",
+      "tur": "ozel_isim",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "الأغيار": {
+      "turkce": "ağyâr",
+      "ilk_gecis": "",
+      "tur": "istilah",
+      "aciklama": "Hak'tan gayrı olanlar",
+      "durum": "onayli"
+    },
+    "الإلهامات": {
+      "turkce": "ilhâm",
+      "ilk_gecis": "",
+      "tur": "istilah",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "الخلوة": {
+      "turkce": "halvet",
+      "ilk_gecis": "",
+      "tur": "istilah",
+      "aciklama": "İnsanlardan ayrılıp tek başına Allah'a yönelmek",
+      "durum": "onayli"
+    },
+    "الرسالة القشيرية": {
+      "turkce": "er-Risâletü'l-Kuşeyriyye",
+      "ilk_gecis": "",
+      "tur": "eser",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "السالك": {
+      "turkce": "sâlik",
+      "ilk_gecis": "",
+      "tur": "istilah",
+      "aciklama": "yolcu",
+      "durum": "onayli"
+    },
+    "الشعرانى": {
+      "turkce": "Şa'rânî",
+      "ilk_gecis": "",
+      "tur": "ozel_isim",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "العزلة": {
+      "turkce": "uzlet",
+      "ilk_gecis": "",
+      "tur": "istilah",
+      "aciklama": "İnsanlardan çekilme",
+      "durum": "onayli"
+    },
+    "الفتوحات": {
+      "turkce": "fütûhât",
+      "ilk_gecis": "",
+      "tur": "istilah",
+      "aciklama": "kalbe gelen ilâhî açılımlar",
+      "durum": "onayli"
+    },
+    "الفتوحات الربانية": {
+      "turkce": "rabbânî fütûhât",
+      "ilk_gecis": "",
+      "tur": "istilah",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "القشيرى": {
+      "turkce": "Kuşeyrî",
+      "ilk_gecis": "",
+      "tur": "ozel_isim",
+      "aciklama": "",
+      "durum": "onayli"
+    },
+    "المجاهدة": {
+      "turkce": "mücâhede",
+      "ilk_gecis": "",
+      "tur": "istilah",
+      "aciklama": "nefisle mücadele",
+      "durum": "onayli"
+    },
+    "المريد": {
+      "turkce": "mürîd",
+      "ilk_gecis": "",
+      "tur": "istilah",
+      "aciklama": "Tarikat yoluna girmiş, şeyhine bağlı kişi",
+      "durum": "onayli"
+    },
+    "أشرف المرسلين": {
+      "turkce": "peygamberlerin en şereflisi",
+      "ilk_gecis": "",
+      "tur": "istilah",
+      "aciklama": "Hz. Peygamber için",
+      "durum": "onayli"
+    }
+  }
 }
