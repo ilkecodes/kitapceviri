@@ -1,0 +1,15 @@
+{
+  "sayfa": "0137",
+  "gorsel": "calisma/fuyuz/sayfalar/0137.png",
+  "kaynak_pdf": "Füyûzü'l-Harameyn.pdf",
+  "kaynak_sayfa": 137,
+  "durum": "atlandi",
+  "murekkep": 0.0,
+  "okuma": {
+    "atla": true,
+    "rol": "bos",
+    "bloklar": [],
+    "otomatik": true
+  },
+  "kontrol_gerekli": []
+}

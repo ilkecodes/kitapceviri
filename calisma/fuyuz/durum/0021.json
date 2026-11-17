@@ -1,0 +1,150 @@
+{
+  "sayfa": "0021",
+  "gorsel": "calisma/fuyuz/sayfalar/0021.png",
+  "kaynak_pdf": "Füyûzü'l-Harameyn.pdf",
+  "kaynak_sayfa": 21,
+  "durum": "alintilandi",
+  "murekkep": 0.0704,
+  "kitap_sayfa": 17,
+  "okuma": {
+    "bloklar": [
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "الوجه الاخير تدلى من تدليات الحق جل وعز وهٰذا نصيب الشخص الاكبر من معرفة ربه ولم مقام معلوم لا يتجاوزه وكل من فى جوفه وحيزه فانما نصيب عن معرفة ربه تنزل ما من تنزلات هٰذا التدلى فى منزل مقيد فينزل هنالک بقدر المتجلى له وفيه ويراعى فى هٰذا التنزل احكام الجانبين فهٰذه معرفة عظيمة عض عليها بنواجذک"
+      },
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "وبالجملة فلما انحاز كل فلک وعنصر بروح ظاهرة اور خفية كان اول امر ظهر من احكامه انه عرف ربه واخبت اليه واستمد فى ذٰلک استمداد جبليًا بالشخص الاكبر لانه اصله ومبداء وجوده وتوجه الى الذات فقط كما كان الشخص الاكبر متوجها اليها فقط ولٰكن اعد الشخص الاكبر والتدلى المنعقد فيه لفيضان صورة خاصة فى مداركه وهٰذا معرفة اخرىٰ"
+      },
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "ثم لما انحازت المثل وهى التى تدعى بارباب الانواع تعين لكل نوع احكامه متميزة عن احكام نوع آخر وكان ذٰلک فى المثال وكان منها الانسان فتميز من سائر الانواع بقسط من المعرفة ولم يترک سدى واودع فيه الامانة ثم ظهرت الاشخاص البشرية من هٰذا المثال الانسانى على طريقة القسمة الانحصارية"
+      }
+    ],
+    "duzen_farki": null,
+    "belirsiz_sayisi": 0,
+    "rol": "metin",
+    "atla": false,
+    "notlar": "Olası baskı hataları baskıdaki gibi bırakıldı: 'ولم مقام معلوم' (وله olmalı), 'ظاهرة اور خفية' (Urduca 'اور' dizilmiş; او olmalı). Son ک harfleri korundu."
+  },
+  "kontrol_gerekli": [
+    "1 şüpheli/bozuk yer (edisyon)",
+    "alıntı A2 kaynakta bulunamadı",
+    "alıntı A3 kaynakta bulunamadı"
+  ],
+  "denetim": {
+    "guven": 0.94,
+    "sorunlar": [
+      {
+        "konum": "1.-2. ve 2.-3. blok araları",
+        "okunan": "بنواجذک / وبالجملة ve اخرىٰ / ثم لما ayrı bloklarda",
+        "gorunen": "Baskıda iki yerde de metin aynı satırda kesintisiz sürüyor; paragraf başı yok",
+        "tur": "blok_bolme",
+        "ciddiyet": "dusuk",
+        "duzeltildi": false
+      }
+    ],
+    "duzeltilmis_bloklar": null
+  },
+  "edisyon": {
+    "bloklar": [
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "الوجه الأخير تدلّى من تدلّيات الحقّ جلّ وعزّ، وهٰذا نصيب الشخص الأكبر من معرفة ربّه، وله مقام معلوم لا يتجاوزه. وكلّ من فى جوفه وحيّزه فإنّما نصيب عن معرفة ربّه تنزّل ما من تنزّلات هٰذا التدلّى فى منزل مقيّد، فينزل هنالک بقدر المتجلّى له وفيه، ويراعى فى هٰذا التنزّل أحكام الجانبين. فهٰذه معرفة عظيمة، عضّ عليها بنواجذک."
+      },
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "وبالجملة فلمّا انحاز كلّ فلک وعنصر بروح ظاهرة أو خفية كان أوّل أمر ظهر من أحكامه أنّه عرف ربّه وأخبت إليه، واستمدّ فى ذٰلک استمداداً جبلّياً بالشخص الأكبر لأنّه أصله ومبدأ وجوده، وتوجّه إلى الذات فقط كما كان الشخص الأكبر متوجّهاً إليها فقط. ولٰكن أعدّ الشخص الأكبر والتدلّى المنعقد فيه لفيضان صورة خاصّة فى مداركه، وهٰذا معرفة أخرىٰ."
+      },
+      {
+        "tur": "metin",
+        "katman": "matn",
+        "metin": "ثمّ لمّا انحازت المثل، وهى التى تدعى بأرباب الأنواع، تعيّن لكلّ نوع أحكامه متميّزة عن أحكام نوع آخر، وكان ذٰلک فى المثال، وكان منها الإنسان، فتميّز من سائر الأنواع بقسط من المعرفة، ولم يترک سدى، وأودع فيه الأمانة. ثمّ ظهرت الأشخاص البشرية من هٰذا المثال الإنسانى على طريقة القسمة الانحصارية"
+      }
+    ],
+    "tashihler": [
+      {
+        "blok": 0,
+        "baski": "ولم",
+        "edisyon": "وله",
+        "gerekce": "ولم مقام معلوم yapısı bozuk; bağlama göre وله okunmuştur."
+      },
+      {
+        "blok": 1,
+        "baski": "اور",
+        "edisyon": "أو",
+        "gerekce": "Urduca اور (ve) dizilmiş; Arapça bağlamda أو okunmuştur."
+      },
+      {
+        "blok": 1,
+        "baski": "استمداد",
+        "edisyon": "استمداداً",
+        "gerekce": "Mef'ûl-i mutlak; sıfatı جبليًا mansûb olduğundan استمداداً okunmuştur."
+      }
+    ],
+    "supheli": [
+      {
+        "blok": 0,
+        "edisyon": "نصيب عن معرفة",
+        "aciklama": "Baskıda bu kısım bozuk görünüyor; muhtemel okuyuş: نصيبه من معرفة."
+      }
+    ]
+  },
+  "alintilar": [
+    {
+      "id": "A1",
+      "blok": 0,
+      "metin": "له مقام معلوم",
+      "tur_tahmini": "ayet",
+      "bicim": "iktibas",
+      "eslesme": {
+        "durum": "dogrulandi",
+        "tur": "ayet",
+        "kisa": true,
+        "sure": "Sâffât",
+        "sure_no": 37,
+        "ayet": "164",
+        "referans": "Sâffât 37/164",
+        "kapsama": 1.0,
+        "tam_ayet": false,
+        "meal": "Melekler şöyle derler: \"Bizim her birimizin bilinen bir makamı vardır. Şüphesiz biz sıra sıra duranlarız, şüphesiz biz Allah'ı tesbih edenleriz",
+        "meal_kaynak": "Diyanet İşleri meali, Tanzil sürümü (fawazahmed0/quran-api: tur-diyanetisleri)"
+      }
+    },
+    {
+      "id": "A2",
+      "blok": 0,
+      "metin": "عضّ عليها بنواجذک",
+      "tur_tahmini": "hadis",
+      "bicim": "isaret",
+      "eslesme": {
+        "durum": "bulunamadi"
+      }
+    },
+    {
+      "id": "A3",
+      "blok": 2,
+      "metin": "ولم يترک سدى",
+      "tur_tahmini": "ayet",
+      "bicim": "iktibas",
+      "eslesme": {
+        "durum": "bulunamadi"
+      }
+    },
+    {
+      "id": "A4",
+      "blok": 2,
+      "metin": "وأودع فيه الأمانة",
+      "tur_tahmini": "belirsiz",
+      "bicim": "isaret",
+      "eslesme": {
+        "durum": "bulunamadi"
+      }
+    }
+  ]
+}

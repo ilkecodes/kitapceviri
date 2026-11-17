@@ -1,0 +1,20 @@
+{
+  "kitap": "fuyuz",
+  "baslik": "فيوض الحرمين",
+  "kaynak_pdfler": [
+    "Füyûzü'l-Harameyn.pdf"
+  ],
+  "baslik_tr": "Füyûzü'l-Harameyn",
+  "yazar": "veliyyullah",
+  "dil": "arapca",
+  "yon": "rtl",
+  "uretim": "tasbaski",
+  "kaynak_duzen": "İki sütunlu taş baskı (Hint baskısı, mor zemin, ortada kubbe filigranı). Sağ sütun Arapça asıl metin; sol sütun Urduca tercüme. Üstte eser adı ve sayfa numarası, altta maktabah.org damgası. Bölüm başlıkları (تحقيق، مشهد، معرفة...) kalın yazılmış.",
+  "katmanlar": [
+    "matn"
+  ],
+  "yardimci_sutun": "urduca",
+  "tur": "dini_tasavvufi",
+  "notlar": "",
+  "baslik_ar": "فيوض الحرمين"
+}

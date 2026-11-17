@@ -1,3 +1,1642 @@
 {
-  "terimler": {}
+ "terimler": {
+  "التدلّى": {
+   "turkce": "tedellî",
+   "ilk_gecis": "Hakk'ın kullarına doğru inişi/sarkışı",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "التدلّى الأعظم / التدلّى العظيم": {
+   "turkce": "Tedellî-i A'zam",
+   "ilk_gecis": "en büyük tedellî",
+   "tur": "istilah",
+   "aciklama": "Aynı ifade bazen terkip (Tedellî-i A'zam), bazen Türkçe (en büyük tedellî), 'azîm' ile 'büyük' de karışık. Belirli tamlama (التدلّى الأعظم) için tek bir yazım seçilmeli; öneri: 'en büyük tedellî' (rehber gereksiz terkipten kaçınıyor), العظيم için 'büyük tedellî'.",
+   "durum": "onayli"
+  },
+  "المتدلّى": {
+   "turkce": "Mütedellî",
+   "ilk_gecis": "tedellî eden Zât",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "الانفسار": {
+   "turkce": "infisâr",
+   "ilk_gecis": "icmâlî olanın ayrıntılara açılıp dallanması",
+   "tur": "istilah",
+   "aciklama": "Istılah olarak 'infisâr' korunmalı, açıklaması bir kez yapılmalı. Parantez içi açıklama üç farklı kelimeyle (dallanma/açılım/dağılım) verilmiş. s. 15'teki 'inbisât' yanlış: inbisât yazarın ayrı bir ıstılahı (انبساط) ve s. 32, 35, 36'da o anlamda kullanılmış. Öneri: infisâr; ilk geçiş 'tek bir hakikatin çeşitli sûretlere açılıp dallanması'.",
+   "durum": "onayli"
+  },
+  "الشخص الأكبر": {
+   "turkce": "Şahs-ı Ekber",
+   "ilk_gecis": "bütün âlemi tek bir şahıs olarak gören kavram: kâinatın bütünü",
+   "tur": "istilah",
+   "aciklama": "Önceki çeviride ilk geçişte açıklama yapılmamış; ilk_gecis metni öneridir.",
+   "durum": "onayli"
+  },
+  "حظيرة القدس": {
+   "turkce": "Hazîretü'l-Kuds",
+   "ilk_gecis": "Melâ-i A'lânın en seçkinlerinin toplandığı kutsal meclis",
+   "tur": "istilah",
+   "aciklama": "Önceki çeviride ilk geçişte açıklama yok; ilk_gecis metni öneridir. | Açıklama ilk geçişte değil üçüncü geçişte yapılmış.",
+   "durum": "onayli"
+  },
+  "البرزة / البرزات": {
+   "turkce": "berze / berzeler",
+   "ilk_gecis": "tedellînin belirli bir sûrette açığa çıkışı",
+   "tur": "istilah",
+   "aciklama": "برزة ıstılahtır; 'berze' olarak korunmalı. 'Bürûz' ayrıca بروز (mastar) için kullanılmış (s. 44 'bürûzuyla'), karışıyor. Öneri: berze; ilk geçiş 'tedellînin belli bir çağda belirdiği her bir zuhûr sûreti'.",
+   "durum": "onayli"
+  },
+  "النسمة": {
+   "turkce": "nesme",
+   "ilk_gecis": "havaî ruh",
+   "tur": "istilah",
+   "aciklama": "Karşılık tutarlı, ancak açıklama her geçişte tekrarlanmış; rehber §7'ye göre yalnızca ilk geçişte verilmeli. | Tek geçiş. Yazımı 'havâî' olmalı (s. 100'de 'havâî' yazılmış). | 'nesme' tutarlı, ama açıklama her geçişte tekrarlanmış (s. 116 ve s. 130). Sadece ilk geçişte açıklanmalı.",
+   "durum": "onayli"
+  },
+  "الملأ الأعلى": {
+   "turkce": "Melâ-i A'lâ",
+   "ilk_gecis": "yüce melekler topluluğu",
+   "tur": "istilah",
+   "aciklama": "Bu sayfalarda hiç açıklanmamış; ilk geçiş açıklaması önceki sayfalarda olabilir, kontrol edilmeli. | Karşılık tutarlı; ancak ek hep kesmesiz yazılmış ('Melâ-i A'lâda', 'Melâ-i A'lânın'). TDK'ya göre 'Melâ-i A'lâ'da' olmalı.",
+   "durum": "onayli"
+  },
+  "الملأ السافل": {
+   "turkce": "Melâ-i Sâfil",
+   "ilk_gecis": "aşağı melekler topluluğu",
+   "tur": "istilah",
+   "aciklama": "Açıklama iki kez verilmiş; ikincisi atılmalı. | Melâ-i A'lâ ile simetri için ıstılah olarak 'Melâ-i Sâfil' kalmalı; açıklama ilk geçişte bir kez ('aşağı melekler meclisi').",
+   "durum": "onayli"
+  },
+  "الارتفاقات": {
+   "turkce": "irtifâkât",
+   "ilk_gecis": "insanların geçim ve toplum hayatı için edindiği yararlı düzenler",
+   "tur": "istilah",
+   "aciklama": "Yazarın temel ıstılahlarından (Huccetullâh'ta bütün bir bölüm). Her seferinde Türkçe karşılık + parantezde ıstılah verilmiş, karşılık da değişiyor. Öneri: 'irtifâkāt' korunsun; ilk geçiş 'insanların bir arada yaşamak için geliştirdiği geçim ve düzen yolları'.",
+   "durum": "onayli"
+  },
+  "المُثُل": {
+   "turkce": "misâller",
+   "ilk_gecis": "türlerin misâl âlemindeki aslî sûretleri",
+   "tur": "istilah",
+   "aciklama": "'Mesel' Türkçede atasözü/darb-ı mesel çağrıştırır. Burada türlerin misâl âlemindeki aslî sûretleri kastediliyor; 'misâller' daha doğru.",
+   "durum": "onayli"
+  },
+  "أرباب الأنواع": {
+   "turkce": "erbâbü'l-envâ",
+   "ilk_gecis": "türlerin rabları",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "عالم المثال / المثال": {
+   "turkce": "misâl âlemi",
+   "ilk_gecis": "cisimlerden önce her şeyin sûretlerinin bulunduğu ara âlem",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "aday"
+  },
+  "الهيكل المثالى": {
+   "turkce": "misâlî heykel",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "الطبيعة الكلّية": {
+   "turkce": "Küllî Tabîat",
+   "ilk_gecis": "bütün varlığı kuşatan tek tabiat",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "النشأة": {
+   "turkce": "neş'et",
+   "ilk_gecis": "varlık katmanı, oluş evresi",
+   "tur": "istilah",
+   "aciklama": "s. 8'de 'tabîat' denmiş; ama 'tabîat' yazarın الطبيعة ıstılahının karşılığı, karışıklık doğuruyor. Öneri: neş'et (s. 8: 'ortak neş'et'). Açıklama da iki kez tekrarlanmış.",
+   "durum": "onayli"
+  },
+  "النفس الناطقة": {
+   "turkce": "nefs-i nâtıka",
+   "ilk_gecis": "insanı insan yapan, düşünen öz",
+   "tur": "istilah",
+   "aciklama": "Üslup rehberi 'nefs-i nâtıka'yı ıstılah olarak sayıyor; o korunmalı. | Üslup rehberi bu ıstılahı 'nefs-i nâtıka' olarak anıyor; çeviride 'düşünen nefis' ve 'nâtık nefis' kullanılmış. Tek yazım seçilmeli.",
+   "durum": "onayli"
+  },
+  "القيّومية": {
+   "turkce": "kayyûmiyet",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "اللطيفة": {
+   "turkce": "latîfe",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "وحدة الوجود": {
+   "turkce": "vahdet-i vücûd",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "سريان الوجود / السريان": {
+   "turkce": "sereyân",
+   "ilk_gecis": "varlığın her şeye yayılışı",
+   "tur": "istilah",
+   "aciklama": "Açıklama üç kez tekrarlanmış; yalnız ilk geçişte kalmalı.",
+   "durum": "onayli"
+  },
+  "اليادداشت": {
+   "turkce": "yâddâşt",
+   "ilk_gecis": "dâimî huzûr/murâkabe",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "المشرب": {
+   "turkce": "meşreb",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "الاستغراق": {
+   "turkce": "istiğrâk",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "الحقيقة الجامعة": {
+   "turkce": "Câmi' Hakikat",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "الكمّل": {
+   "turkce": "kâmiller",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "العارف": {
+   "turkce": "ârif",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "الفناء والبقاء": {
+   "turkce": "fenâ ve bekā",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "بصر الروح": {
+   "turkce": "?",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "Yazar بصر الروح ile بصر الجسد'i karşıt çift olarak kullanıyor; çift aynı kelimeyle verilmeli. 'Basîret' Türkçede 'anlayış, sezgi' demek; yazar ise rûhun 'görme'sini kastediyor. Öneri: 'rûhun gözü' / 'bedenin gözü' (ya da ikisi de 'basar').",
+   "durum": "aday"
+  },
+  "الحسّ المشترك": {
+   "turkce": "hiss-i müşterek",
+   "ilk_gecis": "ortak duyu",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "شعائر الله": {
+   "turkce": "Allah'ın şeâiri",
+   "ilk_gecis": "Allah'ı hatırlatan dinî nişâneler",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "المعدّات": {
+   "turkce": "mu'iddât",
+   "ilk_gecis": "hazırlayıcı sebepler",
+   "tur": "istilah",
+   "aciklama": "Bazen yalnız 'hazırlayıcılar', bazen 'mu'iddât' yazılmış; ıstılah biçimi seçilip korunmalı.",
+   "durum": "onayli"
+  },
+  "الملكية / البهيمية": {
+   "turkce": "melekiyet / behîmiyet (melekî kuvvet / behîmî kuvvet)",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "Melekiyyet-behîmiyyet ayrımı Şah Veliyyullah'ın (özellikle Huccetullâhi'l-Bâliğa'da) merkezî kavram çiftidir. Türkçeleştirildiğinde kavram kaybolur; ıstılah olarak korunması önerilir.",
+   "durum": "aday"
+  },
+  "الرقيقة / الرقائق": {
+   "turkce": "rakîka / rakîkalar",
+   "ilk_gecis": "iki varlık arasındaki ince bağ",
+   "tur": "istilah",
+   "aciklama": "Aynı ıstılah iki farklı açıklamayla verilmiş. Öneri: 'rakîka' korunsun, ilk geçişte 'iki varlık arasındaki ince bağ/tezâhür' diye açıklansın.",
+   "durum": "onayli"
+  },
+  "الحقيقة المحمدية": {
+   "turkce": "Hakîkat-i Muhammediyye",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "Aynı sayfada iki farklı yazım (Arapça belirlili tamlama ve Farsça terkip). Türkçede yerleşik olan 'Hakîkat-i Muhammediyye'dir; tek yazım seçilmeli.",
+   "durum": "onayli"
+  },
+  "قطب الأقطاب": {
+   "turkce": "kutbü'l-aktâb",
+   "ilk_gecis": "kutupların kutbu",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "القطب / القطبية": {
+   "turkce": "kutub / kutubluk",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "المجدّدية": {
+   "turkce": "müceddidlik",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "الوصاية": {
+   "turkce": "vesâyet (vasîlik)",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "Modern Türkçede 'vesâyet' hukukî/siyasî anlam taşır; ıstılah olarak korunabilir ama ilk geçişte 'velâyet makamında vasîlik' gibi bir açıklama gerekir.",
+   "durum": "aday"
+  },
+  "الظاهر / المظهر / المظهرية": {
+   "turkce": "zâhir / mazhar / mazhariyet",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "الجبروت": {
+   "turkce": "ceberût",
+   "ilk_gecis": "İlâhî azamet âlemi",
+   "tur": "istilah",
+   "aciklama": "Açıklama iki kez verilmiş.",
+   "durum": "onayli"
+  },
+  "العظموت": {
+   "turkce": "?",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "Yazar sıradan عظمة yerine -ût kalıbında (ceberût, nâsût gibi) bir kelime seçmiş; 'azamet' bu nüansı siliyor. Kullanıcıya sorulmalı: ıstılah olarak 'azamût' mu, düz 'azamet' mi?",
+   "durum": "aday"
+  },
+  "الناسوت": {
+   "turkce": "nâsût",
+   "ilk_gecis": "insanlık âlemi",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "الحبل الممدود": {
+   "turkce": "habl-i memdûd",
+   "ilk_gecis": "uzatılmış ip",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "الإنسان الإلهى": {
+   "turkce": "el-İnsânü'l-İlâhî",
+   "ilk_gecis": "İlâhî İnsan",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "الوجود الخارجى / الوجود الذهنى": {
+   "turkce": "haricî vücûd / zihnî vücûd",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "الانبساط": {
+   "turkce": "inbisât",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "s. 15'te yanlışlıkla انفسار için de kullanılmış (bkz. الانفسار).",
+   "durum": "aday"
+  },
+  "الانشراح": {
+   "turkce": "inşirâh",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "الانعقاد": {
+   "turkce": "in'ikād",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "الاتّحاد / الاتّصال / الانفكاك": {
+   "turkce": "ittihâd / ittisâl / infikâk",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "القسمة الحاصرة / القسمة الانحصارية": {
+   "turkce": "hasr yoluyla taksim",
+   "ilk_gecis": "bütün ihtimalleri kapsayan bölme",
+   "tur": "istilah",
+   "aciklama": "s. 17'deki '(tümel)' açıklaması yanlış: انحصار 'sınırlı, bütün ihtimalleri kapsayan' demek, 'tümel/küllî' değil. İki ifade aynı kavram; ikisi de 'sınırlayıcı taksîm' (ya da 'hasr eden taksîm') olmalı.",
+   "durum": "onayli"
+  },
+  "نفس الأمر": {
+   "turkce": "nefsü'l-emr",
+   "ilk_gecis": "şeyin kendi hakikatindeki durumu",
+   "tur": "istilah",
+   "aciklama": "Kelâm/mantık ıstılahı; bir yerde korunmuş, bir yerde düz anlatılmış. Öneri: 'nefsü'l-emr' (ilk geçişte 'şeyin kendindeki gerçek durumu').",
+   "durum": "onayli"
+  },
+  "النواميس": {
+   "turkce": "nevâmîs",
+   "ilk_gecis": "ilâhî kanunlar, şeriatler (bugünkü 'namus' anlamında değil)",
+   "tur": "istilah",
+   "aciklama": "Yalancı eş: 'nâmus' bugünkü Türkçede iffet/şeref demek; okur yanlış anlar. Öneri: 'nevâmîs' (ilk geçişte 'İlâhî kanunlar') ya da düz 'şer'î kanunlar'.",
+   "durum": "onayli"
+  },
+  "الملّة": {
+   "turkce": "millet",
+   "ilk_gecis": "din, şeriat (bugünkü 'ulus' anlamında değil)",
+   "tur": "istilah",
+   "aciklama": "Yalancı eş: 'millet' bugünkü Türkçede 'ulus' demek. Burada din/şeriat anlamında; 'millet' korunacaksa ilk geçişte açıklanmalı, yoksa 'din' / 'şeriat' denmeli. Kullanıcıya sorulmalı.",
+   "durum": "onayli"
+  },
+  "الأنبياء": {
+   "turkce": "?",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "Rehber §7: nebî/resul ayrımı korunmalı. Yazar s. 19-20'de nübüvveti ayrı bir infisâr olarak tanımlıyor; الأنبياء 'nebîler' olarak verilmeli, 'peygamber' kullanılacaksa hangi Arapça kelimeye karşılık geldiği sabitlenmeli.",
+   "durum": "aday"
+  },
+  "الرسول": {
+   "turkce": "?",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "Türkçede yerleşik yazım 'Resûl / Resûlullah'tır; 'Rasûl' Arapça telaffuzun aktarımı. Öneri: 'Resûl', 'Resûlullah', 'Yâ Resûlallah'.",
+   "durum": "aday"
+  },
+  "سيّدنا": {
+   "turkce": "?",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "'Sayyidimiz' Türkçede yok (yerleşik yazım 'Seyyid'). Hz. Peygamber için 'Efendimiz' yerleşik; İbrâhim için 'Hazret-i İbrâhim' ya da 'Efendimiz İbrâhim' düşünülebilir.",
+   "durum": "aday"
+  },
+  "مشهد": {
+   "turkce": "meşhed",
+   "ilk_gecis": "müşâhede edilen hâl, görüş",
+   "tur": "istilah",
+   "aciklama": "Aynı kelime başlıkta 'meşhed', metinde 'müşâhede'; ayrıca 'مشهد آخر' başlığı 'Başka Bir Meşhed' yerine 'Meşhed (başka bir müşâhede)' diye her seferinde açıklamalı verilmiş. Öneri: her yerde 'meşhed', başlık 'Başka Bir Meşhed', açıklama yalnız ilk başlıkta.",
+   "durum": "onayli"
+  },
+  "تحقيق شريف / معرفة عظيمة / زيادة إيضاح": {
+   "turkce": "Şerefli Bir Tahkîk / Büyük Bir Mârifet / Fazladan Bir Açıklama",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "Bölüm başlıkları; aynı kalıpta tutulmalı.",
+   "durum": "aday"
+  },
+  "الحكماء المحدّثون / المحدّث": {
+   "turkce": "hukemâ-i muhaddesûn / muhaddes",
+   "ilk_gecis": "ilham edilmiş hakîmler",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "البعثة": {
+   "turkce": "bi'set",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "البرزخ": {
+   "turkce": "berzah",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "Ek yanlış: 'berzahtaki' olmalı (ünsüz benzeşmesi).",
+   "durum": "onayli"
+  },
+  "الروحانية / الروحانيات": {
+   "turkce": "rûhâniyet / rûhâniyetler",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "التكليف": {
+   "turkce": "teklîf",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "الإيمان على بيّنة / الإيمان بالغيب": {
+   "turkce": "beyyine üzere îmân / gayba îmân",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "الهيئة": {
+   "turkce": "hey'et",
+   "ilk_gecis": "nefiste yerleşen nitelik hâli",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "الاحتلام": {
+   "turkce": "ihtilâm",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "Yazar burada mecazî kullanıyor (duyunun dış uyarı olmadan kendiliğinden çalışması). 'uykuda beliren hâl' açıklaması bu bağlama tam oturmuyor; 'duyunun dışarıdan uyarı olmadan kendiliğinden işlemesi' daha isabetli.",
+   "durum": "aday"
+  },
+  "شبح / أشباح": {
+   "turkce": "şebah / eşbâh",
+   "ilk_gecis": "bir hakikatin misâl âlemindeki görüntüsü",
+   "tur": "istilah",
+   "aciklama": "Her geçişte farklı açıklama (şekil / misâlî sûret / temsîl sûreti / numûne-gölge). Tek bir karşılık seçilmeli; öneri: 'şebeh' ıstılahı + ilk geçişte 'bir hakikatin dıştaki temsilî sûreti'.",
+   "durum": "onayli"
+  },
+  "ولى الله بن عبد الرحيم الدهلوى": {
+   "turkce": "Abdürrahîm ed-Dihlevî oğlu Veliyyullah",
+   "ilk_gecis": "",
+   "tur": "ozel_isim",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "فيوض الحرمين": {
+   "turkce": "Füyûzü'l-Harameyn",
+   "ilk_gecis": "",
+   "tur": "ozel_isim",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "النقشبندية": {
+   "turkce": "Nakşibendiyye",
+   "ilk_gecis": "",
+   "tur": "ozel_isim",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "الصوفية": {
+   "turkce": "Sûfiyye",
+   "ilk_gecis": "",
+   "tur": "ozel_isim",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "ابن عبّاس": {
+   "turkce": "İbn Abbâs",
+   "ilk_gecis": "",
+   "tur": "ozel_isim",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "موسى": {
+   "turkce": "Mûsâ",
+   "ilk_gecis": "",
+   "tur": "ozel_isim",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "إبراهيم": {
+   "turkce": "İbrâhim",
+   "ilk_gecis": "",
+   "tur": "ozel_isim",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "آدم": {
+   "turkce": "Âdem",
+   "ilk_gecis": "",
+   "tur": "ozel_isim",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "أبو ذرّ الغفارى": {
+   "turkce": "Ebû Zerr el-Gıfârî",
+   "ilk_gecis": "",
+   "tur": "ozel_isim",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "الحسن / الحسين": {
+   "turkce": "Hasan / Hüseyin",
+   "ilk_gecis": "",
+   "tur": "ozel_isim",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "محمد عاشق": {
+   "turkce": "Muhammed Âşık",
+   "ilk_gecis": "",
+   "tur": "ozel_isim",
+   "aciklama": "Muhammed Âşık Phultî yazarın öz kardeşi değil, dayısının oğlu ve talebesidir; 'أخى' burada 'kardeşim / yol kardeşim' olarak bırakılabilir, istenirse çevirmen notu.",
+   "durum": "aday"
+  },
+  "سيّدى الوالد / سيّدى العمّ": {
+   "turkce": "Efendim Vâlidim / Efendim Amcam",
+   "ilk_gecis": "",
+   "tur": "ozel_isim",
+   "aciklama": "Babası Şah Abdürrahîm, amcası Şeyh Ebü'r-Rızâ Muhammed. 'Efendim Vâlidim' kulağa ağır geliyor; 'muhterem babam / amcam' daha doğal. s. 30'da Arapçada olmayan 'Amcam' eklenmiş.",
+   "durum": "aday"
+  },
+  "قريش": {
+   "turkce": "Kureyş",
+   "ilk_gecis": "",
+   "tur": "ozel_isim",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "المدينة المنوّرة": {
+   "turkce": "Medine-i Münevvere",
+   "ilk_gecis": "",
+   "tur": "ozel_isim",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "مكّة المعظّمة / مكّة المباركة": {
+   "turkce": "Mekke-i Muazzama / Mekke-i Mübâreke",
+   "ilk_gecis": "",
+   "tur": "ozel_isim",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "الروضة المقدّسة": {
+   "turkce": "Ravza-i Mukaddese",
+   "ilk_gecis": "",
+   "tur": "ozel_isim",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "بدر / صفراء": {
+   "turkce": "Bedir / Safrâ",
+   "ilk_gecis": "",
+   "tur": "ozel_isim",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "التوراة": {
+   "turkce": "Tevrat",
+   "ilk_gecis": "",
+   "tur": "ozel_isim",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "سورة الفرقان": {
+   "turkce": "Furkān sûresi",
+   "ilk_gecis": "",
+   "tur": "ozel_isim",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "القصيدة اللامية": {
+   "turkce": "lâmiyye kasîdesi",
+   "ilk_gecis": "",
+   "tur": "ozel_isim",
+   "aciklama": "Yazarın kendi kasidesi (Atyebü'n-nağam içindeki Lâmiyye); büyük harfle 'Lâmiyye kasîdesi' yazılması ve kısa not önerilir.",
+   "durum": "aday"
+  },
+  "مشهد آخر": {
+   "turkce": "Başka Bir Meşhed",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "İlk biçim 'âhar' kelimesini çevirmeyip her başlıkta parantezle açıklıyor; §7'ye göre açıklama bir kez yapılmalı. 'Başka Bir Meşhed' hem kaynağa sadık hem kısa. Çoğulda 'Başka Meşhedler' (müşâhedeler değil) önerilir.",
+   "durum": "onayli"
+  },
+  "تحقيق شريف": {
+   "turkce": "Şerefli Bir Tahkîk",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "التدلّى الأعظم": {
+   "turkce": "Tedellî-i A'zam",
+   "ilk_gecis": "en büyük tedellî",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "انفسار / انفسر / منفسرة": {
+   "turkce": "infisâr",
+   "ilk_gecis": "icmâlî olanın ayrıntılara açılıp dallanması",
+   "tur": "istilah",
+   "aciklama": "Kavram, icmâlî olanın tafsîle açılması. 'Dağılma' anlamı daraltıyor. Istılah olarak 'infisâr' korunup ilk geçişte '(icmâlî olanın tafsîle açılması)' açıklaması verilmeli.",
+   "durum": "onayli"
+  },
+  "البرزة": {
+   "turkce": "berze",
+   "ilk_gecis": "Hakk'ın bir mertebede beliriş sûreti",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "الحضرة / الحضرات": {
+   "turkce": "hazret / hazretler",
+   "ilk_gecis": "varlık mertebesi, huzur katı",
+   "tur": "istilah",
+   "aciklama": "Türk okuru 'hazret'i saygı unvanı olarak bilir; ilk geçişte 'varlık mertebesi/huzur katı' gibi bir açıklama gerekir.",
+   "durum": "onayli"
+  },
+  "حيّز": {
+   "turkce": "?",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "Aynı ifade (حيّز القدس) bir yerde 'Kuds bölgesi', bir yerde 'Kuds'ün alanı'. Tek karşılık seçilmeli; 'alan' daha doğal.",
+   "durum": "aday"
+  },
+  "النشأة / النشآت": {
+   "turkce": "neş'et / neş'etler",
+   "ilk_gecis": "varlık katmanı, oluş evresi",
+   "tur": "istilah",
+   "aciklama": "Yazarın temel kavramlarından; tek karşılık seçilmeli. 'Neş'et' ıstılah olarak korunup ilk geçişte '(varlık katmanı/oluş tarzı)' açıklaması önerilir. | Çevirmen hep 'oluş' demiş, ama bu Şah Veliyyullah'ın temel kavramlarından biri ('varlık katmanı/varoluş evresi'). 'Oluş' Türkçede 'meydana geliş' anlamına gelip kavramı silikleştiriyor; 'neş'et' ıstılah olarak korunup ilk geçişte açıklanmalı mı?",
+   "durum": "onayli"
+  },
+  "الشبح": {
+   "turkce": "şebah",
+   "ilk_gecis": "bir hakikatin misâl âlemindeki görüntüsü",
+   "tur": "istilah",
+   "aciklama": "Hem anlam (numûne/hayâl) hem yazım (şebeh/şebah) değişiyor. Doğru okuma 'şebah'. 'Hayâl' kelimesi خيال ile karışıyor; 'gölge sûret' ya da 'numûne' daha uygun.",
+   "durum": "onayli"
+  },
+  "الداعية": {
+   "turkce": "dâ'iye",
+   "ilk_gecis": "belirleyici irâde",
+   "tur": "istilah",
+   "aciklama": "Açıklama s. 76'da tekrarlanmış. s. 81'deki دواعى الناس ('insanların dürtüleri') ıstılah değil, doğru olarak sıradan kelimeyle çevrilmiş. | Karşılık tutarlı, ama parantez her geçişte tekrarlanmış.",
+   "durum": "aday"
+  },
+  "الهمّة / الهمم": {
+   "turkce": "himmet",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "الجذب": {
+   "turkce": "cezbe",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "الفناء / البقاء": {
+   "turkce": "fenâ / bekā",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "السلوك / السالك": {
+   "turkce": "sülûk / sâlik",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "الطريقة / الطرق": {
+   "turkce": "?",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "Yazar kelimeyi iki anlamda kullanıyor: tasavvufî yol ve fıkhî usul. Tasavvufî anlam için 'tarîkat', fıkhî anlam için 'yol' önerilir. 'Metot' modern ve yabancı kökenli, bu metne uymuyor. 'Tarîk' ile 'tarîkat' karışmamalı.",
+   "durum": "aday"
+  },
+  "التجلّى": {
+   "turkce": "tecellî",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "الإفاضة / الفيض": {
+   "turkce": "ifâza / feyiz",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "الفيض المقدّس / الفيض الأقدس": {
+   "turkce": "feyz-i mukaddes / feyz-i akdes",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "s. 94'te وهو الفيض الأقدس 'Yahut o (feyz), feyz-i akdestir' diye çevrilmiş; 'yahut' kaynakta yok, 'İşte bu feyz-i akdestir' olmalı.",
+   "durum": "onayli"
+  },
+  "نقطة الذات": {
+   "turkce": "nokta-i Zât",
+   "ilk_gecis": "Zât noktası",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "اندراج / مندرجة": {
+   "turkce": "indirâc",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "Yalnızca yazım farkı; 'indirâc' önerilir.",
+   "durum": "onayli"
+  },
+  "انعقاد / منعقدة": {
+   "turkce": "in'ikād",
+   "ilk_gecis": "bağlanma, belirli bir sûret alma",
+   "tur": "istilah",
+   "aciklama": "Parantez neredeyse her geçişte tekrar ediliyor; ilk geçişten sonra kaldırılmalı.",
+   "durum": "aday"
+  },
+  "أويسيّة": {
+   "turkce": "üveysîlik",
+   "ilk_gecis": "şeyhle bedenen görüşmeden, rûhânî yolla terbiye alma",
+   "tur": "istilah",
+   "aciklama": "Açıklama yapılmamış; okur için ilk geçişte gerekli.",
+   "durum": "aday"
+  },
+  "قطب / القطبية": {
+   "turkce": "kutup / kutupluk",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "Çeviride 'kutub' yazılmış; Türkçede yerleşik yazım 'kutup' (tasavvufta 'kutub' da kullanılır). Karar kullanıcıya.",
+   "durum": "aday"
+  },
+  "محدَّث (ملهَم)": {
+   "turkce": "muhaddes",
+   "ilk_gecis": "kendisine ilham olunan kimse",
+   "tur": "istilah",
+   "aciklama": "Hadis âlimi anlamındaki محدِّث (s. 65 'muhaddis') ile doğru şekilde ayrılmış; bu ayrım korunmalı.",
+   "durum": "aday"
+  },
+  "نبى مكلَّم": {
+   "turkce": "mükellem nebî",
+   "ilk_gecis": "kendisiyle konuşulan nebî",
+   "tur": "istilah",
+   "aciklama": "Açıklama tekrarlanmış.",
+   "durum": "aday"
+  },
+  "العارف / المعرفة": {
+   "turkce": "ârif / mârifet",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "الكامل / الكمّل": {
+   "turkce": "kâmil / kâmiller",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "تامّ المعرفة": {
+   "turkce": "?",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "'Tamâm-ı mârifet' Osmanlıca terkip; 'mârifeti tam (olan) ârif' ya da 'tam mârifet sahibi' daha doğal.",
+   "durum": "aday"
+  },
+  "الولاية / النبوّة": {
+   "turkce": "velâyet / nübüvvet",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "التسخير": {
+   "turkce": "teshîr",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "صبغ إلهى / انصباغ": {
+   "turkce": "ilâhî boya / insıbâğ",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "التشخّص": {
+   "turkce": "teşahhus",
+   "ilk_gecis": "belirlenim, ferdîleşme",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "شأن / شؤون": {
+   "turkce": "?",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "Aynı âyet (Rahmân 29) iki farklı biçimde verilmiş. Âyet için yerleşik meal 'her an bir iştedir'; ıstılah için 'şe'n/şuûn' korunabilir.",
+   "durum": "aday"
+  },
+  "الأمّة المرحومة": {
+   "turkce": "rahmete mazhar ümmet",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "Parantezdeki 'merhûm' bugünkü Türkçede 'ölmüş' anlamına gelir; parantez kaldırılmalı.",
+   "durum": "onayli"
+  },
+  "الخلافة الظاهرة / الخليفة الظاهر": {
+   "turkce": "?",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "'zâhire/zâhir' ekleri karışık; 'halîfe-i zâhire' Türkçede yanlış (müennes sıfat). Açıklama da her geçişte tekrarlanmış.",
+   "durum": "aday"
+  },
+  "الخلافة الباطنة / الخليفة الباطن": {
+   "turkce": "?",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "İlk geçiş (s. 81) açıklamasız, sonra her yerde açıklanıyor; 'hulefâ-i bâtınîn' ağır Osmanlıca terkip.",
+   "durum": "aday"
+  },
+  "الداعى / الدعاة": {
+   "turkce": "dâî",
+   "ilk_gecis": "dâvetçi",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "القضاء المبرم / القدر المبرم": {
+   "turkce": "kazâ-i mübrem / kader-i mübrem",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "Kelâm ıstılahı; ikisi de 'mübrem' ile korunmalı.",
+   "durum": "onayli"
+  },
+  "الكشف الإلهى / الكشف الكونى": {
+   "turkce": "keşf-i ilâhî / keşf-i kevnî",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "هاتف": {
+   "turkce": "hâtif",
+   "ilk_gecis": "gaybî ses",
+   "tur": "istilah",
+   "aciklama": "Açıklama tekrarlanmış.",
+   "durum": "aday"
+  },
+  "التعبير (الرؤيا)": {
+   "turkce": "tâbir",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "s. 83'te تعبير yanlışlıkla 'tevîl' diye verilmiş; 'tevîl' تأويل'in karşılığı (s. 89-90). Rüya için 'tâbir' olmalı.",
+   "durum": "onayli"
+  },
+  "التأويل المنحوت": {
+   "turkce": "uydurma tevîl",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "'Yontulmuş/uydurma' gibi eğik çizgili seçenek basılı metinde kalmamalı; tek karşılık seçilmeli.",
+   "durum": "aday"
+  },
+  "الرويّة / الرؤية": {
+   "turkce": "?",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "الفكر والرويّة 'düşünüp taşınma' demek; s. 76'da 'rü'yet' yanlış. Görme anlamındaki رؤية ile ayrılmalı.",
+   "durum": "aday"
+  },
+  "الوجدان": {
+   "turkce": "?",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "Türkçede 'vicdan' ahlâkî vicdan anlamına geldiği için yalancı eş. Tasavvufî 'vecd/vicdân: içte bulunan hâl' anlamı; parantezde 'vicdan' yanıltıcı.",
+   "durum": "aday"
+  },
+  "التطفّل": {
+   "turkce": "tetaffül",
+   "ilk_gecis": "kâmile yanaşıp onun feyzinden pay alma",
+   "tur": "istilah",
+   "aciklama": "Tutarlı ama yanlış okunmuş: kelime تطفّل = tetaffül, 'tatavvül' (تطوّل) değil. Düzeltilmeli.",
+   "durum": "onayli"
+  },
+  "السمت الصالح": {
+   "turkce": "?",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "Açıklamada eğik çizgili iki seçenek var; tek açıklama seçilmeli (ör. 'sâlih kişilerin ağırbaşlı ve düzgün tutumu').",
+   "durum": "aday"
+  },
+  "الأبجائين": {
+   "turkce": "?",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "Kaynakta muhtemelen baskı/OCR hatası. Bağlamda hemen önce 'iki hidâyet' (fiilin îcâdı ve ilmin îcâdı) geçiyor; 'الإيجادين' okuması daha uygun. Çevirmen notuyla belirtilmeli.",
+   "durum": "aday"
+  },
+  "حقيقة الحقائق / ماهية الماهيات": {
+   "turkce": "?",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "İbnü'l-Arabî geleneğinden ıstılah; tek biçim seçilmeli.",
+   "durum": "aday"
+  },
+  "الأعيان / أعيان الممكنات": {
+   "turkce": "a'yân",
+   "ilk_gecis": "ilmî/sâbit hakikatler",
+   "tur": "istilah",
+   "aciklama": "İki açıklama birbiriyle çelişiyor; s. 93'teki 'dış varlıklar' yanlış, a'yân burada ilmî/sâbit hakikatler.",
+   "durum": "onayli"
+  },
+  "الخارج": {
+   "turkce": "?",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "Hem karşılık (dışlık/dış vücûd/dış âlem) hem yazım (hâric/hâriç) değişiyor.",
+   "durum": "aday"
+  },
+  "العماء": {
+   "turkce": "amâ",
+   "ilk_gecis": "üstünde ve altında hava bulunmayan bulut",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "الهيولى / هيولانى": {
+   "turkce": "hiyûlâ / hiyûlânî",
+   "ilk_gecis": "ilk madde",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "المواليد": {
+   "turkce": "mevâlîd",
+   "ilk_gecis": "doğan varlıklar: maden, bitki, hayvan",
+   "tur": "istilah",
+   "aciklama": "'Doğanlar' Türkçede anlaşılmıyor ve açıklama tekrarlanmış. 'Mevâlîd' korunup ilk geçişte açıklanmalı.",
+   "durum": "onayli"
+  },
+  "العقل المعاشى": {
+   "turkce": "geçim aklı",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "التسبّب": {
+   "turkce": "tesebbüb",
+   "ilk_gecis": "sebeplere başvurma",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "التفويض": {
+   "turkce": "tefvîz",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "الياد داشت": {
+   "turkce": "yâddâşt",
+   "ilk_gecis": "Mebde'e icmâlî uyanıklık (Nakşbendî ıstılahı)",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "العلم الحصولى": {
+   "turkce": "ilm-i husûlî",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "المبدأ": {
+   "turkce": "Mebde",
+   "ilk_gecis": "her şeyin kaynağı",
+   "tur": "istilah",
+   "aciklama": "Açıklama tekrarlanmış.",
+   "durum": "aday"
+  },
+  "الكبريت الأحمر / الإكسير الأعظم": {
+   "turkce": "kibrît-i ahmer / en büyük iksîr",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "نفث فى الروع": {
+   "turkce": "rûa üflenme",
+   "ilk_gecis": "kalbe ilham edilme",
+   "tur": "istilah",
+   "aciklama": "Açıklamada eğik çizgili iki seçenek var.",
+   "durum": "aday"
+  },
+  "المعاد": {
+   "turkce": "meâd",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "Açıklama tekrarlanmış.",
+   "durum": "aday"
+  },
+  "صلّى الله عليهم وسلّم (çoğul)": {
+   "turkce": "sallallâhu aleyhim ve sellem",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "Kaynakta çoğul (عليهم); tekil salavat yazılmış, yanlış.",
+   "durum": "onayli"
+  },
+  "عليه السلام / عليه الصلوة والسلام": {
+   "turkce": "?",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "İki dua aynı yazım sistemiyle yazılmalı.",
+   "durum": "aday"
+  },
+  "رضى الله عنه / عنهما / رضوان الله عليهم أجمعين": {
+   "turkce": "radıyallâhu anh / anhümâ / rıdvânullâhi aleyhim ecmaîn",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "s. 87'de 'anha' (müennes) yanlış, 'anh' olmalı; 'anhtan' gibi duaya ek getirmek de sorunlu.",
+   "durum": "onayli"
+  },
+  "كرّم الله وجهه": {
+   "turkce": "kerremallâhu vecheh",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "سيّد / سيّدنا / سيّدى": {
+   "turkce": "?",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "'Sayyid' Türkçe yazım değil; 'Seyyid'. Peygamber/sahâbî için 'Efendimiz' tercih edilebilir. سيّدى الوالد = 'babam' (Şah Abdurrahîm); 'Sayyidim Vâlidim' Türkçe değil.",
+   "durum": "aday"
+  },
+  "رسول الله": {
+   "turkce": "Rasûlullah",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "Türkçede yerleşik yazım 'Resûlullah'; 'rasûl/elçi' (s. 84-85) de 'resûl' olabilir. Karar kullanıcıya.",
+   "durum": "aday"
+  },
+  "الشيخان": {
+   "turkce": "Şeyhayn",
+   "ilk_gecis": "Ebû Bekir ve Ömer",
+   "tur": "ozel_isim",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "البيت العتيق": {
+   "turkce": "Beytü'l-Atîk",
+   "ilk_gecis": "Kâbe",
+   "tur": "ozel_isim",
+   "aciklama": "Açıklama tekrarlanmış.",
+   "durum": "aday"
+  },
+  "الحرمين": {
+   "turkce": "Haremeyn",
+   "ilk_gecis": "",
+   "tur": "ozel_isim",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "العرش": {
+   "turkce": "Arş",
+   "ilk_gecis": "",
+   "tur": "ozel_isim",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "عبد القادر جيلانى": {
+   "turkce": "Abdülkādir Geylânî",
+   "ilk_gecis": "",
+   "tur": "ozel_isim",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "حمّاد الدبّاس": {
+   "turkce": "Hammâd ed-Debbâs",
+   "ilk_gecis": "",
+   "tur": "ozel_isim",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "مرزا هدايت الله": {
+   "turkce": "Mirzâ Hidâyetullah",
+   "ilk_gecis": "",
+   "tur": "ozel_isim",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "البخارى": {
+   "turkce": "Buhârî",
+   "ilk_gecis": "",
+   "tur": "ozel_isim",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "أبو موسى": {
+   "turkce": "Ebû Mûsâ",
+   "ilk_gecis": "",
+   "tur": "ozel_isim",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "أبو ذرّ": {
+   "turkce": "Ebû Zer",
+   "ilk_gecis": "",
+   "tur": "ozel_isim",
+   "aciklama": "Türkçede yerleşik yazım 'Ebû Zer'.",
+   "durum": "onayli"
+  },
+  "عمرو بن مرّة": {
+   "turkce": "Amr b. Mürre",
+   "ilk_gecis": "",
+   "tur": "ozel_isim",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "عامر الحضرمى": {
+   "turkce": "Âmir el-Hadramî",
+   "ilk_gecis": "",
+   "tur": "ozel_isim",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "مصعب بن عمير": {
+   "turkce": "Mus'ab b. Umeyr",
+   "ilk_gecis": "",
+   "tur": "ozel_isim",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "الأشعريين / غفار / أسلم / جهينة / بنى عبد القيس": {
+   "turkce": "Eş'arîler / Gıfâr / Eslem / Cüheyne / Abdülkays oğulları",
+   "ilk_gecis": "",
+   "tur": "ozel_isim",
+   "aciklama": "'Benî Abdilkays'e' ek uyumu yanlış ('Abdilkays'a'); 'Abdülkays oğulları' daha doğal.",
+   "durum": "aday"
+  },
+  "حزقيل": {
+   "turkce": "Hızkıl",
+   "ilk_gecis": "",
+   "tur": "ozel_isim",
+   "aciklama": "Türkçede yaygın yazım 'Hızkıl'.",
+   "durum": "onayli"
+  },
+  "المذهب الحنفى / الحنفية": {
+   "turkce": "Hanefî mezhebi / Hanefîler",
+   "ilk_gecis": "",
+   "tur": "ozel_isim",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "أهل البيت": {
+   "turkce": "Ehl-i Beyt",
+   "ilk_gecis": "",
+   "tur": "ozel_isim",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "القول الجميل فى بيان سواء السبيل": {
+   "turkce": "el-Kavlü'l-Cemîl fî Beyâni Sevâi's-Sebîl",
+   "ilk_gecis": "",
+   "tur": "eser",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "الدرّ المنثور": {
+   "turkce": "ed-Dürrü'l-Mensûr",
+   "ilk_gecis": "",
+   "tur": "eser",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "سورة الأنفال": {
+   "turkce": "Enfâl sûresi",
+   "ilk_gecis": "",
+   "tur": "eser",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "الناسوت / عالم الناسوت": {
+   "turkce": "nâsût / nâsût âlemi",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "النسمية / النشأة النسمية": {
+   "turkce": "nesmî / nesmî neş'et",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "Bir yerde 'nesmî', bir yerde 'havâî' esas alınmış. 'nesme' korunduğuna göre sıfatı da 'nesmî' olmalı.",
+   "durum": "onayli"
+  },
+  "النسيم (علوم النسيم)": {
+   "turkce": "?",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "Bağlam 'cesetlerine bağlı' çoğul bir şeyden söz ediyor; büyük ihtimalle النَّسَم (nesmeler) okunmalı, 'nesîm' (meltem) değil. Kaynak okuması kontrol edilmeli.",
+   "durum": "aday"
+  },
+  "الرقيقة القمرية / العطاردية / الزهرية / الشمسية / المريخية / المشترية / الزحلية": {
+   "turkce": "kameriyye / utâridiyye / zühriyye / şemsiyye / mirrîhiyye / müşteriyye / zuhaliyye rakîka",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "انفسار / انفسر": {
+   "turkce": "infisâr",
+   "ilk_gecis": "icmâlî olanın ayrıntılara açılıp dallanması",
+   "tur": "istilah",
+   "aciklama": "Aynı ıstılah bir yerde 'ayrışma', bir yerde 'açılma' diye verilmiş. Rehber 'infisâr'ı korunacak ıstılah sayıyor; metinde 'infisâr' kullanılıp ilk geçişte bir kez açıklanmalı.",
+   "durum": "onayli"
+  },
+  "الفرد": {
+   "turkce": "ferd",
+   "ilk_gecis": "bütün varlık katmanlarını kendinde toplayan kâmil insan",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "الفرد الجامع": {
+   "turkce": "câmi ferd",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "النقطة الحبية": {
+   "turkce": "?",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "Hem Türkçe karşılık hem terkip açıklaması iki kez verilmiş. Hangisi ana yazım olacak: 'nokta-i hubbiyye' mi, 'sevgi noktası' mı?",
+   "durum": "aday"
+  },
+  "النقطة الكلّية": {
+   "turkce": "Nokta-i Külliyye",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "الحبّ / المحبّة": {
+   "turkce": "sevgi (hubb) / mahabbet",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "Çevirmen حبّ = sevgi, محبّة = mahabbet ayrımını büyük ölçüde gözetmiş; ama s. 116'da 'zâtî mahabbetle (sevgi)' diye ikisini eşitlemiş. Ayrım korunacaksa bu parantez kalkmalı.",
+   "durum": "aday"
+  },
+  "المحبّة الذاتية": {
+   "turkce": "zâtî mahabbet",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "الهيمان": {
+   "turkce": "heymân",
+   "ilk_gecis": "aşkla kendinden geçiş",
+   "tur": "istilah",
+   "aciklama": "Üç farklı Türkçe karşılık var: 'aşkla kendinden geçiş', 'aşk cezbesi', 'yöneliş'. Bu, Şah Veliyyullah'ın terimi; 'heymân' korunup bir kez açıklanmalı.",
+   "durum": "onayli"
+  },
+  "الهمّة": {
+   "turkce": "himmet",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "القوّة العازمة": {
+   "turkce": "azmeden kuvvet",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "النفس القدسية": {
+   "turkce": "kudsî nefis",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "التمثّل / تمثّل": {
+   "turkce": "temessül",
+   "ilk_gecis": "bir mânânın bir sûrete bürünmesi",
+   "tur": "istilah",
+   "aciklama": "'temessül' ile 'canlanma' karışık kullanılmış. 'Canlanma' anlamı tam vermiyor (asıl anlam: bir mânânın sûrete bürünmesi). 'temessül' korunmalı.",
+   "durum": "onayli"
+  },
+  "عالم الخيال المقيّد": {
+   "turkce": "mukayyed hayâl âlemi",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "الشبح / الأشباح": {
+   "turkce": "şebah / eşbâh",
+   "ilk_gecis": "bir hakikatin misâl âlemindeki görüntüsü",
+   "tur": "istilah",
+   "aciklama": "İki farklı karşılık var. Şah Veliyyullah'ta şebah, bir hakikatin misâl âlemindeki görüntüsüdür; 'şebah' korunup bir kez açıklanabilir.",
+   "durum": "onayli"
+  },
+  "الوجود التشبيهى": {
+   "turkce": "teşbîhî vücûd",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "الانعقاد / انعقد": {
+   "turkce": "in'ikād",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "Hep 'bağlanma' + parantez. Istılah olarak 'in'ikād' mı kullanılsın, yoksa 'bağlanma' mı? Her geçişte parantez açılmamalı.",
+   "durum": "aday"
+  },
+  "الإفاضة / فاض": {
+   "turkce": "ifâza / feyiz (terkipte feyz-i)",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "Yazım tutarsız: 'feyiz' ile 'feyz' karışık. Bağımsız kullanımda 'feyiz', terkipte 'feyz-i' önerilir.",
+   "durum": "onayli"
+  },
+  "الفيض المقدّس": {
+   "turkce": "feyz-i mukaddes",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "الوجود المنبسط": {
+   "turkce": "el-vücûdü'l-münbasit",
+   "ilk_gecis": "yayılmış vücûd",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "الوجود المطلق": {
+   "turkce": "Vücûd-i Mutlak",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "المبدأ والمعاد": {
+   "turkce": "Mebde ve Meâd",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "Açıklama ikinci geçişte tekrar edilmiş; ilk geçişten sonra kaldırılmalı.",
+   "durum": "aday"
+  },
+  "حقيقة الحقائق": {
+   "turkce": "hakîkatü'l-hakāik",
+   "ilk_gecis": "hakikatlerin hakikati",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "التنزّلات": {
+   "turkce": "tenezzülât / inişler",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "الروح المحمدى": {
+   "turkce": "Rûh-ı Muhammedî",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "Tutarlı ama 'Hakîkat-i Muhammediyye' hangi biçimde seçilirse buna da aynı biçim uygulanmalı ('Rûh-ı Muhammedî').",
+   "durum": "onayli"
+  },
+  "الحقيقة النبوية": {
+   "turkce": "hakîkat-ı nebeviyye",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "الحجاب الأعظم": {
+   "turkce": "el-Hicâbü'l-A'zam",
+   "ilk_gecis": "en büyük perde; Nebî sallallâhu aleyhi ve sellemin zâtı",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "الإنسان الكلّى": {
+   "turkce": "insân-ı küllî",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "الشرجة / الشراج": {
+   "turkce": "şerâce / kanal",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "الناموس": {
+   "turkce": "nâmûs",
+   "ilk_gecis": "ilâhî kanun (bugünkü 'namus' anlamında değil)",
+   "tur": "istilah",
+   "aciklama": "'Nâmus' Türkçede iffet anlamına geldiği için ilk geçişteki açıklama şart.",
+   "durum": "onayli"
+  },
+  "قائم الزمان": {
+   "turkce": "Kāimü'z-Zamân",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "الولى الفانى الباقى": {
+   "turkce": "fânî-bâkī velî",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "وارث الأنبياء / وارث الملأ الأعلى / وارث الأولياء": {
+   "turkce": "nebîlerin vârisi / Melâ-i A'lâ'nın vârisi / velîlerin vârisi",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "المجدّدية والقطبية": {
+   "turkce": "müceddidlik ve kutubluk",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "مستقرّ / مستودع": {
+   "turkce": "müstakarr / müstevda'",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "العلم الحضورى / العلم الحصولى": {
+   "turkce": "ilm-i huzûrî / ilm-i husûlî",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "الطبيعة الكلّية / العامّة / المطلقة / الأولى": {
+   "turkce": "Küllî Tabîat / umûmî tabîat / mutlak tabîat / ilk tabîat",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "Büyük harf kullanımı tutarsız: yalnızca 'Küllî Tabîat' büyük harfle yazılmış.",
+   "durum": "aday"
+  },
+  "الملّة / الملل": {
+   "turkce": "millet / milel",
+   "ilk_gecis": "din, şeriat (bugünkü 'ulus' anlamında değil)",
+   "tur": "istilah",
+   "aciklama": "'Millet' bugünkü Türkçede 'ulus' anlamına geliyor; okur yanlış anlar. Şah Veliyyullah'ta milla, bir peygamberin getirdiği din/şeriat düzenidir. Ya 'din' denmeli ya da 'millet' ilk geçişte açıklanıp hep öyle kullanılmalı.",
+   "durum": "onayli"
+  },
+  "العلّة التامّة / المعلول": {
+   "turkce": "illet-i tâmme / ma'lûl",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "Felsefî terim çifti yarı Türkçe ('tam sebep'), yarı 'netice' diye verilmiş; 'netice' illet-ma'lûl ilişkisini karşılamıyor. Ya ikisi de ıstılah ('illet-i tâmme / ma'lûl') ya ikisi de Türkçe ('tam sebep / sonuç') olmalı.",
+   "durum": "onayli"
+  },
+  "الواجب / الذات الواجبة": {
+   "turkce": "Vâcib / Vâcib Zât",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "الجواهر العقلية": {
+   "turkce": "cevâhir-i akliyye",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "المبدعات / المبدع الأوّل": {
+   "turkce": "mübdeât / İlk Mübdi'",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "s. 107'deki المبدع الأوّل bağlamda 'ilk yaratılan' (mübdaʿ) olmalı: Şuûnat Zât'tan 'ilk yaratılanda bulundukları hâliyle' sâdır olur. Çevirmen 'yaratıcı' (mübdi') diye okumuş; kontrol edilmeli.",
+   "durum": "aday"
+  },
+  "الشؤون / شأن": {
+   "turkce": "şuûn / şe'n",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "Ontolojik ıstılah olarak 'şe'n/şuûn', deyim içinde ('bir iş onu başka işten alıkoymaz') 'iş' doğru; ancak 'şuûnlar' çift çoğul, 'şuûnât' ya da 'şe'nler' olmalı.",
+   "durum": "aday"
+  },
+  "خارق عادة / الخوارق": {
+   "turkce": "hârika / hârikulâde",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "الكمّل / العارف / السالك / الوصول": {
+   "turkce": "kâmiller / ârif / sâlik / vusûl",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "القوم / الطائفة": {
+   "turkce": "sûfîler",
+   "ilk_gecis": "",
+   "tur": "istilah",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "عبد السلام بن بشيش": {
+   "turkce": "Abdüsselâm b. Meşîş",
+   "ilk_gecis": "",
+   "tur": "ozel_isim",
+   "aciklama": "Türkçede yaygın biçim 'Abdüsselâm b. Meşîş' (Beşîş varyantı da var). Ayrıca s. 125'te kişiye 'Beşîş' denmiş; bu babasının adıdır, 'Abdüsselâm' ya da 'İbn Meşîş' olmalı. Ayrıca s. 125'teki 'onun isteği' öznesi muhtemelen Şeyh'tir.",
+   "durum": "onayli"
+  },
+  "عفيف الدين التلمسانى": {
+   "turkce": "Afîfüddîn et-Tilimsânî",
+   "ilk_gecis": "",
+   "tur": "ozel_isim",
+   "aciklama": "Türkçe kaynaklarda (DİA) 'Tilimsânî' yazılır.",
+   "durum": "onayli"
+  },
+  "أبو رافع": {
+   "turkce": "Ebû Râfi'",
+   "ilk_gecis": "",
+   "tur": "ozel_isim",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "خضر": {
+   "turkce": "Hızır",
+   "ilk_gecis": "",
+   "tur": "ozel_isim",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "داود": {
+   "turkce": "Dâvûd aleyhisselâm",
+   "ilk_gecis": "",
+   "tur": "ozel_isim",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "أجمير": {
+   "turkce": "Ecmîr",
+   "ilk_gecis": "Hindistan'da Ajmer şehri",
+   "tur": "ozel_isim",
+   "aciklama": "Hindistan'daki Ajmer şehri; ilk geçişte kısa not yararlı olur.",
+   "durum": "onayli"
+  },
+  "الروم / الأزابكة": {
+   "turkce": "Rûm / Özbekler",
+   "ilk_gecis": "",
+   "tur": "ozel_isim",
+   "aciklama": "",
+   "durum": "onayli"
+  },
+  "الهند / خراسان / الحجاز / اليمن": {
+   "turkce": "Hind / Horasan / Hicaz / Yemen",
+   "ilk_gecis": "",
+   "tur": "ozel_isim",
+   "aciklama": "",
+   "durum": "onayli"
+  }
+ }
 }
