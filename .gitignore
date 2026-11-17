@@ -1,0 +1,6 @@
+# Sayfa görüntüleri büyük; kaynak PDF'ten her oturumda yeniden üretilir (hazirla.py --yenile)
+calisma/*/sayfalar/
+__pycache__/
+*.pyc
+.DS_Store
+~$*.docx

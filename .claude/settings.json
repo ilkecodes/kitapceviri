@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 .claude/skills/kitap-cevirisi/scripts/*)",
+      "Bash(python .claude/skills/kitap-cevirisi/scripts/*)",
+      "Bash(python3 -m pip install --user pymupdf python-docx)",
+      "Bash(python -m pip install --user pymupdf python-docx)",
+      "Read",
+      "Write(calisma/**)",
+      "Edit(calisma/**)",
+      "Write(yazarlar/**)",
+      "Edit(yazarlar/**)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push*)",
+      "Bash(git pull*)",
+      "Bash(git status*)",
+      "Write(kaynak/**)",
+      "Bash(python3 -m pip install --break-system-packages pymupdf python-docx)",
+      "Bash(python -m pip install --break-system-packages pymupdf python-docx)"
+    ],
+    "deny": [
+      "Write(.claude/**)",
+      "Edit(.claude/**)"
+    ]
+  }
+}
