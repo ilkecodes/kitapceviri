@@ -102,5 +102,81 @@
       }
     ]
   },
-  "alintilar": []
+  "alintilar": [],
+  "ceviri": {
+    "bloklar": [
+      {
+        "tur": "metin",
+        "metin": "Halvet kelimesi buradan itibaren lafız olarak yalnızca sûfîler için kullanılır olmuştur; sûfî olmayanlar ise aynı şeye uzlet der."
+      },
+      {
+        "tur": "metin",
+        "metin": "Âlimler genel olarak, sûfî âlimler ise özellikle uzletin anlamı ve sonuçları üzerine çok söz söylemişlerdir. İşte bazılarının sözleri:"
+      },
+      {
+        "tur": "metin",
+        "metin": "Kuşeyrî, er-Risâletü'l-Kuşeyriyye'de şöyle der: \"Halvet, seçkinlerin sıfatıdır; uzlet ise vuslatın alâmetlerindendir. Mürid için hâlinin başında hemcinslerinden uzlet, sonunda ise halvet şarttır.\""
+      },
+      {
+        "tur": "metin",
+        "metin": "Sûfîlere göre halvetin birden fazla tarifi vardır, ama hepsi tek bir anlamda toplanır: İnsanlardan ayrılmak, onlarla karışmayı bırakmak, Allah Teâlâ'ya yaklaşmak için kendi başına kalmak. Ebû Osmân el-Mağribî: \"Halvet, insanın Allah'ı anmaktan başka bütün zikirlerden uzak olmasıdır\" demiştir. Mekhûl: \"İnsanlara karışmada hayır varsa uzlette selâmet vardır\" demiştir. İbnü'l-Mübârek şöyle demiştir: \"Bazıları bana uzletin tefsirini şöyle yaptı: Bir topluluğun içinde bulunursun; onlar Allah'ı anmaya dalarsa sen de onlarla dalarsın, başka bir şeye dalarlarsa susarsın.\" İbn Sîrîn: \"Uzlet ibadettir\" demiştir. Şiblî: \"İflâsın alâmeti, insanlarla ünsiyet etmektir\" demiştir. Cüneyd'e⟦N1⟧ de şöyle demiştir: \"Kim dininin selâmette kalmasını, bedeninin ve kalbinin rahat etmesini isterse insanlardan uzlet etsin.\" Ebû Süleyman el-Hattâbî ise şöyle der: \"Uzlette şu kadarı bile olsa, yani insanlara gösteriş ve yapmacıklık âfetinden kurtulmak, insan onların arasındayken dalkavukluğa ve rızalarını kazanmak için hileli kaçamaklara sürüklenmekten kurtulmak bile olsa, bu uzleti sevdirmeye ve ona yöneltmeye yeterdi.\" Halef b. Temîm anlatır: \"İbrâhim b. Edhem'i aramak için Mutayr'a⟦N2⟧ gittim. İçeri baktım, onu göremedim. Bir daha bakınca bir de gördüm ki sedirin altında oturuyor. Bana bakınca şöyle dedi:\""
+      },
+      {
+        "tur": "metin",
+        "metin": "Allah'ı dost bil, insanları bir kenara bırak.\nİnsanları dilediğin gibi evirip çevir, hepsini akrep bulursun."
+      },
+      {
+        "tur": "metin",
+        "metin": "Elbette uzlet her zaman değil, ancak zaruret hâlinde, yani büyük fitneler zamanında yapılır. Aksi hâlde uzlet, kalbi arındırmak, fikri duru kılmak, ibadete ve mücahedeye yardımcı olmak için belirli bir süre yapılır."
+      }
+    ],
+    "notlar": [
+      {
+        "id": "N1",
+        "metin": "Kaynakta 'للجنيد' (Cüneyd'e) diye geçer; 'el-Cüneyd' okunması da mümkündür."
+      },
+      {
+        "id": "N2",
+        "metin": "Kaynakta 'مطير' diye geçer; yerin ya da yapının kimliği belirsizdir."
+      }
+    ],
+    "yeni_terimler": [
+      {
+        "kaynak": "الرسالة القشيرية",
+        "turkce": "er-Risâletü'l-Kuşeyriyye",
+        "tur": "eser",
+        "aciklama": "Kuşeyrî'nin tasavvuf kitabı"
+      },
+      {
+        "kaynak": "القشيرى",
+        "turkce": "Kuşeyrî",
+        "tur": "ozel_isim",
+        "aciklama": ""
+      },
+      {
+        "kaynak": "أبو عثمان المغربى",
+        "turkce": "Ebû Osmân el-Mağribî",
+        "tur": "ozel_isim",
+        "aciklama": ""
+      },
+      {
+        "kaynak": "أبو سليمان الخطابى",
+        "turkce": "Ebû Süleyman el-Hattâbî",
+        "tur": "ozel_isim",
+        "aciklama": ""
+      },
+      {
+        "kaynak": "إبراهيم بن أدهم",
+        "turkce": "İbrâhim b. Edhem",
+        "tur": "ozel_isim",
+        "aciklama": ""
+      }
+    ],
+    "aciklanan_terimler": [],
+    "zor_yerler": [
+      "4. blok: 'وقال للجنيد' lafzen çevrildi, nota alındı",
+      "4. blok: 'مطير' belirsiz, nota alındı",
+      "4. blok: 'خداع الموارية' muhtemel 'المواربة' (hile, kaçamak) olarak anlaşıldı"
+    ]
+  }
 }

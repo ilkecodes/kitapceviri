@@ -130,5 +130,56 @@
         "meal_kaynak": "Diyanet İşleri meali, Tanzil sürümü (fawazahmed0/quran-api: tur-diyanetisleri)"
       }
     }
-  ]
+  ],
+  "ceviri": {
+    "bloklar": [
+      {
+        "tur": "metin",
+        "metin": "Ebû Yezîd şöyle dedi: Siz ilminizi ölüden ölüye aldınız; biz ilmimizi ölümsüz Diri'den⟦A3⟧ aldık. İşte bu yüzden Hızır'ın ilimlerinin hepsi rabbânîdir; fikir ya da anlayış onları getiremez."
+      },
+      {
+        "tur": "metin",
+        "metin": "Ancak mürîd bu telakkî için tam bir hazırlık içinde olmalı ve çok dikkatli davranmalıdır; yoksa iş zihnine karışır, şeytan onu aldatır da kendisine gelenin rabbânî fütûhât ve ilhâmlar olduğunu sanır; oysa bunlar aslında şeytandandır. Bu yüzden şeyh, mürîdin kendisine gelenleri anlamasında esas ve en önemli etkendir; mürîd de böylece Allah'ın kendisine açtığı sırlarla ilâhî mârifetleri, onu yoldan saptıran şeytânî inişlerden ayırt edebilir.⟦N1⟧ Bu sebeple kendisine gelen ilhâmı, keşfi ya da fütûhu Kitap'a ve Sünnet'e arz etmelidir. Eğer bunlara aykırı çıkarsa onu bıraksın; çünkü bu, şeytanların kendisine indirdiği şeydir."
+      },
+      {
+        "tur": "metin",
+        "metin": "Bilindiği üzere Resûlullah aleyhissalâtü ve's-selâm, vahiyden önce Hirâ Mağarası'nda halvete çekilmiş, belli sayıda geceler boyunca ibadet etmiştir.⟦A2⟧ Âlimler halvetin süresi hakkında konuşmuşlardır. Kimi kırk gündür demiştir; çünkü Allah Teâlâ Mûsâ'ya otuz gece vaat etmiş, onu on geceyle tamamlamıştı.⟦A1⟧ Mûsâ aleyhisselâmın bu günleri oruçlu geçirdiği, Mesîh'in de Allah Teâlâ için kırk gün oruç tuttuğu rivayet edilmiştir. Kiminin halveti ise bir gün, bir hafta ya da üç gün olmuştur. Doğrusu, mürîd halvetinin süresi uzun da olsa kısa da olsa, onun Allah Teâlâ'ya ulaşma yolundaki ilk adım olduğunu bilmelidir. Allah'a daha çok yaklaşmak için mücâhedesini sürdürmelidir. İnsanlardan büsbütün kopmamalı; hatta onlarla kaynaşması, onlardan uzaklaşmasının ta kendisi olmalıdır. Bu, kulun kendisiyle yükseldiği mücâhedenin en yüksek derecesidir."
+      },
+      {
+        "tur": "metin",
+        "metin": "Şa'rânî bu değerli kitapta, mürîdin Kur'ân-ı Kerîm'in sûreleriyle halvete çekildiğinde halvet süresince elde ettiği fütûhât, ilhâm ve keşiflerden söz eder. Her sûrenin, âlimlerin ve müfessirlerin bilmediği rabbânî sırlar ve fütûhâtı bulunduğunu belirtir. Mürîdin halvetinde bir sûreyi okurken ona ulaşan her şey fütûhâttır; bunlar sayesinde âlimlere güç gelen muammaları çözebilir."
+      }
+    ],
+    "notlar": [
+      {
+        "id": "N1",
+        "metin": "Baskıda 'لكى يستطيع التفريق بين الأسرار' cümle parçası iki kez basılmıştır (satır tekrarı); çeviride bir kez verildi."
+      }
+    ],
+    "yeni_terimler": [
+      {
+        "kaynak": "الشعرانى",
+        "turkce": "Şa'rânî",
+        "tur": "ozel_isim",
+        "aciklama": "Abdülvehhâb eş-Şa'rânî"
+      },
+      {
+        "kaynak": "أبو يزيد",
+        "turkce": "Ebû Yezîd",
+        "tur": "ozel_isim",
+        "aciklama": "Bayezid-i Bistâmî"
+      },
+      {
+        "kaynak": "المجاهدة",
+        "turkce": "mücâhede",
+        "tur": "istilah",
+        "aciklama": "nefisle mücadele"
+      }
+    ],
+    "aciklanan_terimler": [],
+    "zor_yerler": [
+      "2. blok: tekrar basılmış cümle parçası bir kez çevrildi (N1)",
+      "3. blok: A1 ve A2 dipnotları kontrol listesinde"
+    ]
+  }
 }

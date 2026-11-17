@@ -117,5 +117,70 @@
         "ayrica": []
       }
     }
-  ]
+  ],
+  "ceviri": {
+    "bloklar": [
+      {
+        "tur": "baslik",
+        "metin": "Rahmân ve Rahîm olan Allah'ın adıyla"
+      },
+      {
+        "tur": "baslik",
+        "metin": "Önsöz"
+      },
+      {
+        "tur": "metin",
+        "metin": "Hamd, âlemlerin Rabbi Allah'a mahsustur. Salât ve selâm, gönderilenlerin en şereflisi efendimiz Muhammed'e, âline ve ashabının tamamına olsun. Bundan sonra:"
+      },
+      {
+        "tur": "metin",
+        "metin": "Sûfî efendiler halvet (hâ harfi üstünle okunur)⟦N1⟧ yolunu tutmuşlardır. Böylece mürid, kalbine ve davranışına arız olan âfetlerden ve ayıplardan kurtulur; fikri ile kalbi duru hâle gelsin diye hayatın bulandırıcı şeylerinden sıyrılır. Bütün bunlardaki maksat, Allah Teâlâ'ya ve ilâhî sırlara ulaşmak, bu halvetten mürid üzerine tecellî eden rabbânî fütuhata erişmektir. Bunlar mürid üzerine iner; mürid de şeyhinden ya da kitaplardan öğrenmesi mümkün olmayan şeyleri, daha önce bilmediği şeyleri bilir. Bunlar rabbânî ilhamlar ve keşiflerdir; te'vile de değiştirmeye de ihtiyaç göstermezler. Halvet, sûfîlerin icat ettiği bir şey değildir; Kitap'ta ve sünnette anılmış, açıkça belirtilmiştir. Nitekim Allah Teâlâ, Rahmân'ın dostu İbrâhim'in, peygamberliğine inanmayan kavminden ayrılıp çekilerek yaptığı halvete işaret ederek şöyle buyurmuştur: ⟦MEAL:A1⟧ Halvet, hadislerde de uzlet anlamında anılmıştır. Buhârî ile Müslim'in rivayetine göre bir adam: \"Ey Allah'ın Resûlü, insanların en faziletlisi kimdir?\" diye sormuş, Resûlullah şöyle buyurmuştur: \"Allah yolunda canıyla ve malıyla mücahede eden mümin.\" Adam: \"Sonra kim?\" diye sorunca: \"Sonra, dağ vadilerinden birine çekilmiş, Rabbine ibadet eden ve insanları kendi şerrinden esirgeyen kişi\" buyurmuştur.⟦A2⟧ İnsanlardan ayrılmak, kenara çekilmek ve halvete girmek Kur'an'da ve sünnette bilinen, açıkça belirtilmiş bir şeydir. Hepsi anlamca birbirinin eşidir; halvet, uzlettir. Bununla birlikte bazıları halvetle uzlet arasında ayrım yapmıştır. Kimine göre halvet ağyârdan (Hak'tan gayrı olanlardan) yapılır; uzlet ise nefisten, nefsin çağırdığı ve insanı Allah'tan alıkoyan şeylerden yapılır ve halvetten daha geneldir. Halvet çok bulunur, uzlet az bulunur. Ama mana da maksat da birdir: İkisi de insanlardan ayrılmak, zihni ve kalbi arındırmak demektir."
+      }
+    ],
+    "notlar": [
+      {
+        "id": "N1",
+        "metin": "Yazar, kelimenin hâ harfinin üstünle (el-Halve) okunduğunu belirtmektedir."
+      }
+    ],
+    "yeni_terimler": [
+      {
+        "kaynak": "الخلوة",
+        "turkce": "halvet",
+        "tur": "istilah",
+        "aciklama": "Sûfînin Allah'a yönelmek için insanlardan ayrılıp tek başına kalması"
+      },
+      {
+        "kaynak": "العزلة",
+        "turkce": "uzlet",
+        "tur": "istilah",
+        "aciklama": "İnsanlardan çekilme"
+      },
+      {
+        "kaynak": "الأغيار",
+        "turkce": "ağyâr",
+        "tur": "istilah",
+        "aciklama": "Hak'tan gayrı olanlar"
+      },
+      {
+        "kaynak": "المريد",
+        "turkce": "mürid",
+        "tur": "istilah",
+        "aciklama": "Tarikat yoluna girmiş, şeyhine bağlı kişi"
+      },
+      {
+        "kaynak": "الفتوحات الربانية",
+        "turkce": "rabbânî fütuhat",
+        "tur": "istilah",
+        "aciklama": "Allah'ın kalbe açtığı ilimler ve sırlar"
+      }
+    ],
+    "aciklanan_terimler": [
+      "الأغيار"
+    ],
+    "zor_yerler": [
+      "4. blok: 'ثم رجل معتزل فى شعب' şi'b dağ vadisi/geçidi olarak anlaşıldı",
+      "4. blok: 'والعزلة من النفس ... وهى أعم' zamir uzlete döndürüldü"
+    ]
+  }
 }

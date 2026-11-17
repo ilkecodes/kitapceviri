@@ -70,5 +70,76 @@
       }
     ]
   },
-  "alintilar": []
+  "alintilar": [],
+  "ceviri": {
+    "bloklar": [
+      {
+        "tur": "metin",
+        "metin": "Gazzâlî, İhyâu ulûmi'd-dîn'de şöyle der: Bu yolda önce dünya bağlarını büsbütün koparmak ve kalbi dünyadan boşaltmak gerekir. Sâlik himmetini aileden, maldan, evlâttan ve vatandan; ilimden, velâyetten ve câh u mevkiden keser. Hatta kalbi, her şeyin varlığıyla yokluğunun birbirine eşit olduğu bir hâle gelir. Sonra bir köşede tek başına halvete girer, farzlarla ve râtib sünnetlerle yetinir. Kalbi boş, himmeti toplu olarak oturur. Fikrini tefekkürden başka bir şeyle meşgul etmez; yoldan gayrisini de⟦N1⟧ meşgul etmez. Böylece sâlikin hatırına Allah'tan başka bir şeyin gelmesi yasaklanmış olur. Diliyle, kalbi hâzır olarak ve aralıksız, “Allah, Allah” demeye başlar. Nihayet dilini kımıldatmayı bıraktığı bir hâle varır. Lafzın sûretini, harflerini ve kelimenin şeklini ... görür⟦N2⟧; kelimenin manası ise sanki ondan ayrılmazmış gibi, çıplak olarak kalbinde hazır kalır. Böylece Allah'ın rahmet esintilerinden bir esintiye kendini sunarak bekler; enbiyâya ve evliyâya açıldığı gibi kendisine de açılacak olanı gözler."
+      },
+      {
+        "tur": "metin",
+        "metin": "Abdülkâdir Îsâ, Hakâ'ik an et-tasavvuf adlı eserinde şöyle der: Halvet, o hâlde, sınırlı bir süre için insanlardan ayrılmak ve kısa bir müddet dünya işlerini bırakmaktır. Böylece kalp hayatın bitmek bilmeyen tasalarından boşalır, zihin kesintisiz süren gündelik uğraşlardan dinlenir. Ardından hâzır ve huşû dolu bir kalple Allah Teâlâ'yı zikretmek, gece ve gündüz O'nun nimetleri üzerinde tefekkür etmek gelir. Bütün bunlar, Allah'ı bilen bir şeyhin (ârif billâh) rehberliğinde olur. Şeyh, bilmediğinde ona öğretir, gâfil olduğunda hatırlatır, gevşediğinde canlandırır, vesvesleri ve nefsin hatıralarını savmasında ona yardım eder."
+      },
+      {
+        "tur": "metin",
+        "metin": "Sûfîlere göre halvet, her şeyden önce mürîdin kendi başına kalıp zikirle, Kur'ân okumakla, tefekkür ve tedebbürle, nefis muhasebesiyle, göklerin ve yerin melekûtu üzerinde düşünmekle meşgul olmasını amaçlar. Ama mürîd bunu kendi başına yapmaz. Ona yolda kılavuzluk edecek, rehberlik edecek bir şeyhi olmalıdır ki işler zihnine karışmasın ve halvete girmenin gerektirdiği şartlara uygun biçimde hazırlıklı olsun, onları yerine getirsin. Bütün bunlar sonunda nefsini yüceltmesine ve ayıplarından kurtulmasına ulaşmak içindir. Bundan sonra, en önemlisi, rabbânî ilhâmları ya da bazılarının adlandırdığı gibi fütûhâtı (kalbe gelen ilâhî açılımları) almaktır. Bunlar ne fikirle ne de anlayışla elde edilir; doğrudan doğruya ilâhî telakkîyle gelir."
+      }
+    ],
+    "notlar": [
+      {
+        "id": "N1",
+        "metin": "Kaynakta bu kısım (ولا غير الطريق فيحظر) bozuk görünüyor; anlam kesin kurulamadı. İhyâ'daki metinle karşılaştırılmalı."
+      },
+      {
+        "id": "N2",
+        "metin": "Kaynakta ويرى أن cümlesinin haberi eksik görünüyor; muhtemelen bir fiil düşmüştür. İhyâ'daki metinle karşılaştırılmalı. Çeviride boşluk (...) ile gösterildi."
+      }
+    ],
+    "yeni_terimler": [
+      {
+        "kaynak": "الخلوة",
+        "turkce": "halvet",
+        "tur": "istilah",
+        "aciklama": "mürîdin belli süre insanlardan ayrılıp zikir ve tefekküre çekilmesi"
+      },
+      {
+        "kaynak": "العزلة",
+        "turkce": "uzlet",
+        "tur": "istilah",
+        "aciklama": "insanlardan ayrı yaşama"
+      },
+      {
+        "kaynak": "الفتوحات",
+        "turkce": "fütûhât",
+        "tur": "istilah",
+        "aciklama": "kalbe gelen ilâhî açılımlar"
+      },
+      {
+        "kaynak": "السالك",
+        "turkce": "sâlik",
+        "tur": "istilah",
+        "aciklama": "yolcu"
+      },
+      {
+        "kaynak": "المريد",
+        "turkce": "mürîd",
+        "tur": "istilah",
+        "aciklama": ""
+      },
+      {
+        "kaynak": "الإلهامات",
+        "turkce": "ilhâm",
+        "tur": "istilah",
+        "aciklama": ""
+      }
+    ],
+    "aciklanan_terimler": [
+      "الفتوحات"
+    ],
+    "zor_yerler": [
+      "1. blok: 'ولا غير الطريق فيحظر' bozuk, anlam kurulamadı",
+      "1. blok: 'ويرى أن صورة اللفظ...' haber eksik"
+    ]
+  }
 }
